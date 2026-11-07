@@ -1,0 +1,28 @@
+/* Motion of the onboarding (keyframes only, the layout is Tailwind). Bundled with the app: no runtime <style>. */
+@keyframes onb-breathe {
+  from { transform: scale(1); }
+  to { transform: scale(1.045); }
+}
+@keyframes onb-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes onb-pop {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes onb-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes onb-scan {
+  from { opacity: 0.2; }
+  to { opacity: 1; }
+}
+.onb-breathe { animation: onb-breathe 5.5s ease-in-out infinite alternate; }
+.onb-spin { animation: onb-spin 26s linear infinite; }
+.onb-pop { animation: onb-pop 380ms var(--ease-spring) both; }
+.onb-rise { animation: onb-rise 420ms var(--ease-out) both; }
+.onb-scan { animation: onb-scan 700ms ease-in-out infinite alternate; }
+@media (prefers-reduced-motion: reduce) {
+  .onb-breathe, .onb-scan, .onb-spin { animation: none; }
+}

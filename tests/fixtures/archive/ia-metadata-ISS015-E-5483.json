@@ -1,0 +1,66 @@
+{
+ "metadata": {
+  "identifier": "ISS015-E-5483"
+ },
+ "files": [
+  {
+   "name": "ISS015-E-5483.jpg",
+   "format": "JPEG",
+   "size": "116601",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483.jpg_meta.txt",
+   "format": "Metadata",
+   "size": "378",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483_archive.torrent",
+   "format": "Archive BitTorrent",
+   "size": "2032",
+   "source": "metadata"
+  },
+  {
+   "name": "ISS015-E-5483_files.xml",
+   "format": "Metadata",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483_lrg.jpg",
+   "format": "JPEG",
+   "size": "584438",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483_lrg.jpg_meta.txt",
+   "format": "Metadata",
+   "size": "3735",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483_lrg_thumb.jpg",
+   "format": "JPEG Thumb",
+   "size": "5909",
+   "source": "derivative"
+  },
+  {
+   "name": "ISS015-E-5483_meta.xml",
+   "format": "Metadata",
+   "size": "3582",
+   "source": "original"
+  },
+  {
+   "name": "ISS015-E-5483_thumb.jpg",
+   "format": "JPEG Thumb",
+   "size": "7183",
+   "source": "derivative"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "format": "Item Tile",
+   "size": "18269",
+   "source": "original"
+  }
+ ]
+}

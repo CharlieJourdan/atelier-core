@@ -1,0 +1,5375 @@
+{
+ "source": "brainrun video-4 (2026-11-01), the first real 60 s hook from the app; voice ai33, director on Claude",
+ "script": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond. Et derrière, dans l'angle du mur côté nord, la moisissure est revenue. Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec un spray du supermarché. Cet été, vous avez même repeint le coin en blanc. C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu. Sauf que dans ce coin-là, ce n'est pas le mur qui est malade. C'est l'eau qui vient d'ailleurs. Je vais vous montrer la vieille astuce de maçon qui empêche la moisissure de revenir. Elle tient dans un sac de chaux, une brosse et quelques jours de patience. Le pour toujours, je vais vous dire honnêtement ce qu'il vaut. Ça tient tant que le coin reste sec et tiède. Et la chaux, posée au bon moment, ne laisse plus grand-chose à la moisissure pour s'installer. On va faire ça en quatre temps. Pourquoi c'est toujours... Le geste, en quatre étapes. Les erreurs qui le ratent.",
+ "outline": {
+  "language": "fr",
+  "title": "Moisissure qui revient : l'astuce de maçon à la chaux",
+  "shape": "howto",
+  "kind": "lesson",
+  "promise": "Une vieille astuce de maçon à la chaux pour empêcher la moisissure de revenir dans le coin du mur, avec ses limites dites franchement.",
+  "hook": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond. Et derrière, dans l'angle du mur côté nord, la moisissure est revenue. Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec un spray du supermarché.",
+  "beats": [
+   {
+    "index": 0,
+    "purpose": "Accrocher avec le constat de la moisissure qui revient et poser le faux diagnostic.",
+    "summary": "La moisissure réapparaît dans le coin nord malgré un nettoyage et une peinture blanche ; le mur semble fichu, alors que la cause est une eau venue d'ailleurs.",
+    "wordBudget": 90,
+    "tags": [
+     "hook",
+     "figure",
+     "pivot"
+    ],
+    "anchor": "Ce matin, en cherchant les couvertures d'hiver, vous",
+    "marks": [
+     {
+      "tag": "figure",
+      "anchor": "C'est le deuxième hiver de suite, et vous"
+     },
+     {
+      "tag": "pivot",
+      "anchor": "Sauf que dans ce coin-là, ce n'est pas"
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "purpose": "Annoncer la méthode à la chaux, ses conditions de réussite et le plan en quatre temps.",
+    "summary": "Promesse de l'astuce de maçon, aveu honnête de ce qu'elle vaut (coin sec et tiède), puis annonce des quatre étapes et des erreurs à éviter.",
+    "wordBudget": 91,
+    "tags": [
+     "promise",
+     "echo",
+     "disclosure"
+    ],
+    "anchor": "Je vais vous montrer la vieille astuce de",
+    "marks": [
+     {
+      "tag": "figure",
+      "anchor": "On va faire ça en quatre temps."
+     },
+     {
+      "tag": "disclosure",
+      "anchor": "Ça tient tant que le coin reste sec"
+     }
+    ]
+   }
+  ],
+  "chapters": [],
+  "planted": [
+   {
+    "detail": "Le coin nord du mur, où la moisissure revient",
+    "plantedBeat": 0,
+    "payoffBeat": 1
+   },
+   {
+    "detail": "L'eau qui vient d'ailleurs, cause réelle du problème",
+    "plantedBeat": 0,
+    "payoffBeat": 1
+   }
+  ],
+  "dropped": []
+ },
+ "words": {
+  "value": [
+   {
+    "w": "Ce",
+    "start": 0.22,
+    "end": 0.462,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "matin,",
+    "start": 0.462,
+    "end": 0.89,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 1.09,
+    "end": 1.292,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "cherchant",
+    "start": 1.292,
+    "end": 1.65,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "les",
+    "start": 1.65,
+    "end": 1.852,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "couvertures",
+    "start": 1.852,
+    "end": 2.52,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "d'hiver,",
+    "start": 2.52,
+    "end": 2.878,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 2.878,
+    "end": 3.08,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "avez",
+    "start": 3.08,
+    "end": 3.438,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "décalé",
+    "start": 3.438,
+    "end": 3.951,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "l'armoire",
+    "start": 3.951,
+    "end": 4.464,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 4.464,
+    "end": 4.666,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 4.666,
+    "end": 4.868,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "chambre",
+    "start": 4.868,
+    "end": 5.226,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 5.226,
+    "end": 5.428,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "fond.",
+    "start": 5.428,
+    "end": 5.63,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "Et",
+    "start": 5.94,
+    "end": 6.173,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "derrière,",
+    "start": 6.173,
+    "end": 6.763,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 6.763,
+    "end": 6.995,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "l'angle",
+    "start": 6.995,
+    "end": 7.407,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 7.407,
+    "end": 7.639,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 7.639,
+    "end": 7.872,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "côté",
+    "start": 7.872,
+    "end": 8.283,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "nord,",
+    "start": 8.283,
+    "end": 8.516,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 8.516,
+    "end": 8.748,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 8.748,
+    "end": 9.517,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 9.517,
+    "end": 9.75,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "revenue.",
+    "start": 9.75,
+    "end": 10.34,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "Des",
+    "start": 10.64,
+    "end": 10.775,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "petits",
+    "start": 10.775,
+    "end": 11.015,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "points",
+    "start": 11.015,
+    "end": 11.15,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "gris",
+    "start": 11.15,
+    "end": 11.285,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "serrés,",
+    "start": 11.285,
+    "end": 11.525,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "comme",
+    "start": 11.525,
+    "end": 11.764,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 11.764,
+    "end": 11.899,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 11.899,
+    "end": 12.035,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "suie,",
+    "start": 12.035,
+    "end": 12.17,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 12.48,
+    "end": 12.608,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "montent",
+    "start": 12.608,
+    "end": 12.836,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "vers",
+    "start": 12.836,
+    "end": 12.964,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 12.964,
+    "end": 13.093,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "clafond.",
+    "start": 13.093,
+    "end": 13.32,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "L'an",
+    "start": 13.62,
+    "end": 13.699,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "dernier,",
+    "start": 13.699,
+    "end": 13.838,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 13.838,
+    "end": 13.916,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "l'aviez",
+    "start": 13.916,
+    "end": 14.056,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "frotté",
+    "start": 14.056,
+    "end": 14.195,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "avec",
+    "start": 14.195,
+    "end": 14.334,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "un",
+    "start": 14.334,
+    "end": 14.413,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "spray",
+    "start": 14.413,
+    "end": 14.491,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 14.491,
+    "end": 14.57,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "supermarché.",
+    "start": 14.57,
+    "end": 14.83,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "Cet",
+    "start": 15.14,
+    "end": 15.414,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "été,",
+    "start": 15.414,
+    "end": 15.898,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 15.898,
+    "end": 16.172,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "avez",
+    "start": 16.172,
+    "end": 16.656,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "même",
+    "start": 16.656,
+    "end": 17.141,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "repeint",
+    "start": 17.141,
+    "end": 17.625,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 17.625,
+    "end": 17.899,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "coin",
+    "start": 17.899,
+    "end": 18.172,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 18.172,
+    "end": 18.446,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "blanc.",
+    "start": 18.446,
+    "end": 18.72,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "C'est",
+    "start": 19.01,
+    "end": 19.318,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 19.318,
+    "end": 19.627,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "deuxième",
+    "start": 19.627,
+    "end": 20.41,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "hiver",
+    "start": 20.41,
+    "end": 20.956,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 20.956,
+    "end": 21.264,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "suite,",
+    "start": 21.264,
+    "end": 21.81,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 22.12,
+    "end": 22.275,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 22.275,
+    "end": 22.429,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 22.429,
+    "end": 22.584,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "dites",
+    "start": 22.584,
+    "end": 22.858,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 22.858,
+    "end": 23.012,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 23.012,
+    "end": 23.167,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 23.167,
+    "end": 23.322,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 23.322,
+    "end": 23.476,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "fichu.",
+    "start": 23.476,
+    "end": 23.75,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "Sauf",
+    "start": 24.01,
+    "end": 24.301,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 24.301,
+    "end": 24.592,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 24.592,
+    "end": 24.884,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 24.884,
+    "end": 25.175,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "coin-là,",
+    "start": 25.175,
+    "end": 25.69,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 26,
+    "end": 26.132,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "n'est",
+    "start": 26.132,
+    "end": 26.264,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "pas",
+    "start": 26.264,
+    "end": 26.396,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 26.396,
+    "end": 26.528,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 26.528,
+    "end": 26.66,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 26.66,
+    "end": 26.793,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 26.793,
+    "end": 26.925,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "malade.",
+    "start": 26.925,
+    "end": 27.26,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "C'est",
+    "start": 27.56,
+    "end": 27.851,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "l'eau",
+    "start": 27.851,
+    "end": 28.142,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 28.142,
+    "end": 28.434,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "vient",
+    "start": 28.434,
+    "end": 28.725,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "d'ailleurs.",
+    "start": 28.725,
+    "end": 29.24,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "Je",
+    "start": 29.55,
+    "end": 29.782,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vais",
+    "start": 29.782,
+    "end": 30.015,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 30.015,
+    "end": 30.247,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "montrer",
+    "start": 30.247,
+    "end": 30.658,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 30.658,
+    "end": 30.89,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vieille",
+    "start": 30.89,
+    "end": 31.602,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "astuce",
+    "start": 31.602,
+    "end": 32.191,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 32.191,
+    "end": 32.424,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "maçon",
+    "start": 32.424,
+    "end": 32.835,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 32.835,
+    "end": 33.067,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "empêche",
+    "start": 33.067,
+    "end": 33.657,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 33.657,
+    "end": 33.889,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 33.889,
+    "end": 34.658,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 34.658,
+    "end": 34.89,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "revenir.",
+    "start": 34.89,
+    "end": 35.48,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "Elle",
+    "start": 35.78,
+    "end": 36.142,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "tient",
+    "start": 36.142,
+    "end": 36.347,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 36.347,
+    "end": 36.551,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "un",
+    "start": 36.551,
+    "end": 36.756,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "sac",
+    "start": 36.756,
+    "end": 36.961,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 36.961,
+    "end": 37.165,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "chaux,",
+    "start": 37.165,
+    "end": 37.37,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "une",
+    "start": 37.56,
+    "end": 37.669,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "brosse",
+    "start": 37.669,
+    "end": 37.779,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 37.779,
+    "end": 37.84,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "quelques",
+    "start": 37.84,
+    "end": 37.95,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "jours",
+    "start": 37.95,
+    "end": 38.011,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 38.011,
+    "end": 38.073,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "patience.",
+    "start": 38.073,
+    "end": 38.23,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "Le",
+    "start": 38.44,
+    "end": 38.846,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "pour",
+    "start": 38.846,
+    "end": 39.252,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "toujours,",
+    "start": 39.252,
+    "end": 39.97,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "je",
+    "start": 40.28,
+    "end": 40.512,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vais",
+    "start": 40.512,
+    "end": 40.744,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 40.744,
+    "end": 40.976,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "dire",
+    "start": 40.976,
+    "end": 41.617,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "honnêtement",
+    "start": 41.617,
+    "end": 42.385,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 42.385,
+    "end": 42.617,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "qu'il",
+    "start": 42.617,
+    "end": 43.028,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vaut.",
+    "start": 43.028,
+    "end": 43.26,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "Ça",
+    "start": 43.57,
+    "end": 43.777,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tient",
+    "start": 43.777,
+    "end": 43.984,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tant",
+    "start": 43.984,
+    "end": 44.191,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 44.191,
+    "end": 44.399,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 44.399,
+    "end": 44.606,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "coin",
+    "start": 44.606,
+    "end": 44.813,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "reste",
+    "start": 44.813,
+    "end": 45.179,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "sec",
+    "start": 45.179,
+    "end": 45.386,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 45.386,
+    "end": 45.594,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tiède.",
+    "start": 45.594,
+    "end": 45.96,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "Et",
+    "start": 46.27,
+    "end": 46.473,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 46.473,
+    "end": 46.677,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "chaux,",
+    "start": 46.677,
+    "end": 46.88,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "posée",
+    "start": 47.17,
+    "end": 47.499,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "au",
+    "start": 47.499,
+    "end": 47.685,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "bon",
+    "start": 47.685,
+    "end": 47.871,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "moment,",
+    "start": 47.871,
+    "end": 48.2,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "ne",
+    "start": 48.5,
+    "end": 48.675,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "laisse",
+    "start": 48.675,
+    "end": 48.984,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "plus",
+    "start": 48.984,
+    "end": 49.159,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "grand-chose",
+    "start": 49.159,
+    "end": 49.603,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "à",
+    "start": 49.603,
+    "end": 49.778,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 49.778,
+    "end": 49.953,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 49.953,
+    "end": 50.531,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "pour",
+    "start": 50.531,
+    "end": 50.706,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "s'installer.",
+    "start": 50.706,
+    "end": 51.15,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "On",
+    "start": 51.45,
+    "end": 51.612,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "va",
+    "start": 51.612,
+    "end": 51.773,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "faire",
+    "start": 51.773,
+    "end": 52.059,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "ça",
+    "start": 52.059,
+    "end": 52.221,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 52.221,
+    "end": 52.382,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "quatre",
+    "start": 52.382,
+    "end": 52.668,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "temps.",
+    "start": 52.668,
+    "end": 52.83,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "Pourquoi",
+    "start": 53.13,
+    "end": 53.535,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "c'est",
+    "start": 53.535,
+    "end": 53.765,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "toujours...",
+    "start": 53.765,
+    "end": 54.17,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "Le",
+    "start": 54.46,
+    "end": 54.684,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "geste,",
+    "start": 54.684,
+    "end": 55.08,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 55.39,
+    "end": 55.55,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "quatre",
+    "start": 55.55,
+    "end": 55.833,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "étapes.",
+    "start": 55.833,
+    "end": 56.24,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "Les",
+    "start": 56.55,
+    "end": 56.737,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "erreurs",
+    "start": 56.737,
+    "end": 57.067,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 57.067,
+    "end": 57.253,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 57.253,
+    "end": 57.44,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "ratent.",
+    "start": 57.44,
+    "end": 57.77,
+    "sentence": 16,
+    "paragraph": 0
+   }
+  ],
+  "meta": {
+   "durationS": 58.08475,
+   "alignment": "aligned",
+   "matched": 1,
+   "language": "fr",
+   "demo": false
+  }
+ },
+ "beats": [
+  {
+   "i": 0,
+   "text": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond.",
+   "start": 0,
+   "end": 5.86,
+   "firstWord": 0,
+   "lastWord": 15,
+   "sentenceIdx": [
+    0
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook",
+    "figure",
+    "pivot"
+   ],
+   "keyTerms": [
+    "couvertures",
+    "cherchant",
+    "armoire",
+    "chambre",
+    "décalé",
+    "hiver"
+   ],
+   "cutPoints": [
+    1.09,
+    2.878
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Et derrière, dans l'angle du mur côté nord, la moisissure est revenue.",
+   "start": 5.86,
+   "end": 10.56,
+   "firstWord": 16,
+   "lastWord": 27,
+   "sentenceIdx": [
+    1
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook"
+   ],
+   "keyTerms": [
+    "moisissure",
+    "derrière",
+    "revenue",
+    "angle"
+   ],
+   "cutPoints": [
+    6.763,
+    8.516
+   ]
+  },
+  {
+   "i": 2,
+   "text": "Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec un spray du supermarché.",
+   "start": 10.56,
+   "end": 15.06,
+   "firstWord": 28,
+   "lastWord": 51,
+   "sentenceIdx": [
+    2,
+    3
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook"
+   ],
+   "keyTerms": [
+    "supermarché",
+    "clafond",
+    "dernier",
+    "montent",
+    "frotté",
+    "petits"
+   ],
+   "cutPoints": [
+    11.525,
+    12.48,
+    13.62,
+    13.838
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Cet été, vous avez même repeint le coin en blanc.",
+   "start": 15.06,
+   "end": 18.93,
+   "firstWord": 52,
+   "lastWord": 61,
+   "sentenceIdx": [
+    4
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook"
+   ],
+   "keyTerms": [
+    "repeint",
+    "blanc"
+   ],
+   "cutPoints": [
+    15.898
+   ]
+  },
+  {
+   "i": 4,
+   "text": "C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu.",
+   "start": 18.93,
+   "end": 23.93,
+   "firstWord": 62,
+   "lastWord": 76,
+   "sentenceIdx": [
+    5
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook",
+    "figure"
+   ],
+   "keyTerms": [
+    "deuxième",
+    "dites",
+    "fichu",
+    "hiver",
+    "suite"
+   ],
+   "cutPoints": [
+    22.12
+   ]
+  },
+  {
+   "i": 5,
+   "text": "Sauf que dans ce coin-là, ce n'est pas le mur qui est malade. C'est l'eau qui vient d'ailleurs.",
+   "start": 23.93,
+   "end": 29.47,
+   "firstWord": 77,
+   "lastWord": 94,
+   "sentenceIdx": [
+    6,
+    7
+   ],
+   "paragraph": 0,
+   "tags": [
+    "hook",
+    "pivot"
+   ],
+   "keyTerms": [
+    "ailleurs",
+    "coin-là",
+    "malade",
+    "vient"
+   ],
+   "cutPoints": [
+    26,
+    27.56
+   ]
+  },
+  {
+   "i": 6,
+   "text": "Je vais vous montrer la vieille astuce de maçon qui empêche la moisissure de revenir.",
+   "start": 29.47,
+   "end": 35.7,
+   "firstWord": 95,
+   "lastWord": 109,
+   "sentenceIdx": [
+    8
+   ],
+   "paragraph": 0,
+   "tags": [
+    "promise",
+    "echo",
+    "disclosure"
+   ],
+   "keyTerms": [
+    "moisissure",
+    "empêche",
+    "montrer",
+    "revenir",
+    "vieille",
+    "astuce"
+   ],
+   "cutPoints": []
+  },
+  {
+   "i": 7,
+   "text": "Elle tient dans un sac de chaux, une brosse et quelques jours de patience.",
+   "start": 35.7,
+   "end": 38.36,
+   "firstWord": 110,
+   "lastWord": 123,
+   "sentenceIdx": [
+    9
+   ],
+   "paragraph": 0,
+   "tags": [],
+   "keyTerms": [
+    "patience",
+    "quelques",
+    "brosse",
+    "chaux",
+    "jours",
+    "tient"
+   ],
+   "cutPoints": [
+    37.56
+   ]
+  },
+  {
+   "i": 8,
+   "text": "Le pour toujours, je vais vous dire honnêtement ce qu'il vaut.",
+   "start": 38.36,
+   "end": 43.49,
+   "firstWord": 124,
+   "lastWord": 134,
+   "sentenceIdx": [
+    10
+   ],
+   "paragraph": 0,
+   "tags": [],
+   "keyTerms": [
+    "toujours"
+   ],
+   "cutPoints": [
+    40.28
+   ]
+  },
+  {
+   "i": 9,
+   "text": "Ça tient tant que le coin reste sec et tiède.",
+   "start": 43.49,
+   "end": 46.19,
+   "firstWord": 135,
+   "lastWord": 144,
+   "sentenceIdx": [
+    11
+   ],
+   "paragraph": 0,
+   "tags": [
+    "disclosure"
+   ],
+   "keyTerms": [
+    "reste",
+    "tient",
+    "tiède"
+   ],
+   "cutPoints": []
+  },
+  {
+   "i": 10,
+   "text": "Et la chaux, posée au bon moment, ne laisse plus grand-chose à la moisissure pour s'installer. On va faire ça en quatre temps. Pourquoi c'est toujours... Le geste, en quatre étapes.",
+   "start": 46.19,
+   "end": 56.47,
+   "firstWord": 145,
+   "lastWord": 175,
+   "sentenceIdx": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "paragraph": 0,
+   "tags": [
+    "figure"
+   ],
+   "keyTerms": [
+    "quatre",
+    "grand-chose",
+    "moisissure",
+    "installer",
+    "toujours",
+    "laisse"
+   ],
+   "cutPoints": [
+    47.17,
+    48.5,
+    51.45,
+    53.13,
+    54.46,
+    55.39
+   ]
+  },
+  {
+   "i": 11,
+   "text": "Les erreurs qui le ratent.",
+   "start": 56.47,
+   "end": 58.085,
+   "firstWord": 176,
+   "lastWord": 180,
+   "sentenceIdx": [
+    16
+   ],
+   "paragraph": 0,
+   "tags": [],
+   "keyTerms": [
+    "erreurs",
+    "ratent"
+   ],
+   "cutPoints": []
+  }
+ ],
+ "sceneAnswer": {
+  "directives": [
+   {
+    "sentence": 1,
+    "anchor": "de la chambre",
+    "kind": "clipAi",
+    "subject": "armoire décalée du mur",
+    "prompt": "Medium shot of a heavy wooden wardrobe being slid away from the wall of a dim bedroom by two hands, winter blankets on the bed, soft grey morning light from a window",
+    "layout": "full",
+    "why": "on voit le geste raconté"
+   },
+   {
+    "sentence": 2,
+    "anchor": "dans l'angle du mur",
+    "kind": "clipAi",
+    "subject": "moisissure dans l'angle",
+    "prompt": "Close shot of a bedroom wall corner with small dark grey mould spots, slow push-in, cold side light from the left",
+    "why": "la découverte, la moisissure revenue",
+    "ref": "angle du mur"
+   },
+   {
+    "sentence": 5,
+    "anchor": "repeint le coin en blanc",
+    "kind": "clipAi",
+    "subject": "peinture blanche sur le coin",
+    "prompt": "Close shot of a paint roller spreading bright white paint over a wall corner, summer sunlight through an open window",
+    "why": "l'action de repeindre",
+    "ref": "angle du mur"
+   },
+   {
+    "sentence": 7,
+    "anchor": "ce n'est pas le mur",
+    "kind": "clipAi",
+    "subject": "main à plat sur le mur",
+    "prompt": "Close shot of a bare hand pressing flat on a cool, slightly damp plaster wall, then sliding along it, raking light",
+    "why": "on touche le mur : le problème n'est pas là"
+   },
+   {
+    "sentence": 9,
+    "anchor": "astuce de maçon",
+    "kind": "imageAi",
+    "subject": "mains de maçon avec chaux",
+    "prompt": "Close shot of weathered mason's hands holding a trowel of white lime putty, rustic stone house interior, warm natural light",
+    "why": "l'astuce de maçon, ancrage artisanal"
+   },
+   {
+    "sentence": 10,
+    "anchor": "un sac de chaux",
+    "kind": "clipAi",
+    "subject": "chaux versée dans un seau",
+    "prompt": "Medium shot of white lime powder being poured from a paper sack into a bucket, a stiff brush lying beside it on a wooden floor, dust floating in daylight",
+    "why": "les ingrédients cités : sac et brosse"
+   },
+   {
+    "sentence": 12,
+    "anchor": "le coin reste",
+    "kind": "clipAi",
+    "subject": "coin sec et tiède",
+    "prompt": "Wide shot of a warm, dry bedroom corner with sunlight sliding across the wall, dust motes in the air, a radiator below",
+    "why": "illustre sec et tiède"
+   },
+   {
+    "sentence": 13,
+    "anchor": "ne laisse plus grand-chose",
+    "kind": "clipAi",
+    "subject": "coin blanchi à la chaux",
+    "prompt": "Slow pan along a clean matte white limewashed wall corner, no stains, soft raking light",
+    "why": "résultat propre, rien pour la moisissure",
+    "ref": "angle du mur"
+   },
+   {
+    "sentence": 16,
+    "anchor": "Le geste",
+    "kind": "clipAi",
+    "subject": "badigeon à la brosse",
+    "prompt": "Close shot of a wide brush spreading white lime wash in short strokes into a wall corner, a bucket just visible in the frame",
+    "why": "le geste en gros plan",
+    "ref": "angle du mur"
+   }
+  ],
+  "recurring": [
+   {
+    "name": "angle du mur",
+    "description": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above"
+   }
+  ]
+ },
+ "before": [
+  {
+   "id": "s001",
+   "startS": 0,
+   "endS": 4.37,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s006",
+   "startS": 4.37,
+   "endS": 8.17,
+   "kind": "video.gen",
+   "subject": "armoire décalée du mur",
+   "scene": "a heavy wooden wardrobe being slid away from the wall of a dim bedroom by two hands, winter blankets on the bed, soft grey morning light from a window"
+  },
+  {
+   "id": "s007",
+   "startS": 8.17,
+   "endS": 10.53,
+   "kind": "image.gen",
+   "subject": "moisissure dans l'angle",
+   "scene": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above; Close shot of a bedroom wall corner with small dark grey mould spots, slow push-in, cold side light from the left"
+  },
+  {
+   "id": "s002",
+   "startS": 10.53,
+   "endS": 15.03,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s008",
+   "startS": 15.03,
+   "endS": 18.9,
+   "kind": "image.gen",
+   "subject": "peinture blanche sur le coin",
+   "scene": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above; Close shot of a paint roller spreading bright white paint over a wall corner, summer sunlight through an open window"
+  },
+  {
+   "id": "s003",
+   "startS": 18.9,
+   "endS": 23.9,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s009",
+   "startS": 23.9,
+   "endS": 27.47,
+   "kind": "video.gen",
+   "subject": "main à plat sur le mur",
+   "scene": "a bare hand pressing flat on a cool, slightly damp plaster wall, then sliding along it, raking light"
+  },
+  {
+   "id": "s004",
+   "startS": 27.47,
+   "endS": 31.5,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s010",
+   "startS": 31.5,
+   "endS": 35.67,
+   "kind": "video.gen",
+   "subject": "mains de maçon avec chaux",
+   "scene": "weathered mason's hands holding a trowel of white lime putty, rustic stone house interior, warm natural light"
+  },
+  {
+   "id": "s011",
+   "startS": 35.67,
+   "endS": 38.33,
+   "kind": "video.gen",
+   "subject": "chaux versée dans un seau",
+   "scene": "white lime powder being poured from a paper sack into a bucket, a stiff brush lying beside it on a wooden floor, dust floating in daylight"
+  },
+  {
+   "id": "s005",
+   "startS": 38.33,
+   "endS": 44.3,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s012",
+   "startS": 44.3,
+   "endS": 48.4,
+   "kind": "image.gen",
+   "subject": "coin sec et tiède",
+   "scene": "a warm, dry bedroom corner with sunlight sliding across the wall, dust motes in the air, a radiator below"
+  },
+  {
+   "id": "s013",
+   "startS": 48.4,
+   "endS": 51.37,
+   "kind": "image.gen",
+   "subject": "coin blanchi à la chaux",
+   "scene": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above; Slow pan along a clean matte white limewashed wall corner, no stains, soft raking light"
+  },
+  {
+   "id": "s014",
+   "startS": 51.37,
+   "endS": 54.37,
+   "kind": "image.gen",
+   "subject": "coin blanchi à la chaux",
+   "scene": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above; Slow pan along a clean matte white limewashed wall corner, no stains, soft raking light"
+  },
+  {
+   "id": "s015",
+   "startS": 54.37,
+   "endS": 58.1,
+   "kind": "image.gen",
+   "subject": "badigeon à la brosse",
+   "scene": "Inside corner of a bedroom wall on the north side, plain off-white plaster, a cold muted light, with the ceiling line above; Close shot of a wide brush spreading white lime wash in short strokes into a wall corner, a bucket just visible in the frame"
+  }
+ ],
+ "sceneAnswerNew": {
+  "note": "claude-opus-5-5 on Claude Code (Charlie's subscription), 2026-11-01, with the avatar-qualite rules",
+  "answer": {
+   "directives": [
+    {
+     "sentence": 1,
+     "anchor": "de la chambre du fond",
+     "kind": "clipAi",
+     "subject": "armoire décalée",
+     "prompt": "Wide shot of a dim back bedroom in an old French house, two hands push a heavy dark oak wardrobe away from the wall, pale winter morning light through a small window, folded wool blankets on the bed",
+     "why": "le geste dit, la pièce en large",
+     "ref": "armoire"
+    },
+    {
+     "sentence": 2,
+     "anchor": "Et derrière, dans l'angle",
+     "kind": "clipAi",
+     "subject": "moisissure découverte dans l'angle",
+     "prompt": "Slow push-in close-up on the corner where two walls meet behind a moved wardrobe, dense grey-black mould speckles climbing toward the ceiling, cold flat daylight, slightly damp plaster",
+     "why": "le problème montré là où il apparaît"
+    },
+    {
+     "sentence": 5,
+     "anchor": "Cet été, vous avez même",
+     "kind": "clipAi",
+     "subject": "rouleau de peinture blanche",
+     "prompt": "Medium close-up of a hand rolling fresh white paint with a paint roller over a wall corner, bright warm summer light from an open window, paint tray on a dust sheet below",
+     "why": "la fausse solution, par le geste"
+    },
+    {
+     "sentence": 7,
+     "anchor": "ce n'est pas le mur",
+     "kind": "clipAi",
+     "subject": "main qui tâte la paroi froide",
+     "prompt": "Close-up of a bare palm pressed flat against a cold plaster wall, fingers slowly pulling away to reveal a faint film of condensation, cool bluish light, quiet room",
+     "why": "le vrai coupable : l'humidité, pas le mur"
+    },
+    {
+     "sentence": 9,
+     "anchor": "astuce de maçon",
+     "kind": "clipAi",
+     "subject": "mains de vieux maçon et chaux",
+     "prompt": "Close-up of weathered mason's hands scooping thick white lime putty with an old steel trowel from a wooden board, warm workshop light, dust in the air",
+     "why": "le savoir-faire ancien annoncé"
+    },
+    {
+     "sentence": 10,
+     "anchor": "Elle tient dans un sac",
+     "kind": "clipAi",
+     "subject": "sac de chaux et brosse posés au sol",
+     "prompt": "Medium shot of a hand setting a wide natural-bristle brush down next to an opened kraft paper bag of white lime powder and a metal bucket on a canvas drop cloth, soft side light",
+     "why": "le matériel listé, tout simple",
+     "ref": "brosse à chaux"
+    },
+    {
+     "sentence": 12,
+     "anchor": "le coin reste sec et tiède",
+     "kind": "imageAi",
+     "subject": "radiateur tiède et fenêtre entrouverte",
+     "prompt": "Medium shot of an old cast-iron radiator under a slightly opened window in a cozy bedroom, gentle warm glow, curtain moving lightly, dry and airy atmosphere",
+     "why": "la condition honnête : sec et tiède"
+    },
+    {
+     "sentence": 13,
+     "anchor": "posée au bon moment",
+     "kind": "clipAi",
+     "subject": "badigeon de chaux passé à la brosse",
+     "prompt": "Close-up of a wide natural-bristle brush laying a milky white lime wash onto bare mineral plaster in long strokes, soft matte finish appearing, warm raking light",
+     "why": "la solution par le geste qui la fait",
+     "ref": "brosse à chaux"
+    },
+    {
+     "sentence": 14,
+     "anchor": "On va faire ça",
+     "kind": "imageAi",
+     "subject": "quatre outils alignés",
+     "prompt": "Top-down still of four tools neatly lined up on a canvas drop cloth: a scraper, a sponge, a small bucket of lime wash and a wide natural-bristle brush, even soft daylight",
+     "text": "quatre temps",
+     "why": "le plan en quatre temps, visuel",
+     "ref": "brosse à chaux"
+    },
+    {
+     "sentence": 16,
+     "anchor": "Le geste, en quatre étapes",
+     "kind": "clipAi",
+     "subject": "mélange de la chaux dans le seau",
+     "prompt": "Close-up of a gloved hand stirring white lime powder into water in a metal bucket with a wooden stick, the mixture turning creamy, warm light, splashes on the rim",
+     "text": "quatre étapes",
+     "why": "amorce le geste concret à venir"
+    }
+   ],
+   "recurring": [
+    {
+     "name": "armoire",
+     "description": "heavy old dark oak wardrobe with two tall doors and carved cornice, worn brass handles"
+    },
+    {
+     "name": "brosse à chaux",
+     "description": "wide flat lime-wash brush with thick natural pale bristles and a short worn wooden handle"
+    }
+   ]
+  }
+ },
+ "after": [
+  {
+   "id": "s001",
+   "startS": 0,
+   "endS": 4.37,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s006",
+   "startS": 4.37,
+   "endS": 8.17,
+   "kind": "video.gen",
+   "subject": "armoire décalée",
+   "scene": "heavy old dark oak wardrobe with two tall doors and carved cornice, worn brass handles; Wide shot of a dim back bedroom in an old French house, two hands push a heavy dark oak wardrobe away from the wall, pale winter morning light through a small window, folded wool blankets on the bed"
+  },
+  {
+   "id": "s007",
+   "startS": 8.17,
+   "endS": 10.53,
+   "kind": "image.gen",
+   "subject": "moisissure découverte dans l'angle",
+   "scene": "Slow push-in close-up on the corner where two walls meet behind a moved wardrobe, dense grey-black mould speckles climbing toward the ceiling, cold flat daylight, slightly damp plaster"
+  },
+  {
+   "id": "s002",
+   "startS": 10.53,
+   "endS": 15.03,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s008",
+   "startS": 15.03,
+   "endS": 18.9,
+   "kind": "video.gen",
+   "subject": "rouleau de peinture blanche",
+   "scene": "Medium close-up of a hand rolling fresh white paint with a paint roller over a wall corner, bright warm summer light from an open window, paint tray on a dust sheet below"
+  },
+  {
+   "id": "s003",
+   "startS": 18.9,
+   "endS": 23.9,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s009",
+   "startS": 23.9,
+   "endS": 27.47,
+   "kind": "video.gen",
+   "subject": "main qui tâte la paroi froide",
+   "scene": "a bare palm pressed flat against a cold plaster wall, fingers slowly pulling away to reveal a faint film of condensation, cool bluish light, quiet room"
+  },
+  {
+   "id": "s004",
+   "startS": 27.47,
+   "endS": 31.5,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s010",
+   "startS": 31.5,
+   "endS": 35.67,
+   "kind": "video.gen",
+   "subject": "mains de vieux maçon et chaux",
+   "scene": "weathered mason's hands scooping thick white lime putty with an old steel trowel from a wooden board, warm workshop light, dust in the air"
+  },
+  {
+   "id": "s011",
+   "startS": 35.67,
+   "endS": 38.33,
+   "kind": "video.gen",
+   "subject": "sac de chaux et brosse posés au sol",
+   "scene": "wide flat lime-wash brush with thick natural pale bristles and a short worn wooden handle; Medium shot of a hand setting a wide natural-bristle brush down next to an opened kraft paper bag of white lime powder and a metal bucket on a canvas drop cloth, soft side light"
+  },
+  {
+   "id": "s005",
+   "startS": 38.33,
+   "endS": 44.3,
+   "kind": "avatar",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s012",
+   "startS": 44.3,
+   "endS": 47.07,
+   "kind": "image.gen",
+   "subject": "radiateur tiède et fenêtre entrouverte",
+   "scene": "an old cast-iron radiator under a slightly opened window in a cozy bedroom, gentle warm glow, curtain moving lightly, dry and airy atmosphere"
+  },
+  {
+   "id": "s013",
+   "startS": 47.07,
+   "endS": 51.37,
+   "kind": "image.gen",
+   "subject": "badigeon de chaux passé à la brosse",
+   "scene": "a wide natural-bristle brush laying a milky white lime wash onto bare mineral plaster in long strokes, soft matte finish appearing, warm raking light"
+  },
+  {
+   "id": "s014",
+   "startS": 51.37,
+   "endS": 54.37,
+   "kind": "image.gen",
+   "subject": "quatre outils alignés",
+   "scene": "Top-down still of four tools neatly lined up on a canvas drop cloth: a scraper, a sponge, a small bucket of lime wash and a wide natural-bristle brush, even soft daylight"
+  },
+  {
+   "id": "s015",
+   "startS": 54.37,
+   "endS": 58.1,
+   "kind": "video.gen",
+   "subject": "mélange de la chaux dans le seau",
+   "scene": "a gloved hand stirring white lime powder into water in a metal bucket with a wooden stick, the mixture turning creamy, warm light, splashes on the rim"
+  }
+ ],
+ "illustrationPass": {
+  "note": "avatar-qualite part 2: claude-sonnet-5-5 (roles on haiku) on Claude Code, Charlie subscription, 2026-11-01 evening, with the illustration grammar, hard anchors and talk/show roles",
+  "roles": {
+   "roles": [
+    {
+     "n": 1,
+     "role": "show"
+    },
+    {
+     "n": 2,
+     "role": "show"
+    },
+    {
+     "n": 3,
+     "role": "show"
+    },
+    {
+     "n": 4,
+     "role": "show"
+    },
+    {
+     "n": 5,
+     "role": "show"
+    },
+    {
+     "n": 6,
+     "role": "talk"
+    },
+    {
+     "n": 7,
+     "role": "talk"
+    },
+    {
+     "n": 8,
+     "role": "talk"
+    },
+    {
+     "n": 9,
+     "role": "talk"
+    },
+    {
+     "n": 10,
+     "role": "show"
+    },
+    {
+     "n": 11,
+     "role": "talk"
+    },
+    {
+     "n": 12,
+     "role": "talk"
+    },
+    {
+     "n": 13,
+     "role": "talk"
+    },
+    {
+     "n": 14,
+     "role": "talk"
+    },
+    {
+     "n": 15,
+     "role": "talk"
+    },
+    {
+     "n": 16,
+     "role": "talk"
+    },
+    {
+     "n": 17,
+     "role": "talk"
+    }
+   ]
+  },
+  "scene": {
+   "directives": [
+    {
+     "sentence": 1,
+     "anchor": "la chambre du fond",
+     "kind": "clipAi",
+     "subject": "wardrobe pulled away from the bedroom wall",
+     "prompt": "Steady phone video, wide eye-level shot in an ordinary bedroom: a tall wooden wardrobe is slowly slid a few centimetres away from the wall by a hand at its edge, a dark gap opens behind it, soft morning light from a window, camera almost still.",
+     "why": "The narrator says the wardrobe was moved in the back bedroom."
+    },
+    {
+     "sentence": 2,
+     "anchor": "dans l'angle du mur côté nord",
+     "kind": "clipAi",
+     "subject": "mould in the corner behind the wardrobe",
+     "prompt": "Steady phone video, medium shot of the top corner of a bedroom wall behind a pulled-out wardrobe: a phone torch beam sweeps into the gap and lights up dark grey mould patches clearly visible in the wall corner, camera almost still, dim cool light.",
+     "why": "The mould in the wall corner behind it must be clearly visible."
+    },
+    {
+     "sentence": 3,
+     "anchor": "petits points gris serrés",
+     "kind": "imageAi",
+     "subject": "extreme close-up of grey mould dots",
+     "prompt": "Steady phone photo at eye level, extreme close-up of a painted plaster wall surface covered in tight clusters of tiny grey-black mould dots like soot, rising toward the ceiling line at the top of the frame, ordinary home, soft daylight, no text.",
+     "why": "Shows the tight soot-like points the words describe."
+    },
+    {
+     "sentence": 4,
+     "anchor": "un spray du supermarché",
+     "kind": "clipAi",
+     "subject": "hand spraying cleaner and scrubbing",
+     "prompt": "Steady phone video, first-person view of a hand spraying a generic supermarket trigger spray bottle without any label onto a wall and then rubbing it with a yellow sponge, mist visible, ordinary bedroom, daylight, camera almost still.",
+     "why": "The gesture said: spray then rub the mould."
+    },
+    {
+     "sentence": 5,
+     "anchor": "repeint le coin en blanc",
+     "kind": "clipAi",
+     "subject": "roller painting the corner white",
+     "prompt": "Steady phone video, hands seen from the side holding a small paint roller that rolls fresh white paint down a bedroom wall next to the corner, wet white stripe growing, drop cloth on the floor, daylight, camera almost still.",
+     "why": "The narrator says the corner was repainted white."
+    },
+    {
+     "sentence": 9,
+     "anchor": "astuce de maçon",
+     "kind": "clipAi",
+     "subject": "mason's hands stirring lime paste",
+     "prompt": "Steady phone video, close side view of weathered, dusty hands of an old mason stirring thick white lime paste in a metal bucket with a wooden stick, garden shed setting, natural daylight, camera almost still.",
+     "why": "Introduces the mason's trick with a mason's hands at work."
+    },
+    {
+     "sentence": 10,
+     "anchor": "un sac de chaux",
+     "kind": "clipAi",
+     "subject": "lime powder poured from a sack",
+     "prompt": "Steady phone video, close shot of a paper sack of white lime powder tipped over a plastic bucket, fine white powder pouring, a wide brush resting on the bucket rim, garage floor, soft daylight, camera almost still.",
+     "why": "The lime sack and the brush are named."
+    },
+    {
+     "sentence": 12,
+     "anchor": "sec et tiède",
+     "kind": "imageAi",
+     "subject": "hygrometer showing dry comfortable air",
+     "prompt": "Steady phone photo at eye level, close shot of a small round analogue hygrometer-thermometer standing on a bedroom shelf, needle in the comfortable middle zone, warm light, radiator softly blurred behind, no text.",
+     "why": "Turns 'dry and warm' into a concrete instrument."
+    },
+    {
+     "sentence": 13,
+     "anchor": "la chaux, posée au bon moment",
+     "kind": "clipAi",
+     "subject": "lime wash brushed on wall corner",
+     "prompt": "Steady phone video, hand seen close from the side brushing milky white lime wash with a wide brush into a clean wall corner, the matte white coat spreading evenly, daylight, camera almost still.",
+     "why": "The lime applied at the right moment, result on the wall."
+    },
+    {
+     "sentence": 16,
+     "anchor": "Le geste",
+     "kind": "clipAi",
+     "subject": "tools laid out for the four steps",
+     "prompt": "Steady phone video, top-down view of two hands arranging a wire brush, a sponge, a bucket of white lime and a wide brush in a row on a dust sheet on the floor, daylight, camera almost still.",
+     "why": "The four-step gesture, shown by its four tools."
+    },
+    {
+     "sentence": 17,
+     "anchor": "Les erreurs qui le ratent",
+     "kind": "clipAi",
+     "subject": "flaking paint peeling off a damp wall",
+     "prompt": "Steady phone video, extreme close-up of white paint peeling from a damp plaster wall, a small flake curling and falling away, dark damp patch underneath, side light, camera almost still.",
+     "why": "A failed coat is the concrete result of the mistakes."
+    }
+   ],
+   "recurring": []
+  },
+  "topUp": {
+   "directives": [
+    {
+     "sentence": 12,
+     "anchor": "le coin reste sec",
+     "kind": "imageAi",
+     "subject": "palm resting on a dry, finished white wall corner",
+     "prompt": "Steady phone photo at eye level, first-person view of a bare hand resting flat on a dry matte white limewashed wall near a bedroom corner, a small warm radiator softly blurred at the edge of the frame, no mould visible, warm soft daylight.",
+     "layout": "full",
+     "why": "Shows the corner staying dry and warm, the result that makes the coat hold"
+    }
+   ],
+   "recurring": []
+  }
+ },
+ "afterIllustration": [
+  {
+   "id": "s001",
+   "startS": 0,
+   "endS": 4.57,
+   "kind": "avatar",
+   "said": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s007",
+   "startS": 4.57,
+   "endS": 6.67,
+   "kind": "video.gen",
+   "said": "de la chambre du fond. Et derrière,",
+   "subject": "wardrobe pulled away from the bedroom wall",
+   "scene": "Steady phone video, wide eye-level shot in an ordinary bedroom: a tall wooden wardrobe is slowly slid a few centimetres away from the wall by a hand at its edge, a dark gap opens behind it, soft morning light from a window, camera almost still."
+  },
+  {
+   "id": "s008",
+   "startS": 6.67,
+   "endS": 10.67,
+   "kind": "video.gen",
+   "said": "derrière, dans l'angle du mur côté nord, la moisissure est revenue.",
+   "subject": "mould in the corner behind the wardrobe",
+   "scene": "Steady phone video, medium shot of the top corner of a bedroom wall behind a pulled-out wardrobe: a phone torch beam sweeps into the gap and lights up dark grey mould patches clearly visible in the wall corner, camera almost still, dim cool light."
+  },
+  {
+   "id": "s009",
+   "startS": 10.67,
+   "endS": 14.23,
+   "kind": "image.gen",
+   "said": "Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté",
+   "subject": "extreme close-up of grey mould dots",
+   "scene": "Steady phone photo at eye level, extreme close-up of a painted plaster wall surface covered in tight clusters of tiny grey-black mould dots like soot, rising toward the ceiling line at the top of the frame, ordinary home, soft daylight, no text."
+  },
+  {
+   "id": "s010",
+   "startS": 14.23,
+   "endS": 17.03,
+   "kind": "video.gen",
+   "said": "avec un spray du supermarché. Cet été, vous avez même",
+   "subject": "hand spraying cleaner and scrubbing",
+   "scene": "Steady phone video, first-person view of a hand spraying a generic supermarket trigger spray bottle without any label onto a wall and then rubbing it with a yellow sponge, mist visible, ordinary bedroom, daylight, camera almost still."
+  },
+  {
+   "id": "s011",
+   "startS": 17.03,
+   "endS": 18.9,
+   "kind": "video.gen",
+   "said": "même repeint le coin en blanc.",
+   "subject": "roller painting the corner white",
+   "scene": "Steady phone video, hands seen from the side holding a small paint roller that rolls fresh white paint down a bedroom wall next to the corner, wet white stripe growing, drop cloth on the floor, daylight, camera almost still."
+  },
+  {
+   "id": "s002",
+   "startS": 18.9,
+   "endS": 23.9,
+   "kind": "avatar",
+   "said": "C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu.",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s003",
+   "startS": 23.9,
+   "endS": 27.47,
+   "kind": "avatar",
+   "said": "Sauf que dans ce coin-là, ce n'est pas le mur qui est malade.",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s004",
+   "startS": 27.47,
+   "endS": 31.5,
+   "kind": "avatar",
+   "said": "C'est l'eau qui vient d'ailleurs. Je vais vous montrer la vieille",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s012",
+   "startS": 31.5,
+   "endS": 36.47,
+   "kind": "video.gen",
+   "said": "vieille astuce de maçon qui empêche la moisissure de revenir. Elle tient dans",
+   "subject": "mason's hands stirring lime paste",
+   "scene": "Steady phone video, close side view of weathered, dusty hands of an old mason stirring thick white lime paste in a metal bucket with a wooden stick, garden shed setting, natural daylight, camera almost still."
+  },
+  {
+   "id": "s013",
+   "startS": 36.47,
+   "endS": 38.33,
+   "kind": "video.gen",
+   "said": "dans un sac de chaux, une brosse et quelques jours de patience.",
+   "subject": "lime powder poured from a sack",
+   "scene": "Steady phone video, close shot of a paper sack of white lime powder tipped over a plastic bucket, fine white powder pouring, a wide brush resting on the bucket rim, garage floor, soft daylight, camera almost still."
+  },
+  {
+   "id": "s005",
+   "startS": 38.33,
+   "endS": 43.47,
+   "kind": "avatar",
+   "said": "Le pour toujours, je vais vous dire honnêtement ce qu'il vaut.",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s014",
+   "startS": 43.47,
+   "endS": 45.07,
+   "kind": "image.gen",
+   "said": "Ça tient tant que le coin reste",
+   "subject": "palm resting on a dry, finished white wall corner",
+   "scene": "Steady phone photo at eye level, first-person view of a bare hand resting flat on a dry matte white limewashed wall near a bedroom corner, a small warm radiator softly blurred at the edge of the frame, no mould visible, warm soft daylight."
+  },
+  {
+   "id": "s015",
+   "startS": 45.07,
+   "endS": 48.4,
+   "kind": "image.gen",
+   "said": "reste sec et tiède. Et la chaux, posée au bon moment,",
+   "subject": "hygrometer showing dry comfortable air",
+   "scene": "Steady phone photo at eye level, close shot of a small round analogue hygrometer-thermometer standing on a bedroom shelf, needle in the comfortable middle zone, warm light, radiator softly blurred behind, no text."
+  },
+  {
+   "id": "s016",
+   "startS": 48.4,
+   "endS": 51.37,
+   "kind": "video.gen",
+   "said": "ne laisse plus grand-chose à la moisissure pour s'installer.",
+   "subject": "lime wash brushed on wall corner",
+   "scene": "Steady phone video, hand seen close from the side brushing milky white lime wash with a wide brush into a clean wall corner, the matte white coat spreading evenly, daylight, camera almost still."
+  },
+  {
+   "id": "s006",
+   "startS": 51.37,
+   "endS": 54.37,
+   "kind": "avatar",
+   "said": "On va faire ça en quatre temps. Pourquoi c'est toujours...",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s017",
+   "startS": 54.37,
+   "endS": 56.43,
+   "kind": "video.gen",
+   "said": "Le geste, en quatre étapes.",
+   "subject": "tools laid out for the four steps",
+   "scene": "Steady phone video, top-down view of two hands arranging a wire brush, a sponge, a bucket of white lime and a wide brush in a row on a dust sheet on the floor, daylight, camera almost still."
+  },
+  {
+   "id": "s018",
+   "startS": 56.43,
+   "endS": 58.1,
+   "kind": "image.gen",
+   "said": "Les erreurs qui le ratent.",
+   "subject": "flaking paint peeling off a damp wall",
+   "scene": "Steady phone video, extreme close-up of white paint peeling from a damp plaster wall, a small flake curling and falling away, dark damp patch underneath, side light, camera almost still."
+  }
+ ],
+ "run5": [
+  {
+   "id": "s006",
+   "a": 4.366666666666666,
+   "b": 8.166666666666666,
+   "said": "l'armoire de la chambre du fond. Et derrière, dans l'angle du mur côté",
+   "prompt": "a modest bedroom in daylight, two hands in sweaters pushing a heavy wooden wardrobe a few centimetres away from the wall, revealing a dark gap behind it, soft window light, no text",
+   "score": 8,
+   "angle": "pov-hands",
+   "shows": "Hands in knit sweater pushing a wooden wardrobe along a bedroom wall",
+   "why": "The wardrobe in the bedroom is clear and the push gesture is visible. The dark gap behind it is only a sliver, and the corner is not shown.",
+   "better": ""
+  },
+  {
+   "id": "s007",
+   "a": 8.166666666666666,
+   "b": 10.533333333333333,
+   "said": "côté nord, la moisissure est revenue.",
+   "prompt": "Close-up slow push-in on the upper corner of two off-white walls in a north-facing room, covered with dense small grey-black mould spots, cold bluish light, no text",
+   "score": 9,
+   "angle": "detail-macro",
+   "shows": "Wall and ceiling corner covered in grey-black mould spots",
+   "why": "Mould in the corner is shown close up and is unmistakable. It does not show which side is north, which a picture can't show anyway.",
+   "better": ""
+  },
+  {
+   "id": "s008",
+   "a": 15.033333333333333,
+   "b": 18.9,
+   "said": "Cet été, vous avez même repeint le coin en blanc.",
+   "prompt": "a paint roller loaded with bright white paint rolling over a wall corner, covering grey stains, a dust sheet on the floor, warm summer light, no text",
+   "score": 9,
+   "angle": "pov-hands",
+   "shows": "First-person hand rolling white paint over a stained wall corner, dust sheet on the floor",
+   "why": "It shows repainting the corner white, with the grey stains still partly visible and the sheet on the floor, as the words say.",
+   "better": ""
+  },
+  {
+   "id": "s009",
+   "a": 23.9,
+   "b": 27.466666666666665,
+   "said": "Sauf que dans ce coin-là, ce n'est pas le mur qui est malade.",
+   "prompt": "a hand pressed flat on a solid painted plaster wall, fingers spread, raking side light showing the healthy surface texture, calm and reassuring mood, no text",
+   "score": 4,
+   "angle": "hands-close",
+   "shows": "Open hand flat on a textured plaster wall in side light",
+   "why": "This is the idea of a healthy wall, not an object or defect the words name. It is the 'hand on a wall' metaphor, and the corner is not shown.",
+   "better": "Steady eye-level phone photo of a bare, clean painted wall corner in an ordinary home bedroom, with a few small grey mould spots visible high in the corner and the wall surface below it clean and dry, daylight, no hands, no text"
+  },
+  {
+   "id": "s010",
+   "a": 31.5,
+   "b": 35.666666666666664,
+   "said": "vieille astuce de maçon qui empêche la moisissure de revenir.",
+   "prompt": "weathered hands of an old mason in a dusty work jacket wiping a steel trowel against a rough stone wall, lime dust in the air, warm workshop light, no text",
+   "score": 5,
+   "angle": "hands-close",
+   "shows": "Old mason's hands wiping a trowel beside a rough stone wall",
+   "why": "It matches the mason in the words, but this is a professional at work. It shows no anti-mould trick and no mould, and it is not an ordinary home.",
+   "better": "Steady eye-level phone photo of a home wall corner with a fresh white lime wash applied by a wide brush, a bucket of lime wash on a dust sheet on the floor beside it, an ordinary home room, daylight, no text"
+  },
+  {
+   "id": "s011",
+   "a": 35.666666666666664,
+   "b": 38.333333333333336,
+   "said": "Elle tient dans un sac de chaux, une brosse et quelques jours de patience.",
+   "prompt": "High-angle shot on a tarp of a paper sack of white lime powder torn open, a plastic bucket and a wide wooden-handled brush beside it, a hand pours white powder into the bucket, soft daylight, no text",
+   "score": 9,
+   "angle": "object-close",
+   "shows": "Torn paper sack of white lime, bucket, wooden-handled brush on a tarp, hand pouring powder",
+   "why": "It shows the sack of lime, the brush and the bucket named in the words, at a good high angle. Only the 'days of patience' is not shown.",
+   "better": ""
+  },
+  {
+   "id": "s012",
+   "a": 44.3,
+   "b": 47.06666666666667,
+   "said": "que le coin reste sec et tiède. Et la chaux,",
+   "prompt": "Slow pan across a clean matte white lime-washed wall corner in a bright warm bedroom, a small radiator under it, soft sunlight on the surface, no stains, no text",
+   "score": 8,
+   "angle": "room-wide",
+   "shows": "Clean matte white wall corner with a radiator under a window, soft sunlight, bed edge visible",
+   "why": "It shows a dry, warm, clean corner with a radiator as the words say. It is a still frame and fairly wide, so the corner is not the main subject.",
+   "better": ""
+  },
+  {
+   "id": "s013",
+   "a": 47.06666666666667,
+   "b": 51.36666666666667,
+   "said": "posée au bon moment, ne laisse plus grand-chose à la moisissure pour s'installer.",
+   "prompt": "a wide brush spreading milky white lime wash in crossed strokes over a bare plaster wall, drips of lime on the bristles, bright side light, no text",
+   "score": 9,
+   "angle": "pov-hands",
+   "shows": "Wide brush spreading milky white lime wash in crossed strokes, with drips, on a bare plaster wall",
+   "why": "It shows lime being brushed on, with crossed strokes and drips, at a close first-person angle. It fits the words closely.",
+   "better": ""
+  },
+  {
+   "id": "s014",
+   "a": 51.36666666666667,
+   "b": 54.36666666666667,
+   "said": "On va faire ça en quatre temps. Pourquoi c'est toujours...",
+   "prompt": "two hands pulling on thick yellow work gloves, then clenching fists, ready to start work, bedroom wall blurred in the background, natural light, no text",
+   "score": 4,
+   "angle": "pov-hands",
+   "shows": "Two fists in yellow leather work gloves, bedroom blurred behind",
+   "why": "The words 'quatre temps' name no gloves or gesture. The gloves are only the general topic of the video, and they show no sign of four steps.",
+   "better": "Eye-level phone photo of four fingers held up in front of a plain bedroom wall, first-person view, natural daylight, no text"
+  },
+  {
+   "id": "s015",
+   "a": 54.36666666666667,
+   "b": 58.1,
+   "said": "Le geste, en quatre étapes. Les erreurs qui le ratent.",
+   "prompt": "a gloved hand scraping flaking paint from a wall corner with a steel wire brush, paint dust falling, raking light, no text",
+   "score": 6,
+   "angle": "pov-hands",
+   "shows": "Gloved hand scraping flaking paint from a wall corner with a wire brush, paint flakes flying",
+   "why": "It shows a real gesture, the first of the steps, but the words do not name scraping. 'Le geste' and 'les erreurs' are loosely linked to it. This is the topic of the video, not the exact words.",
+   "better": ""
+  }
+ ],
+ "run5Second": [
+  {
+   "id": "s006",
+   "score": 7,
+   "angle": "hands-close",
+   "why": "The wardrobe and the gesture are clear, but the corner of the wall behind it is barely visible."
+  },
+  {
+   "id": "s007",
+   "score": 9,
+   "angle": "object-close",
+   "why": "This is the mould coming back in a corner, shown clearly and close."
+  },
+  {
+   "id": "s008",
+   "score": 9,
+   "angle": "pov-hands",
+   "why": "It shows repainting the corner white over the grey stains, from the right angle."
+  },
+  {
+   "id": "s009",
+   "score": 1,
+   "angle": "hands-close",
+   "why": "It is a picture of the idea \"the wall is healthy\", and nothing in it names the corner or the problem."
+  },
+  {
+   "id": "s010",
+   "score": 7,
+   "angle": "hands-close",
+   "why": "It shows the old mason, but not the trick or the mould that stays away."
+  },
+  {
+   "id": "s011",
+   "score": 9,
+   "angle": "object-close",
+   "why": "It shows the sack of lime, the brush and the bucket that the words name."
+  },
+  {
+   "id": "s012",
+   "score": 8,
+   "angle": "room-wide",
+   "why": "Shows the dry, warm corner well, but the lime itself («la chaux») is not visible and the wall looks painted rather than limewashed."
+  },
+  {
+   "id": "s013",
+   "score": 9,
+   "angle": "pov-hands",
+   "why": "Matches lime applied to a wall with a brush. The crossed strokes and drips are clear, and the framing is close and first-person."
+  },
+  {
+   "id": "s014",
+   "score": 4,
+   "angle": "pov-hands",
+   "why": "Gloves only echo the topic. The words name four steps, not gloves, so this is a generic prep gesture."
+  },
+  {
+   "id": "s015",
+   "score": 5,
+   "angle": "hands-close",
+   "why": "This shows one step (scraping) of the gesture, but the words introduce the whole four-step gesture and the mistakes. It fits the topic without naming a specific step."
+  }
+ ],
+ "part4Pass": {
+  "note": "avatar-qualite part 4: claude-sonnet-5-5 (roles on haiku), Charlie subscription, 2026-11-01 night, with presenter runs <= 8.5 s and cuts on the content word",
+  "roles": {
+   "roles": [
+    {
+     "n": 1,
+     "role": "show"
+    },
+    {
+     "n": 2,
+     "role": "show"
+    },
+    {
+     "n": 3,
+     "role": "show"
+    },
+    {
+     "n": 4,
+     "role": "show"
+    },
+    {
+     "n": 5,
+     "role": "show"
+    },
+    {
+     "n": 6,
+     "role": "talk"
+    },
+    {
+     "n": 7,
+     "role": "talk"
+    },
+    {
+     "n": 8,
+     "role": "talk"
+    },
+    {
+     "n": 9,
+     "role": "talk"
+    },
+    {
+     "n": 10,
+     "role": "show"
+    },
+    {
+     "n": 11,
+     "role": "talk"
+    },
+    {
+     "n": 12,
+     "role": "talk"
+    },
+    {
+     "n": 13,
+     "role": "show"
+    },
+    {
+     "n": 14,
+     "role": "talk"
+    },
+    {
+     "n": 15,
+     "role": "talk"
+    },
+    {
+     "n": 16,
+     "role": "show"
+    },
+    {
+     "n": 17,
+     "role": "talk"
+    }
+   ]
+  },
+  "scene": {
+   "directives": [
+    {
+     "sentence": 2,
+     "anchor": "moisissure est revenue",
+     "kind": "clipAi",
+     "subject": "mould in the wall corner behind the pulled-out wardrobe",
+     "prompt": "Wide steady phone video of a bedroom corner where a wooden wardrobe has been pulled away from the wall, dark grey mould clearly visible in the top of the north wall corner behind it, the hand of someone slowly sliding the wardrobe edge a little further, soft grey overcast daylight from a window, ordinary home, cool true-to-life colours",
+     "layout": "full",
+     "why": "the words say the mould is back behind the wardrobe, so the corner shows it"
+    },
+    {
+     "sentence": 3,
+     "anchor": "petits points gris",
+     "kind": "imageAi",
+     "subject": "dense grey mould dots",
+     "prompt": "Extreme close-up phone photo at eye level of tight clusters of tiny grey-black mould dots like soot on a painted wall corner, spreading upward toward the ceiling line, soft grey overcast daylight, cool true-to-life colours, ordinary home",
+     "why": "the defect shown as the words describe it"
+    },
+    {
+     "sentence": 4,
+     "anchor": "spray du supermarché",
+     "kind": "clipAi",
+     "subject": "supermarket cleaning spray on the wall",
+     "prompt": "First-person point of view steady phone video, a hand holding a plastic anti-mould spray bottle sprays a mist onto a wall corner with grey mould spots, the other hand holding a cloth, soft grey overcast daylight from a window, ordinary bedroom, cool colours",
+     "why": "the gesture of spraying, seen from the hands"
+    },
+    {
+     "sentence": 5,
+     "anchor": "repeint le coin",
+     "kind": "clipAi",
+     "subject": "repainting the corner white",
+     "prompt": "Steady phone video of hands seen from the side, a small paint roller spreads white paint over a wall corner near the ceiling, the roller moves up once while the camera stays almost still, soft grey overcast daylight, ordinary bedroom, cool true-to-life colours",
+     "why": "the repainting gesture said in the words"
+    },
+    {
+     "sentence": 8,
+     "anchor": "l'eau qui vient d'ailleurs",
+     "kind": "clipAi",
+     "subject": "water running down an outside wall",
+     "prompt": "Wide steady phone video outside a house in winter, rainwater overflowing from a cracked gutter and running down the north-facing rendered wall, damp dark streak on the plaster, garden path in the foreground, soft grey overcast daylight, cool true-to-life colours",
+     "why": "water coming from elsewhere: the outside source, a place shot"
+    },
+    {
+     "sentence": 9,
+     "anchor": "moisissure de revenir",
+     "kind": "clipAi",
+     "subject": "brushing limewash into the corner",
+     "prompt": "First-person point of view steady phone video, a hand holds a wide brush and spreads white limewash into a clean wall corner, one slow brush stroke while the camera stays almost still, soft grey overcast daylight from a window, ordinary bedroom, cool true-to-life colours",
+     "why": "the mason's trick shown as a gesture, after the problem"
+    },
+    {
+     "sentence": 10,
+     "anchor": "sac de chaux",
+     "kind": "imageAi",
+     "subject": "bag of lime with a brush",
+     "prompt": "Close-up phone photo at eye level of a paper sack of hydrated lime powder on a garage floor with a wide wooden-handled brush leaning against it, filling the frame, soft grey overcast daylight from a doorway, cool true-to-life colours, no text on the bag",
+     "why": "the objects the sentence names"
+    },
+    {
+     "sentence": 11,
+     "anchor": "ce qu'il vaut",
+     "kind": "clipAi",
+     "subject": "hand testing a dry limewashed wall",
+     "prompt": "Steady phone video seen from the side, a bare hand presses its palm flat on a dry matte white limewashed wall corner, then slides a little along it, soft grey overcast daylight from a window, ordinary bedroom, cool true-to-life colours",
+     "why": "a concrete check of whether the coat holds, instead of the idea of forever"
+    },
+    {
+     "sentence": 13,
+     "anchor": "ne laisse plus grand-chose",
+     "kind": "imageAi",
+     "subject": "matte lime surface with no mould",
+     "prompt": "Extreme close-up phone photo of a matte chalky white lime coating on a wall corner, fine brush texture, clean with no mould, soft grey overcast daylight, cool true-to-life colours, ordinary home",
+     "why": "the result: a surface with nothing for mould to grip"
+    },
+    {
+     "sentence": 14,
+     "anchor": "quatre temps",
+     "kind": "clipAi",
+     "subject": "tools laid out on a bench",
+     "prompt": "Steady phone video of hands seen from the side setting a wide brush down next to a bucket of white lime, a sponge and rubber gloves on a plywood workbench, soft grey overcast daylight from a garage window, cool true-to-life colours",
+     "why": "the toolkit for the four steps"
+    },
+    {
+     "sentence": 15,
+     "anchor": "Pourquoi c'est toujours",
+     "kind": "clipAi",
+     "subject": "condensation on the cold corner",
+     "prompt": "Extreme close-up steady phone video of water droplets of condensation forming and one drop running down a cold painted wall corner with a few grey mould dots, camera almost still, soft grey overcast daylight, cool true-to-life colours, ordinary bedroom",
+     "why": "why this corner: cold wall, condensation"
+    },
+    {
+     "sentence": 16,
+     "anchor": "Le geste",
+     "kind": "clipAi",
+     "subject": "mixing lime in a bucket",
+     "prompt": "First-person point of view steady phone video, a gloved hand stirs white lime milk in a plastic bucket with a wooden stick, the lime swirling slowly, soft grey overcast daylight in a garage, cool true-to-life colours",
+     "why": "the first step of the gesture, shown by the hands"
+    },
+    {
+     "sentence": 17,
+     "anchor": "erreurs qui le ratent",
+     "kind": "clipAi",
+     "subject": "flaking paint peeled off a damp wall",
+     "prompt": "Close steady phone video of a finger peeling a blistered flake of paint off a damp wall, bare plaster showing beneath with dark damp patch, camera almost still, soft grey overcast daylight, cool true-to-life colours, ordinary room",
+     "why": "a typical mistake: paint over damp that fails"
+    }
+   ],
+   "recurring": []
+  },
+  "topUp": {
+   "directives": [
+    {
+     "sentence": 2,
+     "anchor": "la moisissure est revenue",
+     "kind": "imageAi",
+     "subject": "black mould patch in the corner of a wall",
+     "prompt": "Close-up phone photo at eye level of a dark green-black mould patch creeping along the top of a painted wall corner, peeling paint edges around it, soft grey overcast daylight from a window, cool true-to-life colours, ordinary bedroom",
+     "layout": "",
+     "why": "The words name the returning mould: show the defect up close, a new angle from the wide shot"
+    },
+    {
+     "sentence": 9,
+     "anchor": "vieille astuce de maçon",
+     "kind": "clipAi",
+     "subject": "mason's hand stirring lime in a bucket",
+     "prompt": "Steady phone video seen from the side, a hand in a worn work glove stirs thick white lime paste in a metal bucket with a wooden stick, the paste turns slowly while the camera stays almost still, soft grey overcast daylight from a garage door, cool true-to-life colours, ordinary home garage",
+     "why": "The old mason's trick: show the mason's material, lime, being prepared"
+    }
+   ],
+   "recurring": []
+  }
+ },
+ "afterPart4": [
+  {
+   "id": "s001",
+   "startS": 0,
+   "endS": 5.83,
+   "kind": "avatar",
+   "said": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond.",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s006",
+   "startS": 5.83,
+   "endS": 7.77,
+   "kind": "video.gen",
+   "said": "Et derrière, dans l'angle du mur",
+   "subject": "compass held against the north wall of a bedroom",
+   "scene": "Close-up steady phone photo at eye level of a hand holding a small hand compass, needle pointing north, next to a bedroom wall corner with a few grey mould spots just visible in the blurred background, soft grey overcast daylight from a window, cool true-to-life colours, ordinary home"
+  },
+  {
+   "id": "s007",
+   "startS": 7.77,
+   "endS": 10.67,
+   "kind": "video.gen",
+   "said": "mur côté nord, la moisissure est revenue.",
+   "subject": "mould in the wall corner behind the pulled-out wardrobe",
+   "scene": "Wide steady phone video of a bedroom corner where a wooden wardrobe has been pulled away from the wall, dark grey mould clearly visible in the top of the north wall corner behind it, the hand of someone slowly sliding the wardrobe edge a little further, soft grey overcast daylight from a window, ordinary home, cool true-to-life colours"
+  },
+  {
+   "id": "s008",
+   "startS": 10.67,
+   "endS": 14.3,
+   "kind": "video.gen",
+   "said": "Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec",
+   "subject": "dense grey mould dots",
+   "scene": "Extreme close-up phone photo at eye level of tight clusters of tiny grey-black mould dots like soot on a painted wall corner, spreading upward toward the ceiling line, soft grey overcast daylight, cool true-to-life colours, ordinary home"
+  },
+  {
+   "id": "s009",
+   "startS": 14.3,
+   "endS": 17.03,
+   "kind": "video.gen",
+   "said": "un spray du supermarché. Cet été, vous avez même",
+   "subject": "supermarket cleaning spray on the wall",
+   "scene": "First-person point of view steady phone video, a hand holding a plastic anti-mould spray bottle sprays a mist onto a wall corner with grey mould spots, the other hand holding a cloth, soft grey overcast daylight from a window, ordinary bedroom, cool colours"
+  },
+  {
+   "id": "s010",
+   "startS": 17.03,
+   "endS": 18.9,
+   "kind": "video.gen",
+   "said": "même repeint le coin en blanc.",
+   "subject": "repainting the corner white",
+   "scene": "Steady phone video of hands seen from the side, a small paint roller spreads white paint over a wall corner near the ceiling, the roller moves up once while the camera stays almost still, soft grey overcast daylight, ordinary bedroom, cool true-to-life colours"
+  },
+  {
+   "id": "s002",
+   "startS": 18.9,
+   "endS": 23.9,
+   "kind": "avatar",
+   "said": "C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu.",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s003",
+   "startS": 23.9,
+   "endS": 26.83,
+   "kind": "avatar",
+   "said": "Sauf que dans ce coin-là, ce n'est pas le mur qui",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s011",
+   "startS": 26.83,
+   "endS": 29.47,
+   "kind": "video.gen",
+   "said": "est malade. C'est l'eau qui vient d'ailleurs.",
+   "subject": "water running down an outside wall",
+   "scene": "Wide steady phone video outside a house in winter, rainwater overflowing from a cracked gutter and running down the north-facing rendered wall, damp dark streak on the plaster, garden path in the foreground, soft grey overcast daylight, cool true-to-life colours"
+  },
+  {
+   "id": "s004",
+   "startS": 29.47,
+   "endS": 33.57,
+   "kind": "avatar",
+   "said": "Je vais vous montrer la vieille astuce de maçon qui empêche",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s012",
+   "startS": 33.57,
+   "endS": 36.67,
+   "kind": "video.gen",
+   "said": "empêche la moisissure de revenir. Elle tient dans un",
+   "subject": "stirring white limewash in a bucket",
+   "scene": "First-person point of view steady phone video, a hand stirs thick white limewash in a plastic bucket with a wooden stick, the milky liquid swirls slowly while the camera stays almost still, garage floor, soft grey overcast daylight from a doorway, cool true-to-life colours"
+  },
+  {
+   "id": "s013",
+   "startS": 36.67,
+   "endS": 40.17,
+   "kind": "image.gen",
+   "said": "un sac de chaux, une brosse et quelques jours de patience. Le pour toujours,",
+   "subject": "bag of lime with a brush",
+   "scene": "Close-up phone photo at eye level of a paper sack of hydrated lime powder on a garage floor with a wide wooden-handled brush leaning against it, filling the frame, soft grey overcast daylight from a doorway, cool true-to-life colours, no text on the bag"
+  },
+  {
+   "id": "s014",
+   "startS": 40.17,
+   "endS": 43.47,
+   "kind": "video.gen",
+   "said": "je vais vous dire honnêtement ce qu'il vaut.",
+   "subject": "hand testing a dry limewashed wall",
+   "scene": "Steady phone video seen from the side, a bare hand presses its palm flat on a dry matte white limewashed wall corner, then slides a little along it, soft grey overcast daylight from a window, ordinary bedroom, cool true-to-life colours"
+  },
+  {
+   "id": "s005",
+   "startS": 43.47,
+   "endS": 48.4,
+   "kind": "avatar",
+   "said": "Ça tient tant que le coin reste sec et tiède. Et la chaux, posée au bon moment,",
+   "subject": "Présentateur",
+   "scene": null
+  },
+  {
+   "id": "s015",
+   "startS": 48.4,
+   "endS": 52.27,
+   "kind": "image.gen",
+   "said": "ne laisse plus grand-chose à la moisissure pour s'installer. On va faire ça",
+   "subject": "matte lime surface with no mould",
+   "scene": "Extreme close-up phone photo of a matte chalky white lime coating on a wall corner, fine brush texture, clean with no mould, soft grey overcast daylight, cool true-to-life colours, ordinary home"
+  },
+  {
+   "id": "s016",
+   "startS": 52.27,
+   "endS": 54.6,
+   "kind": "video.gen",
+   "said": "en quatre temps. Pourquoi c'est toujours... Le",
+   "subject": "tools laid out on a bench",
+   "scene": "Steady phone video of hands seen from the side setting a wide brush down next to a bucket of white lime, a sponge and rubber gloves on a plywood workbench, soft grey overcast daylight from a garage window, cool true-to-life colours"
+  },
+  {
+   "id": "s017",
+   "startS": 54.6,
+   "endS": 58.1,
+   "kind": "video.gen",
+   "said": "Le geste, en quatre étapes. Les erreurs qui le ratent.",
+   "subject": "mixing lime in a bucket",
+   "scene": "First-person point of view steady phone video, a gloved hand stirs white lime milk in a plastic bucket with a wooden stick, the lime swirling slowly, soft grey overcast daylight in a garage, cool true-to-life colours"
+  }
+ ],
+ "run7": {
+  "note": "Run 7 (01/11): the voice we shipped, its own word times (pause aligner: the voice engine gave none), what faster-whisper large-v3 heard in it (words.align, CPU), and the shots it was cut into",
+  "durationS": 58.08475,
+  "script": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond. Et derrière, dans l'angle du mur côté nord, la moisissure est revenue. Des petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec un spray du supermarché. Cet été, vous avez même repeint le coin en blanc. C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu. Sauf que dans ce coin-là, ce n'est pas le mur qui est malade. C'est l'eau qui vient d'ailleurs. Je vais vous montrer la vieille astuce de maçon qui empêche la moisissure de revenir. Elle tient dans un sac de chaux, une brosse et quelques jours de patience. Le pour toujours, je vais vous dire honnêtement ce qu'il vaut. Ça tient tant que le coin reste sec et tiède. Et la chaux, posée au bon moment, ne laisse plus grand-chose à la moisissure pour s'installer. On va faire ça en quatre temps. Pourquoi c'est toujours... Le geste, en quatre étapes. Les erreurs qui le ratent.",
+  "voice": [
+   {
+    "w": "Ce",
+    "start": 0.22,
+    "end": 0.462,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "matin,",
+    "start": 0.462,
+    "end": 0.89,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 1.09,
+    "end": 1.292,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "cherchant",
+    "start": 1.292,
+    "end": 1.65,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "les",
+    "start": 1.65,
+    "end": 1.852,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "couvertures",
+    "start": 1.852,
+    "end": 2.52,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "d'hiver,",
+    "start": 2.52,
+    "end": 2.878,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 2.878,
+    "end": 3.08,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "avez",
+    "start": 3.08,
+    "end": 3.438,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "décalé",
+    "start": 3.438,
+    "end": 3.951,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "l'armoire",
+    "start": 3.951,
+    "end": 4.464,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 4.464,
+    "end": 4.666,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 4.666,
+    "end": 4.868,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "chambre",
+    "start": 4.868,
+    "end": 5.226,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 5.226,
+    "end": 5.428,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "fond.",
+    "start": 5.428,
+    "end": 5.63,
+    "sentence": 0,
+    "paragraph": 0
+   },
+   {
+    "w": "Et",
+    "start": 5.94,
+    "end": 6.173,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "derrière,",
+    "start": 6.173,
+    "end": 6.763,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 6.763,
+    "end": 6.995,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "l'angle",
+    "start": 6.995,
+    "end": 7.407,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 7.407,
+    "end": 7.639,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 7.639,
+    "end": 7.872,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "côté",
+    "start": 7.872,
+    "end": 8.283,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "nord,",
+    "start": 8.283,
+    "end": 8.516,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 8.516,
+    "end": 8.748,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 8.748,
+    "end": 9.517,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 9.517,
+    "end": 9.75,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "revenue.",
+    "start": 9.75,
+    "end": 10.34,
+    "sentence": 1,
+    "paragraph": 0
+   },
+   {
+    "w": "Des",
+    "start": 10.64,
+    "end": 10.775,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "petits",
+    "start": 10.775,
+    "end": 11.015,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "points",
+    "start": 11.015,
+    "end": 11.15,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "gris",
+    "start": 11.15,
+    "end": 11.285,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "serrés,",
+    "start": 11.285,
+    "end": 11.525,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "comme",
+    "start": 11.525,
+    "end": 11.764,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 11.764,
+    "end": 11.899,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 11.899,
+    "end": 12.035,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "suie,",
+    "start": 12.035,
+    "end": 12.17,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 12.48,
+    "end": 12.608,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "montent",
+    "start": 12.608,
+    "end": 12.836,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "vers",
+    "start": 12.836,
+    "end": 12.964,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 12.964,
+    "end": 13.093,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "clafond.",
+    "start": 13.093,
+    "end": 13.32,
+    "sentence": 2,
+    "paragraph": 0
+   },
+   {
+    "w": "L'an",
+    "start": 13.62,
+    "end": 13.699,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "dernier,",
+    "start": 13.699,
+    "end": 13.838,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 13.838,
+    "end": 13.916,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "l'aviez",
+    "start": 13.916,
+    "end": 14.056,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "frotté",
+    "start": 14.056,
+    "end": 14.195,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "avec",
+    "start": 14.195,
+    "end": 14.334,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "un",
+    "start": 14.334,
+    "end": 14.413,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "spray",
+    "start": 14.413,
+    "end": 14.491,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "du",
+    "start": 14.491,
+    "end": 14.57,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "supermarché.",
+    "start": 14.57,
+    "end": 14.83,
+    "sentence": 3,
+    "paragraph": 0
+   },
+   {
+    "w": "Cet",
+    "start": 15.14,
+    "end": 15.414,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "été,",
+    "start": 15.414,
+    "end": 15.898,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 15.898,
+    "end": 16.172,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "avez",
+    "start": 16.172,
+    "end": 16.656,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "même",
+    "start": 16.656,
+    "end": 17.141,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "repeint",
+    "start": 17.141,
+    "end": 17.625,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 17.625,
+    "end": 17.899,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "coin",
+    "start": 17.899,
+    "end": 18.172,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 18.172,
+    "end": 18.446,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "blanc.",
+    "start": 18.446,
+    "end": 18.72,
+    "sentence": 4,
+    "paragraph": 0
+   },
+   {
+    "w": "C'est",
+    "start": 19.01,
+    "end": 19.318,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 19.318,
+    "end": 19.627,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "deuxième",
+    "start": 19.627,
+    "end": 20.41,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "hiver",
+    "start": 20.41,
+    "end": 20.956,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 20.956,
+    "end": 21.264,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "suite,",
+    "start": 21.264,
+    "end": 21.81,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 22.12,
+    "end": 22.275,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 22.275,
+    "end": 22.429,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 22.429,
+    "end": 22.584,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "dites",
+    "start": 22.584,
+    "end": 22.858,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 22.858,
+    "end": 23.012,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 23.012,
+    "end": 23.167,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 23.167,
+    "end": 23.322,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 23.322,
+    "end": 23.476,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "fichu.",
+    "start": 23.476,
+    "end": 23.75,
+    "sentence": 5,
+    "paragraph": 0
+   },
+   {
+    "w": "Sauf",
+    "start": 24.01,
+    "end": 24.301,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 24.301,
+    "end": 24.592,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 24.592,
+    "end": 24.884,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 24.884,
+    "end": 25.175,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "coin-là,",
+    "start": 25.175,
+    "end": 25.69,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 26,
+    "end": 26.132,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "n'est",
+    "start": 26.132,
+    "end": 26.264,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "pas",
+    "start": 26.264,
+    "end": 26.396,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 26.396,
+    "end": 26.528,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "mur",
+    "start": 26.528,
+    "end": 26.66,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 26.66,
+    "end": 26.793,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "est",
+    "start": 26.793,
+    "end": 26.925,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "malade.",
+    "start": 26.925,
+    "end": 27.26,
+    "sentence": 6,
+    "paragraph": 0
+   },
+   {
+    "w": "C'est",
+    "start": 27.56,
+    "end": 27.851,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "l'eau",
+    "start": 27.851,
+    "end": 28.142,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 28.142,
+    "end": 28.434,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "vient",
+    "start": 28.434,
+    "end": 28.725,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "d'ailleurs.",
+    "start": 28.725,
+    "end": 29.24,
+    "sentence": 7,
+    "paragraph": 0
+   },
+   {
+    "w": "Je",
+    "start": 29.55,
+    "end": 29.782,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vais",
+    "start": 29.782,
+    "end": 30.015,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 30.015,
+    "end": 30.247,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "montrer",
+    "start": 30.247,
+    "end": 30.658,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 30.658,
+    "end": 30.89,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "vieille",
+    "start": 30.89,
+    "end": 31.602,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "astuce",
+    "start": 31.602,
+    "end": 32.191,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 32.191,
+    "end": 32.424,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "maçon",
+    "start": 32.424,
+    "end": 32.835,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 32.835,
+    "end": 33.067,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "empêche",
+    "start": 33.067,
+    "end": 33.657,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 33.657,
+    "end": 33.889,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 33.889,
+    "end": 34.658,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 34.658,
+    "end": 34.89,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "revenir.",
+    "start": 34.89,
+    "end": 35.48,
+    "sentence": 8,
+    "paragraph": 0
+   },
+   {
+    "w": "Elle",
+    "start": 35.78,
+    "end": 36.142,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "tient",
+    "start": 36.142,
+    "end": 36.347,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "dans",
+    "start": 36.347,
+    "end": 36.551,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "un",
+    "start": 36.551,
+    "end": 36.756,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "sac",
+    "start": 36.756,
+    "end": 36.961,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 36.961,
+    "end": 37.165,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "chaux,",
+    "start": 37.165,
+    "end": 37.37,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "une",
+    "start": 37.56,
+    "end": 37.669,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "brosse",
+    "start": 37.669,
+    "end": 37.779,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 37.779,
+    "end": 37.84,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "quelques",
+    "start": 37.84,
+    "end": 37.95,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "jours",
+    "start": 37.95,
+    "end": 38.011,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "de",
+    "start": 38.011,
+    "end": 38.073,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "patience.",
+    "start": 38.073,
+    "end": 38.23,
+    "sentence": 9,
+    "paragraph": 0
+   },
+   {
+    "w": "Le",
+    "start": 38.44,
+    "end": 38.846,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "pour",
+    "start": 38.846,
+    "end": 39.252,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "toujours,",
+    "start": 39.252,
+    "end": 39.97,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "je",
+    "start": 40.28,
+    "end": 40.512,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vais",
+    "start": 40.512,
+    "end": 40.744,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vous",
+    "start": 40.744,
+    "end": 40.976,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "dire",
+    "start": 40.976,
+    "end": 41.617,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "honnêtement",
+    "start": 41.617,
+    "end": 42.385,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "ce",
+    "start": 42.385,
+    "end": 42.617,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "qu'il",
+    "start": 42.617,
+    "end": 43.028,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "vaut.",
+    "start": 43.028,
+    "end": 43.26,
+    "sentence": 10,
+    "paragraph": 0
+   },
+   {
+    "w": "Ça",
+    "start": 43.57,
+    "end": 43.777,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tient",
+    "start": 43.777,
+    "end": 43.984,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tant",
+    "start": 43.984,
+    "end": 44.191,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "que",
+    "start": 44.191,
+    "end": 44.399,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 44.399,
+    "end": 44.606,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "coin",
+    "start": 44.606,
+    "end": 44.813,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "reste",
+    "start": 44.813,
+    "end": 45.179,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "sec",
+    "start": 45.179,
+    "end": 45.386,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "et",
+    "start": 45.386,
+    "end": 45.594,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "tiède.",
+    "start": 45.594,
+    "end": 45.96,
+    "sentence": 11,
+    "paragraph": 0
+   },
+   {
+    "w": "Et",
+    "start": 46.27,
+    "end": 46.473,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 46.473,
+    "end": 46.677,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "chaux,",
+    "start": 46.677,
+    "end": 46.88,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "posée",
+    "start": 47.17,
+    "end": 47.499,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "au",
+    "start": 47.499,
+    "end": 47.685,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "bon",
+    "start": 47.685,
+    "end": 47.871,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "moment,",
+    "start": 47.871,
+    "end": 48.2,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "ne",
+    "start": 48.5,
+    "end": 48.675,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "laisse",
+    "start": 48.675,
+    "end": 48.984,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "plus",
+    "start": 48.984,
+    "end": 49.159,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "grand-chose",
+    "start": 49.159,
+    "end": 49.603,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "à",
+    "start": 49.603,
+    "end": 49.778,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "la",
+    "start": 49.778,
+    "end": 49.953,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "moisissure",
+    "start": 49.953,
+    "end": 50.531,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "pour",
+    "start": 50.531,
+    "end": 50.706,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "s'installer.",
+    "start": 50.706,
+    "end": 51.15,
+    "sentence": 12,
+    "paragraph": 0
+   },
+   {
+    "w": "On",
+    "start": 51.45,
+    "end": 51.612,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "va",
+    "start": 51.612,
+    "end": 51.773,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "faire",
+    "start": 51.773,
+    "end": 52.059,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "ça",
+    "start": 52.059,
+    "end": 52.221,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 52.221,
+    "end": 52.382,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "quatre",
+    "start": 52.382,
+    "end": 52.668,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "temps.",
+    "start": 52.668,
+    "end": 52.83,
+    "sentence": 13,
+    "paragraph": 0
+   },
+   {
+    "w": "Pourquoi",
+    "start": 53.13,
+    "end": 53.535,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "c'est",
+    "start": 53.535,
+    "end": 53.765,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "toujours...",
+    "start": 53.765,
+    "end": 54.17,
+    "sentence": 14,
+    "paragraph": 0
+   },
+   {
+    "w": "Le",
+    "start": 54.46,
+    "end": 54.684,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "geste,",
+    "start": 54.684,
+    "end": 55.08,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "en",
+    "start": 55.39,
+    "end": 55.55,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "quatre",
+    "start": 55.55,
+    "end": 55.833,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "étapes.",
+    "start": 55.833,
+    "end": 56.24,
+    "sentence": 15,
+    "paragraph": 0
+   },
+   {
+    "w": "Les",
+    "start": 56.55,
+    "end": 56.737,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "erreurs",
+    "start": 56.737,
+    "end": 57.067,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "qui",
+    "start": 57.067,
+    "end": 57.253,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "le",
+    "start": 57.253,
+    "end": 57.44,
+    "sentence": 16,
+    "paragraph": 0
+   },
+   {
+    "w": "ratent.",
+    "start": 57.44,
+    "end": 57.77,
+    "sentence": 16,
+    "paragraph": 0
+   }
+  ],
+  "heard": [
+   {
+    "word": "Ce",
+    "start": 0,
+    "end": 0.28
+   },
+   {
+    "word": "matin,",
+    "start": 0.28,
+    "end": 0.62
+   },
+   {
+    "word": "en",
+    "start": 0.78,
+    "end": 1.1
+   },
+   {
+    "word": "cherchant",
+    "start": 1.1,
+    "end": 1.52
+   },
+   {
+    "word": "les",
+    "start": 1.52,
+    "end": 1.68
+   },
+   {
+    "word": "couvertures",
+    "start": 1.68,
+    "end": 2.26
+   },
+   {
+    "word": "d",
+    "start": 2.26,
+    "end": 2.36
+   },
+   {
+    "word": "'hiver,",
+    "start": 2.36,
+    "end": 2.64
+   },
+   {
+    "word": "vous",
+    "start": 2.8,
+    "end": 3.2
+   },
+   {
+    "word": "avez",
+    "start": 3.2,
+    "end": 3.44
+   },
+   {
+    "word": "décalé",
+    "start": 3.44,
+    "end": 3.96
+   },
+   {
+    "word": "l",
+    "start": 3.96,
+    "end": 4.06
+   },
+   {
+    "word": "'armoire",
+    "start": 4.06,
+    "end": 4.42
+   },
+   {
+    "word": "de",
+    "start": 4.42,
+    "end": 4.58
+   },
+   {
+    "word": "la",
+    "start": 4.58,
+    "end": 4.68
+   },
+   {
+    "word": "chambre",
+    "start": 4.68,
+    "end": 5.02
+   },
+   {
+    "word": "du",
+    "start": 5.02,
+    "end": 5.22
+   },
+   {
+    "word": "fond.",
+    "start": 5.22,
+    "end": 5.46
+   },
+   {
+    "word": "Et",
+    "start": 5.58,
+    "end": 5.96
+   },
+   {
+    "word": "derrière,",
+    "start": 5.96,
+    "end": 6.24
+   },
+   {
+    "word": "dans",
+    "start": 6.62,
+    "end": 7.06
+   },
+   {
+    "word": "l",
+    "start": 7.06,
+    "end": 7.18
+   },
+   {
+    "word": "'angle",
+    "start": 7.18,
+    "end": 7.36
+   },
+   {
+    "word": "du",
+    "start": 7.36,
+    "end": 7.6
+   },
+   {
+    "word": "mur",
+    "start": 7.6,
+    "end": 7.84
+   },
+   {
+    "word": "côté",
+    "start": 7.84,
+    "end": 8.06
+   },
+   {
+    "word": "nord,",
+    "start": 8.06,
+    "end": 8.42
+   },
+   {
+    "word": "la",
+    "start": 8.7,
+    "end": 9.02
+   },
+   {
+    "word": "moisissure",
+    "start": 9.02,
+    "end": 9.64
+   },
+   {
+    "word": "est",
+    "start": 9.64,
+    "end": 9.82
+   },
+   {
+    "word": "revenue.",
+    "start": 9.82,
+    "end": 10.04
+   },
+   {
+    "word": "Des",
+    "start": 10.3,
+    "end": 10.72
+   },
+   {
+    "word": "petits",
+    "start": 10.72,
+    "end": 11
+   },
+   {
+    "word": "points",
+    "start": 11,
+    "end": 11.28
+   },
+   {
+    "word": "gris",
+    "start": 11.28,
+    "end": 11.6
+   },
+   {
+    "word": "serrés,",
+    "start": 11.6,
+    "end": 12.04
+   },
+   {
+    "word": "comme",
+    "start": 12.1,
+    "end": 12.56
+   },
+   {
+    "word": "de",
+    "start": 12.56,
+    "end": 12.7
+   },
+   {
+    "word": "la",
+    "start": 12.7,
+    "end": 12.82
+   },
+   {
+    "word": "suie,",
+    "start": 12.82,
+    "end": 13.14
+   },
+   {
+    "word": "qui",
+    "start": 13.26,
+    "end": 13.64
+   },
+   {
+    "word": "montent",
+    "start": 13.64,
+    "end": 13.98
+   },
+   {
+    "word": "vers",
+    "start": 13.98,
+    "end": 14.08
+   },
+   {
+    "word": "le",
+    "start": 14.08,
+    "end": 14.26
+   },
+   {
+    "word": "clafond.",
+    "start": 14.26,
+    "end": 14.68
+   },
+   {
+    "word": "L",
+    "start": 14.94,
+    "end": 15.18
+   },
+   {
+    "word": "'an",
+    "start": 15.18,
+    "end": 15.26
+   },
+   {
+    "word": "dernier,",
+    "start": 15.26,
+    "end": 15.62
+   },
+   {
+    "word": "vous",
+    "start": 15.78,
+    "end": 16.18
+   },
+   {
+    "word": "l",
+    "start": 16.18,
+    "end": 16.3
+   },
+   {
+    "word": "'aviez",
+    "start": 16.3,
+    "end": 16.48
+   },
+   {
+    "word": "frotté",
+    "start": 16.48,
+    "end": 16.94
+   },
+   {
+    "word": "avec",
+    "start": 16.94,
+    "end": 17.14
+   },
+   {
+    "word": "un",
+    "start": 17.14,
+    "end": 17.32
+   },
+   {
+    "word": "spray",
+    "start": 17.32,
+    "end": 17.58
+   },
+   {
+    "word": "du",
+    "start": 17.58,
+    "end": 17.78
+   },
+   {
+    "word": "supermarché.",
+    "start": 17.78,
+    "end": 18.56
+   },
+   {
+    "word": "Cet",
+    "start": 18.74,
+    "end": 19.16
+   },
+   {
+    "word": "été,",
+    "start": 19.16,
+    "end": 19.44
+   },
+   {
+    "word": "vous",
+    "start": 19.58,
+    "end": 20
+   },
+   {
+    "word": "avez",
+    "start": 20,
+    "end": 20.24
+   },
+   {
+    "word": "même",
+    "start": 20.24,
+    "end": 20.5
+   },
+   {
+    "word": "repeint",
+    "start": 20.5,
+    "end": 20.9
+   },
+   {
+    "word": "le",
+    "start": 20.9,
+    "end": 21.02
+   },
+   {
+    "word": "coin",
+    "start": 21.02,
+    "end": 21.26
+   },
+   {
+    "word": "en",
+    "start": 21.26,
+    "end": 21.4
+   },
+   {
+    "word": "blanc.",
+    "start": 21.4,
+    "end": 21.64
+   },
+   {
+    "word": "C",
+    "start": 21.84,
+    "end": 22.14
+   },
+   {
+    "word": "'est",
+    "start": 22.14,
+    "end": 22.28
+   },
+   {
+    "word": "le",
+    "start": 22.28,
+    "end": 22.32
+   },
+   {
+    "word": "deuxième",
+    "start": 22.32,
+    "end": 22.66
+   },
+   {
+    "word": "hiver",
+    "start": 22.66,
+    "end": 23.08
+   },
+   {
+    "word": "de",
+    "start": 23.08,
+    "end": 23.18
+   },
+   {
+    "word": "suite,",
+    "start": 23.18,
+    "end": 23.46
+   },
+   {
+    "word": "et",
+    "start": 23.66,
+    "end": 24.06
+   },
+   {
+    "word": "vous",
+    "start": 24.06,
+    "end": 24.16
+   },
+   {
+    "word": "vous",
+    "start": 24.16,
+    "end": 24.3
+   },
+   {
+    "word": "dites",
+    "start": 24.3,
+    "end": 24.52
+   },
+   {
+    "word": "que",
+    "start": 24.52,
+    "end": 24.68
+   },
+   {
+    "word": "le",
+    "start": 24.68,
+    "end": 24.82
+   },
+   {
+    "word": "mur",
+    "start": 24.82,
+    "end": 25.02
+   },
+   {
+    "word": "est",
+    "start": 25.02,
+    "end": 25.16
+   },
+   {
+    "word": "fichu.",
+    "start": 25.16,
+    "end": 25.52
+   },
+   {
+    "word": "Sauf",
+    "start": 25.72,
+    "end": 26.2
+   },
+   {
+    "word": "que",
+    "start": 26.2,
+    "end": 26.34
+   },
+   {
+    "word": "dans",
+    "start": 26.34,
+    "end": 26.5
+   },
+   {
+    "word": "ce",
+    "start": 26.5,
+    "end": 26.66
+   },
+   {
+    "word": "coin",
+    "start": 26.66,
+    "end": 26.9
+   },
+   {
+    "word": "-là,",
+    "start": 26.9,
+    "end": 27.06
+   },
+   {
+    "word": "ce",
+    "start": 27.22,
+    "end": 27.62
+   },
+   {
+    "word": "n",
+    "start": 27.62,
+    "end": 27.74
+   },
+   {
+    "word": "'est",
+    "start": 27.74,
+    "end": 27.82
+   },
+   {
+    "word": "pas",
+    "start": 27.82,
+    "end": 27.96
+   },
+   {
+    "word": "le",
+    "start": 27.96,
+    "end": 28.04
+   },
+   {
+    "word": "mur",
+    "start": 28.04,
+    "end": 28.3
+   },
+   {
+    "word": "qui",
+    "start": 28.3,
+    "end": 28.48
+   },
+   {
+    "word": "est",
+    "start": 28.48,
+    "end": 28.6
+   },
+   {
+    "word": "malade.",
+    "start": 28.6,
+    "end": 29.1
+   },
+   {
+    "word": "C",
+    "start": 29.1,
+    "end": 29.56
+   },
+   {
+    "word": "'est",
+    "start": 29.56,
+    "end": 29.74
+   },
+   {
+    "word": "l",
+    "start": 29.74,
+    "end": 29.86
+   },
+   {
+    "word": "'eau",
+    "start": 29.86,
+    "end": 29.92
+   },
+   {
+    "word": "qui",
+    "start": 29.92,
+    "end": 30.08
+   },
+   {
+    "word": "vient",
+    "start": 30.08,
+    "end": 30.3
+   },
+   {
+    "word": "d",
+    "start": 30.3,
+    "end": 30.38
+   },
+   {
+    "word": "'ailleurs.",
+    "start": 30.38,
+    "end": 30.58
+   },
+   {
+    "word": "Je",
+    "start": 30.92,
+    "end": 31.32
+   },
+   {
+    "word": "vais",
+    "start": 31.32,
+    "end": 31.5
+   },
+   {
+    "word": "vous",
+    "start": 31.5,
+    "end": 31.62
+   },
+   {
+    "word": "montrer",
+    "start": 31.62,
+    "end": 31.96
+   },
+   {
+    "word": "la",
+    "start": 31.96,
+    "end": 32.12
+   },
+   {
+    "word": "vieille",
+    "start": 32.12,
+    "end": 32.4
+   },
+   {
+    "word": "astuce",
+    "start": 32.4,
+    "end": 32.84
+   },
+   {
+    "word": "de",
+    "start": 32.84,
+    "end": 32.94
+   },
+   {
+    "word": "maçon",
+    "start": 32.94,
+    "end": 33.3
+   },
+   {
+    "word": "qui",
+    "start": 33.3,
+    "end": 33.46
+   },
+   {
+    "word": "empêche",
+    "start": 33.46,
+    "end": 33.96
+   },
+   {
+    "word": "la",
+    "start": 33.96,
+    "end": 34.08
+   },
+   {
+    "word": "moisissure",
+    "start": 34.08,
+    "end": 34.64
+   },
+   {
+    "word": "de",
+    "start": 34.64,
+    "end": 34.8
+   },
+   {
+    "word": "revenir.",
+    "start": 34.8,
+    "end": 35.08
+   },
+   {
+    "word": "Elle",
+    "start": 35.44,
+    "end": 35.82
+   },
+   {
+    "word": "tient",
+    "start": 35.82,
+    "end": 36.14
+   },
+   {
+    "word": "dans",
+    "start": 36.14,
+    "end": 36.26
+   },
+   {
+    "word": "un",
+    "start": 36.26,
+    "end": 36.44
+   },
+   {
+    "word": "sac",
+    "start": 36.44,
+    "end": 36.7
+   },
+   {
+    "word": "de",
+    "start": 36.7,
+    "end": 36.86
+   },
+   {
+    "word": "chaud,",
+    "start": 36.86,
+    "end": 37.16
+   },
+   {
+    "word": "une",
+    "start": 37.28,
+    "end": 37.6
+   },
+   {
+    "word": "brosse",
+    "start": 37.6,
+    "end": 38.08
+   },
+   {
+    "word": "et",
+    "start": 38.08,
+    "end": 38.26
+   },
+   {
+    "word": "quelques",
+    "start": 38.26,
+    "end": 38.7
+   },
+   {
+    "word": "jours",
+    "start": 38.7,
+    "end": 38.98
+   },
+   {
+    "word": "de",
+    "start": 38.98,
+    "end": 39.16
+   },
+   {
+    "word": "patience.",
+    "start": 39.16,
+    "end": 39.48
+   },
+   {
+    "word": "Le",
+    "start": 39.98,
+    "end": 40.34
+   },
+   {
+    "word": "pour",
+    "start": 40.34,
+    "end": 40.52
+   },
+   {
+    "word": "toujours,",
+    "start": 40.52,
+    "end": 40.88
+   },
+   {
+    "word": "je",
+    "start": 41.16,
+    "end": 41.5
+   },
+   {
+    "word": "vais",
+    "start": 41.5,
+    "end": 41.7
+   },
+   {
+    "word": "vous",
+    "start": 41.7,
+    "end": 41.84
+   },
+   {
+    "word": "dire",
+    "start": 41.84,
+    "end": 42.06
+   },
+   {
+    "word": "honnêtement",
+    "start": 42.06,
+    "end": 42.52
+   },
+   {
+    "word": "ce",
+    "start": 42.52,
+    "end": 42.68
+   },
+   {
+    "word": "qu",
+    "start": 42.68,
+    "end": 42.82
+   },
+   {
+    "word": "'il",
+    "start": 42.82,
+    "end": 42.9
+   },
+   {
+    "word": "vaut.",
+    "start": 42.9,
+    "end": 43.12
+   },
+   {
+    "word": "Ça",
+    "start": 43.26,
+    "end": 43.64
+   },
+   {
+    "word": "tient",
+    "start": 43.64,
+    "end": 43.96
+   },
+   {
+    "word": "tant",
+    "start": 43.96,
+    "end": 44.08
+   },
+   {
+    "word": "que",
+    "start": 44.08,
+    "end": 44.24
+   },
+   {
+    "word": "le",
+    "start": 44.24,
+    "end": 44.38
+   },
+   {
+    "word": "coin",
+    "start": 44.38,
+    "end": 44.62
+   },
+   {
+    "word": "reste",
+    "start": 44.62,
+    "end": 44.86
+   },
+   {
+    "word": "sec",
+    "start": 44.86,
+    "end": 45.24
+   },
+   {
+    "word": "et",
+    "start": 45.24,
+    "end": 45.4
+   },
+   {
+    "word": "tiède.",
+    "start": 45.4,
+    "end": 45.74
+   },
+   {
+    "word": "Et",
+    "start": 45.9,
+    "end": 46.3
+   },
+   {
+    "word": "la",
+    "start": 46.3,
+    "end": 46.38
+   },
+   {
+    "word": "chaud,",
+    "start": 46.38,
+    "end": 46.68
+   },
+   {
+    "word": "posée",
+    "start": 46.8,
+    "end": 47.4
+   },
+   {
+    "word": "au",
+    "start": 47.4,
+    "end": 47.52
+   },
+   {
+    "word": "bon",
+    "start": 47.52,
+    "end": 47.7
+   },
+   {
+    "word": "moment,",
+    "start": 47.7,
+    "end": 48
+   },
+   {
+    "word": "ne",
+    "start": 48.16,
+    "end": 48.54
+   },
+   {
+    "word": "laisse",
+    "start": 48.54,
+    "end": 48.76
+   },
+   {
+    "word": "plus",
+    "start": 48.76,
+    "end": 48.96
+   },
+   {
+    "word": "grand",
+    "start": 48.96,
+    "end": 49.16
+   },
+   {
+    "word": "-chose",
+    "start": 49.16,
+    "end": 49.44
+   },
+   {
+    "word": "à",
+    "start": 49.44,
+    "end": 49.6
+   },
+   {
+    "word": "la",
+    "start": 49.6,
+    "end": 49.66
+   },
+   {
+    "word": "moisissure",
+    "start": 49.66,
+    "end": 50.2
+   },
+   {
+    "word": "pour",
+    "start": 50.2,
+    "end": 50.42
+   },
+   {
+    "word": "s",
+    "start": 50.42,
+    "end": 50.6
+   },
+   {
+    "word": "'installer.",
+    "start": 50.6,
+    "end": 50.92
+   },
+   {
+    "word": "On",
+    "start": 51.1,
+    "end": 51.46
+   },
+   {
+    "word": "va",
+    "start": 51.46,
+    "end": 51.58
+   },
+   {
+    "word": "faire",
+    "start": 51.58,
+    "end": 51.78
+   },
+   {
+    "word": "ça",
+    "start": 51.78,
+    "end": 51.98
+   },
+   {
+    "word": "en",
+    "start": 51.98,
+    "end": 52.12
+   },
+   {
+    "word": "quatre",
+    "start": 52.12,
+    "end": 52.36
+   },
+   {
+    "word": "temps.",
+    "start": 52.36,
+    "end": 52.68
+   },
+   {
+    "word": "Pourquoi",
+    "start": 52.84,
+    "end": 53.28
+   },
+   {
+    "word": "c",
+    "start": 53.28,
+    "end": 53.48
+   },
+   {
+    "word": "'est",
+    "start": 53.48,
+    "end": 53.6
+   },
+   {
+    "word": "toujours",
+    "start": 53.6,
+    "end": 53.84
+   },
+   {
+    "word": "le",
+    "start": 53.84,
+    "end": 54.5
+   },
+   {
+    "word": "geste",
+    "start": 54.5,
+    "end": 55.06
+   },
+   {
+    "word": "en",
+    "start": 55.06,
+    "end": 55.38
+   },
+   {
+    "word": "quatre",
+    "start": 55.38,
+    "end": 55.66
+   },
+   {
+    "word": "étapes",
+    "start": 55.66,
+    "end": 56.2
+   },
+   {
+    "word": "?",
+    "start": 56.2,
+    "end": 56.22
+   },
+   {
+    "word": "Les",
+    "start": 56.22,
+    "end": 56.62
+   },
+   {
+    "word": "erreurs",
+    "start": 56.62,
+    "end": 57.06
+   },
+   {
+    "word": "qui",
+    "start": 57.06,
+    "end": 57.18
+   },
+   {
+    "word": "le",
+    "start": 57.18,
+    "end": 57.26
+   },
+   {
+    "word": "ratent.",
+    "start": 57.26,
+    "end": 57.68
+   }
+  ],
+  "shots": [
+   {
+    "n": 1,
+    "a": 0,
+    "b": 5.8,
+    "kind": "avatar",
+    "words": "Ce matin, en cherchant les couvertures d'hiver, vous avez décalé l'armoire de la chambre du fond."
+   },
+   {
+    "n": 2,
+    "a": 5.8,
+    "b": 8.6,
+    "kind": "image.gen",
+    "words": "Et derrière, dans l'angle du mur côté nord, la"
+   },
+   {
+    "n": 3,
+    "a": 8.6,
+    "b": 10.9,
+    "kind": "image.gen",
+    "words": "la moisissure est revenue. Des petits"
+   },
+   {
+    "n": 4,
+    "a": 10.9,
+    "b": 14.3,
+    "kind": "video.gen",
+    "words": "petits points gris serrés, comme de la suie, qui montent vers le clafond. L'an dernier, vous l'aviez frotté avec"
+   },
+   {
+    "n": 5,
+    "a": 14.3,
+    "b": 17,
+    "kind": "video.gen",
+    "words": "avec un spray du supermarché. Cet été, vous avez même"
+   },
+   {
+    "n": 6,
+    "a": 17,
+    "b": 18.9,
+    "kind": "video.gen",
+    "words": "même repeint le coin en blanc."
+   },
+   {
+    "n": 7,
+    "a": 18.9,
+    "b": 23.9,
+    "kind": "avatar",
+    "words": "C'est le deuxième hiver de suite, et vous vous dites que le mur est fichu."
+   },
+   {
+    "n": 8,
+    "a": 23.9,
+    "b": 26.8,
+    "kind": "avatar",
+    "words": "Sauf que dans ce coin-là, ce n'est pas le mur qui est"
+   },
+   {
+    "n": 9,
+    "a": 26.8,
+    "b": 29.5,
+    "kind": "image.gen",
+    "words": "est malade. C'est l'eau qui vient d'ailleurs."
+   },
+   {
+    "n": 10,
+    "a": 29.5,
+    "b": 33.6,
+    "kind": "avatar",
+    "words": "Je vais vous montrer la vieille astuce de maçon qui empêche"
+   },
+   {
+    "n": 11,
+    "a": 33.6,
+    "b": 36.7,
+    "kind": "video.gen",
+    "words": "empêche la moisissure de revenir. Elle tient dans un"
+   },
+   {
+    "n": 12,
+    "a": 36.7,
+    "b": 40.9,
+    "kind": "image.gen",
+    "words": "un sac de chaux, une brosse et quelques jours de patience. Le pour toujours, je vais vous"
+   },
+   {
+    "n": 13,
+    "a": 40.9,
+    "b": 43.5,
+    "kind": "video.gen",
+    "words": "vous dire honnêtement ce qu'il vaut."
+   },
+   {
+    "n": 14,
+    "a": 43.5,
+    "b": 46.6,
+    "kind": "avatar",
+    "words": "Ça tient tant que le coin reste sec et tiède. Et la"
+   },
+   {
+    "n": 15,
+    "a": 46.6,
+    "b": 48.6,
+    "kind": "video.gen",
+    "words": "la chaux, posée au bon moment, ne"
+   },
+   {
+    "n": 16,
+    "a": 48.6,
+    "b": 52.3,
+    "kind": "video.gen",
+    "words": "ne laisse plus grand-chose à la moisissure pour s'installer. On va faire ça en"
+   },
+   {
+    "n": 17,
+    "a": 52.3,
+    "b": 54.4,
+    "kind": "video.gen",
+    "words": "en quatre temps. Pourquoi c'est toujours..."
+   },
+   {
+    "n": 18,
+    "a": 54.4,
+    "b": 56.4,
+    "kind": "avatar",
+    "words": "Le geste, en quatre étapes."
+   },
+   {
+    "n": 19,
+    "a": 56.4,
+    "b": 58.1,
+    "kind": "image.gen",
+    "words": "Les erreurs qui le ratent."
+   }
+  ]
+ }
+}

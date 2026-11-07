@@ -1,0 +1,12 @@
+**/node_modules
+.git
+.claude
+dist
+out
+docs
+web
+tests
+deploy
+*.db
+*.db-*
+.env*

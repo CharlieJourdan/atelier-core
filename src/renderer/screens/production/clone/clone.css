@@ -1,0 +1,61 @@
+/* The cloning screens' own motion and the film-strip motif (frames with sprocket holes). Plain CSS over the app's design
+   tokens; no runtime style injection (strict CSP). Honours « reduce motion ». */
+
+@keyframes clone-flash {
+  0% { background-color: var(--brand-soft); box-shadow: inset 0 0 0 1px var(--brand-line); }
+  100% { background-color: transparent; box-shadow: inset 0 0 0 1px transparent; }
+}
+@keyframes clone-rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes clone-beat {
+  0%, 100% { opacity: 0.35; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.clone-flash { animation: clone-flash 2.4s ease-out 1; }
+.clone-rise { animation: clone-rise 0.28s ease-out both; }
+.clone-beat { animation: clone-beat 1.4s ease-in-out infinite; }
+
+/* A strip of film: sprocket holes along the top and bottom edge, frames between them. */
+.clone-strip {
+  --hole: color-mix(in oklab, var(--fg-4) 55%, transparent);
+  position: relative;
+  padding: 14px 8px;
+  border-radius: 10px;
+  background: var(--surface-0);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+.clone-strip::before,
+.clone-strip::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 5px;
+  background-image: radial-gradient(var(--hole) 1.5px, transparent 2px);
+  background-size: 14px 5px;
+  background-repeat: repeat-x;
+  opacity: 0.7;
+}
+.clone-strip::before { top: 4px; }
+.clone-strip::after { bottom: 4px; }
+
+/* The timeline rail that joins the stage markers. */
+.clone-rail { position: relative; }
+.clone-rail::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 28px;
+  bottom: -8px;
+  width: 2px;
+  background: var(--line-2);
+}
+.clone-rail[data-done='true']::before { background: var(--brand-line); }
+.clone-rail:last-child::before { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .clone-flash, .clone-rise, .clone-beat { animation: none; }
+}

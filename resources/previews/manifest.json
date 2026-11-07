@@ -1,0 +1,349 @@
+{
+  "schema": "atelier.previews/1",
+  "items": [
+    {
+      "key": "style:phone-real",
+      "kind": "style",
+      "family": "image",
+      "label": "style phone-real",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "style-phone-real/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "style-phone-real/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "style:presenter-studio",
+      "kind": "style",
+      "family": "presenter",
+      "label": "style presenter-studio",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "style-presenter-studio/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "image:gpt-image-25-low",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · gpt-image-25-low",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-gpt-image-25-low/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-gpt-image-25-low/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "image:gpt-image-25-fal-low",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · gpt-image-25-fal-low",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-gpt-image-25-fal-low/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-gpt-image-25-fal-low/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "image:gpt-image-25-kie",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · gpt-image-25-kie",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-gpt-image-25-kie/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-gpt-image-25-kie/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "image:gpt-image-25-medium",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · gpt-image-25-medium",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-gpt-image-25-medium/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-gpt-image-25-medium/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "image:gpt-image-25-fal-medium",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · gpt-image-25-fal-medium",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-gpt-image-25-fal-medium/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-gpt-image-25-fal-medium/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "image:nano-banana-2",
+      "kind": "engine",
+      "family": "image",
+      "label": "image · nano-banana-2",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "image-nano-banana-2/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "image-nano-banana-2/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "clip:veo31-lite-relaxed",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · veo31-lite-relaxed",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-veo31-lite-relaxed/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "clip:grok-imagine-15-lite",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · grok-imagine-15-lite",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-grok-imagine-15-lite/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "clip:veo31-lite-vertex",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · veo31-lite-vertex",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-veo31-lite-vertex/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "clip:veo31-lite-kie",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · veo31-lite-kie",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-veo31-lite-kie/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "clip:veo31-lite",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · veo31-lite",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-veo31-lite/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "clip:veo31-fast",
+      "kind": "engine",
+      "family": "clip",
+      "label": "clip · veo31-fast",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "clip-veo31-fast/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:heygen-mcp",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · heygen-mcp",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-heygen-mcp/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:heygen-avatar4",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · heygen-avatar4",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-heygen-avatar4/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:pruna-avatar",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · pruna-avatar",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-pruna-avatar/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:kling-avatar-kie",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · kling-avatar-kie",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-kling-avatar-kie/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:infinitetalk-gpu",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · infinitetalk-gpu",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-infinitetalk-gpu/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "presenter:hedra-c3",
+      "kind": "engine",
+      "family": "presenter",
+      "label": "presenter · hedra-c3",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "presenter-hedra-c3/clip.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "style:clean-stock",
+      "kind": "style",
+      "family": "image",
+      "label": "style clean-stock",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "style-clean-stock/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "style-clean-stock/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "key": "style:archive-real",
+      "kind": "style",
+      "family": "image",
+      "label": "style archive-real",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "style-archive-real/still-1.jpg",
+          "type": "image"
+        },
+        {
+          "ref": "style-archive-real/still-2.jpg",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

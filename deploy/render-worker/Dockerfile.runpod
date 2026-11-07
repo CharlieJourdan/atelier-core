@@ -1,0 +1,9 @@
+# The render worker image with RunPod's handler on top (vps-rendu). Build the base image first, then:
+#   docker build -f deploy/render-worker/Dockerfile.runpod --build-arg BASE=atelier-render-worker:dev -t <registry>/atelier-render-runpod:1 .
+# Needs the base built with WHISPER=1 (it brings the Python venv in /opt/whisper). NEVER RUN YET.
+ARG BASE=atelier-render-worker:dev
+FROM ${BASE}
+RUN /opt/whisper/bin/pip install runpod
+COPY deploy/render-worker/runpod_handler.py /app/runpod_handler.py
+ENTRYPOINT []
+CMD ["/opt/whisper/bin/python", "-u", "/app/runpod_handler.py"]

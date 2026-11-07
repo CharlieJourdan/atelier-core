@@ -1,0 +1,229 @@
+{
+  "schema": "atelier.previews/1",
+  "items": [
+    {
+      "key": "option:chapters:false",
+      "kind": "option",
+      "family": "clip",
+      "label": "chapters = false",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-chapters-false/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:chapters:true",
+      "kind": "option",
+      "family": "clip",
+      "label": "chapters = true",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-chapters-true/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:captions:false",
+      "kind": "option",
+      "family": "clip",
+      "label": "captions = false",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-captions-false/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:captions:true",
+      "kind": "option",
+      "family": "clip",
+      "label": "captions = true",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-captions-true/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presentershots:single",
+      "kind": "option",
+      "family": "clip",
+      "label": "presenterShots = single",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-presentershots-single/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presentershots:recrops",
+      "kind": "option",
+      "family": "clip",
+      "label": "presenterShots = recrops",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-presentershots-recrops/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:sponsor:off",
+      "kind": "option",
+      "family": "clip",
+      "label": "sponsor = off",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-sponsor-off/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:sponsor:auto",
+      "kind": "option",
+      "family": "clip",
+      "label": "sponsor = auto",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-sponsor-auto/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:music:none",
+      "kind": "option",
+      "family": "clip",
+      "label": "music = none",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-music-none/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:music:library",
+      "kind": "option",
+      "family": "clip",
+      "label": "music = library",
+      "source": "demo",
+      "madeAt": "2026-11-01",
+      "files": [
+        {
+          "ref": "option-music-library/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presenterlayouts:full",
+      "kind": "option",
+      "family": "clip",
+      "label": "Marcel, plein écran",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-presenterlayouts-full/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presenterlayouts:all",
+      "kind": "option",
+      "family": "clip",
+      "label": "Marcel, moitié d’écran (composée comme le rendu)",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-presenterlayouts-all/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presenterinbroll:not-presenter",
+      "kind": "option",
+      "family": "clip",
+      "label": "Marcel, les mains seules",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-presenterinbroll-not-presenter/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:presenterinbroll:presenter-as-actor",
+      "kind": "option",
+      "family": "clip",
+      "label": "Kenji (présentateur inventé) joue l’action",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-presenterinbroll-presenter-as-actor/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:editing:simple",
+      "kind": "option",
+      "family": "clip",
+      "label": "Marcel, un plan de 3,3 s",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-editing-simple/loop.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "key": "option:editing:dynamic",
+      "kind": "option",
+      "family": "clip",
+      "label": "Les mêmes images coupées toutes les secondes",
+      "source": "real",
+      "madeAt": "2026-11-02",
+      "files": [
+        {
+          "ref": "option-editing-dynamic/loop.mp4",
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

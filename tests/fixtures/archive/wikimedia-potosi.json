@@ -1,0 +1,214 @@
+{
+ "batchcomplete": true,
+ "query": {
+  "pages": [
+   {
+    "pageid": 45008715,
+    "ns": 6,
+    "title": "File:Antonio López de Quiroga.jpg",
+    "index": 3,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 88711,
+      "width": 598,
+      "height": 727,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Antonio_L%C3%B3pez_de_Quiroga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 2431,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Antonio_L%C3%B3pez_de_Quiroga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 2431
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Antonio_L%C3%B3pez_de_Quiroga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Antonio_L%C3%B3pez_de_Quiroga.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45008715",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Antonio López de Quiroga",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "Self-published work|17th-century paintings, location and year missing|White horses in art|People with horses in art|Paintings of men of Peru|Antonio López de Quiroga",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "2015-11-14",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gontrix&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gontrix (page does not exist)\">Gontrix</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   },
+   {
+    "pageid": 63812768,
+    "ns": 6,
+    "title": "File:20170808 Bolivia 1411 Potosí sRGB (26204035019).jpg",
+    "index": 2,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 2266482,
+      "width": 2736,
+      "height": 3648,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20170808_Bolivia_1411_Potos%C3%AD_sRGB_%2826204035019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 2667,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20170808_Bolivia_1411_Potos%C3%AD_sRGB_%2826204035019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 2667
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20170808_Bolivia_1411_Potos%C3%AD_sRGB_%2826204035019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:20170808_Bolivia_1411_Potos%C3%AD_sRGB_(26204035019).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63812768",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "20170808 Bolivia 1411 Potosí sRGB (26204035019)",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "2017 in Bolivia|Cuzco School|Religious paintings in Bolivia|Paintings of the Coronation of Mary|Paintings of Virgin Mary in Bolivia|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Paintings in Casa de la Moneda de Potosí",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "2017-08-08 09:20",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9508280@N07/26204035019/\">20170808_Bolivia_1411 Potosí sRGB</a>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9508280@N07\">Dan Lundberg</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   },
+   {
+    "pageid": 63812776,
+    "ns": 6,
+    "title": "File:20170808 Bolivia 1414 Potosí sRGB (37949208782).jpg",
+    "index": 1,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 2087354,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/20170808_Bolivia_1414_Potos%C3%AD_sRGB_%2837949208782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 1500,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/20170808_Bolivia_1414_Potos%C3%AD_sRGB_%2837949208782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 1500
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/20170808_Bolivia_1414_Potos%C3%AD_sRGB_%2837949208782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:20170808_Bolivia_1414_Potos%C3%AD_sRGB_(37949208782).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63812776",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "20170808 Bolivia 1414 Potosí sRGB (37949208782)",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "Paintings of Christian saints in Bolivia|Paintings of Madonna and Child in Bolivia|Interiors of museums in Bolivia|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Bolivia photographs taken on 2017-08-08|Casa de la Moneda de Potosí-interior|Paintings in Casa de la Moneda de Potosí",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "2017-08-08 09:29",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9508280@N07/37949208782/\">20170808_Bolivia_1414 Potosí sRGB</a>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9508280@N07\">Dan Lundberg</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   }
+  ]
+ }
+}

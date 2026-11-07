@@ -1,0 +1,11 @@
+// The cloning engine's contract (decision 0095): one file per artefact, all re-exported here.
+export * from './common'
+export * from './brief'
+export * from './corpus'
+export * from './video-analysis'
+export * from './synthesis'
+export * from './feasibility'
+export * from './style-definition'
+export * from './pipeline-plan'
+export * from './round'
+export * from './report'

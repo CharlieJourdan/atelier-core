@@ -1,0 +1,13 @@
+# Continuous backup of the Cloud's database to Cloudflare R2 (or any S3), with Litestream (https://litestream.io).
+# The access keys come from the environment of the litestream service (LITESTREAM_ACCESS_KEY_ID /
+# LITESTREAM_SECRET_ACCESS_KEY), never from this file.
+dbs:
+  - path: /var/lib/atelier-cloud/cloud.db
+    replicas:
+      - type: s3
+        bucket: atelier-cloud-backups
+        path: cloud.db
+        endpoint: https://__R2_ACCOUNT_ID__.r2.cloudflarestorage.com
+        region: auto
+        retention: 720h
+        sync-interval: 10s

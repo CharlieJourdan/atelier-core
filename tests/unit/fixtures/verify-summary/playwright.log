@@ -1,0 +1,47 @@
+
+Running 4 tests using 1 worker
+
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 shell.spec.ts:3:7 › shell › opens the home screen (8ms)
+  x  2 shell.spec.ts:4:7 › shell › shows the conversations list (8ms)
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  3 shell.spec.ts:6:5 › boots without error (4ms)
+  -  4 shell.spec.ts:7:6 › skipped spec
+
+
+  1) shell.spec.ts:4:7 › shell › shows the conversations list ──────────────────────────────────────────
+
+    Error: title of the window
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Conversations"
+    Received: "Accueil"
+
+      2 | test.describe('shell', () => {
+      3 |   test('opens the home screen', async () => { expect(1).toBe(1) })
+    > 4 |   test('shows the conversations list', async () => { expect('Accueil', 'title of the window').toBe('Conversations') })
+        |                                                                                               ^
+      5 | })
+      6 | test('boots without error', async () => { throw new Error('electron exited early\n  at launch (tests/e2e/launch.ts:12:3)') })
+      7 | test.skip('skipped spec', async () => undefined)
+        at /Users/me/dev/atelier/tests/e2e/shell.spec.ts:4:95
+
+    Error Context: ../../test-results/shell-shell-shows-the-conversations-list/error-context.md
+
+  2) shell.spec.ts:6:5 › boots without error ───────────────────────────────────────────────────────────
+
+    Error: electron exited early
+      at launch (tests/e2e/launch.ts:12:3)
+        at launch (tests/e2e/launch.ts:12:3)
+        at /Users/me/dev/atelier/tests/e2e/shell.spec.ts:6:49
+
+    Error Context: ../../test-results/shell-boots-without-error/error-context.md
+
+  2 failed
+    shell.spec.ts:4:7 › shell › shows the conversations list ───────────────────────────────────────────
+    shell.spec.ts:6:5 › boots without error ────────────────────────────────────────────────────────────
+  1 skipped
+  1 passed (1.5s)

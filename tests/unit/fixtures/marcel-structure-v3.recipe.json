@@ -1,0 +1,264 @@
+{
+ "$schema": "atelier.recette/2",
+ "name": "marcel artisan — passage 3 min, structure mesurée v3 (avatar-layouts)",
+ "base": "avatar@1",
+ "videoType": "avatar-long",
+ "format": {
+  "aspect": "16:9",
+  "minutes": 12
+ },
+ "language": null,
+ "mix": {
+  "presenter": 0.2482,
+  "clipAi": 0.27,
+  "imageAi": 0.4818,
+  "curve": [
+   {
+    "fromS": 0,
+    "shares": {
+     "presenter": 0.36,
+     "clipAi": 0.64,
+     "imageAi": 0
+    }
+   },
+   {
+    "fromS": 51,
+    "shares": {
+     "presenter": 0.18,
+     "clipAi": 0.6833,
+     "imageAi": 0.1367
+    }
+   },
+   {
+    "fromS": 92,
+    "shares": {
+     "presenter": 0.32,
+     "clipAi": 0.5667,
+     "imageAi": 0.1133
+    }
+   },
+   {
+    "fromS": 150,
+    "shares": {
+     "presenter": 0.24,
+     "clipAi": 0.3547,
+     "imageAi": 0.4053
+    }
+   },
+   {
+    "fromS": 300,
+    "shares": {
+     "presenter": 0.24,
+     "clipAi": 0.1438,
+     "imageAi": 0.6162
+    }
+   },
+   {
+    "fromS": 600,
+    "shares": {
+     "presenter": 0.22,
+     "clipAi": 0.0308,
+     "imageAi": 0.7492
+    }
+   }
+  ]
+ },
+ "options": {
+  "music": "none",
+  "script": "import",
+  "clipPairs": "half",
+  "clipShare": 0.27
+ },
+ "inputs": {
+  "presenter": "channel",
+  "voice": "channel",
+  "style": "channel",
+  "sponsor": "channel"
+ },
+ "capCredits": 4600,
+ "checkpoints": null,
+ "bricks": [
+  {
+   "tech": "idea.brief@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "idea.support@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "script.write@2",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "script.sponsor@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "voice.tts@1",
+   "settings": {
+    "maxPauseS": 0.3
+   },
+   "engine": "voice:ai33",
+   "fallbacks": [
+    "voice:minimax-28-hd"
+   ],
+   "style": null
+  },
+  {
+   "tech": "words.align@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "director.plan@1",
+   "settings": {
+    "presenterRunMaxS": 7,
+    "cutLeadS": 0.1,
+    "repeatWindowS": 20,
+    "labelsPerMin": 0,
+    "illustration": "reference-literal",
+    "presenterOnTalk": true,
+    "presenterLayouts": {
+     "fromS": 77,
+     "full": 0,
+     "split": 0.78,
+     "pip": 0.22,
+     "presenterSide": "left",
+     "inset": {
+      "corner": "bottom-left",
+      "widthFrac": 0.371,
+      "marginXFrac": 0.011,
+      "marginYFrac": 0.036,
+      "borderFrac": 0.003
+     },
+     "insetGapS": 50,
+     "outro": {
+      "lastS": 45,
+      "full": 0,
+      "split": 0.5,
+      "pip": 0.5
+     },
+     "triggers": {
+      "intro": {
+       "split": 1
+      }
+     }
+    },
+    "layouts": [
+     "full",
+     "split",
+     "pip"
+    ],
+    "locale": "fr-FR",
+    "objectNotes": [
+     "condensate pipe/condensate drain/condensate hose/drain hose/drain pipe/tuyau condensats: a thin 16 mm flexible white PVC tube coming out under the indoor unit or through the wall, never a wide corrugated duct or a garden hose",
+     "condensate pump/pompe relevage: a small white plastic box the size of a soap bar hidden in the trunking under the indoor unit, with a thin tube in and out",
+     "electrical panel/breaker panel/circuit breaker/disjoncteur/tableau électrique: a French domestic panel, white plastic with rows of small white modular DIN-rail breakers and labels, never a grey American metal breaker box",
+     "outdoor unit/condenser/unité extérieure: a European split air-conditioner outdoor unit, a white box with ONE round fan grille on its front, on wall brackets or feet, never an American square condenser with a top fan"
+    ]
+   },
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "visuals.fulfil@1",
+   "settings": {
+    "illustrationBar": 8,
+    "alikeWindowS": 20,
+    "locale": "fr-FR",
+    "objectNotes": [
+     "condensate pipe/condensate drain/condensate hose/drain hose/drain pipe/tuyau condensats: a thin 16 mm flexible white PVC tube coming out under the indoor unit or through the wall, never a wide corrugated duct or a garden hose",
+     "condensate pump/pompe relevage: a small white plastic box the size of a soap bar hidden in the trunking under the indoor unit, with a thin tube in and out",
+     "electrical panel/breaker panel/circuit breaker/disjoncteur/tableau électrique: a French domestic panel, white plastic with rows of small white modular DIN-rail breakers and labels, never a grey American metal breaker box",
+     "outdoor unit/condenser/unité extérieure: a European split air-conditioner outdoor unit, a white box with ONE round fan grille on its front, on wall brackets or feet, never an American square condenser with a top fan"
+    ]
+   },
+   "engine": null,
+   "fallbacks": [],
+   "style": "phone-real"
+  },
+  {
+   "tech": "clip.make@1",
+   "settings": {
+    "clipMotion": "Real phone video held steady at eye level, close to the subject: the camera barely moves; only what is already in the picture moves (the hands when they are in it, else the object, the water or the light), slowly and naturally, doing what the scene says; nobody and nothing enters the frame, no hands appear, the scene stays the same"
+   },
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "avatar.speak@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": "presenter-studio"
+  },
+  {
+   "tech": "captions.make@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "edit.sponsor@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "sound.music@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "render.assemble@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "qc.check@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  },
+  {
+   "tech": "thumbnail.make@1",
+   "settings": {},
+   "engine": "image:gpt-image-25-low",
+   "fallbacks": [
+    "image:gpt-image-25-fal-low"
+   ],
+   "style": null
+  },
+  {
+   "tech": "package.youtube@1",
+   "settings": {},
+   "engine": null,
+   "fallbacks": [],
+   "style": null
+  }
+ ]
+}

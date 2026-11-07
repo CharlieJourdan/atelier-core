@@ -1,0 +1,54 @@
+
+ RUN  v5.0.5 /Users/me/dev/atelier
+
+ ❯ tests/unit/engine-demo-fixture.test.ts (4 tests | 2 failed | 1 skipped) 12ms
+   ❯ engine render (3)
+     ✓ passes 2ms
+     × renders the bottom band 7ms
+     ↓ skipped one
+   × throws an engine error 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/engine-demo-fixture.test.ts > engine render > renders the bottom band
+AssertionError: expected { width: 1920, ok: false } to deeply equal { width: 1920, ok: true }
+
+- Expected
++ Received
+
+  {
+-   "ok": true,
++   "ok": false,
+    "width": 1920,
+  }
+
+ ❯ tests/unit/engine-demo-fixture.test.ts:5:40
+      3|   it('passes', () => expect(1).toBe(1))
+      4|   it('renders the bottom band', () => {
+      5|     expect({ width: 1920, ok: false }).toEqual({ width: 1920, ok: true…
+       |                                        ^
+      6|   })
+      7|   it.skip('skipped one', () => undefined)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/unit/engine-demo-fixture.test.ts > throws an engine error
+Error: ffmpeg failed (exit 1): No such filter: 'ass'
+Error initializing filters
+ ❯ tests/unit/engine-demo-fixture.test.ts:10:9
+      8| })
+      9| it('throws an engine error', () => {
+     10|   throw new Error('ffmpeg failed (exit 1): No such filter: \'ass\'\nEr…
+       |         ^
+     11| })
+     12|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed | 1 skipped (4)
+   Start at  07:19:05
+   Duration  250ms (transform 46%, import 24%, tests 21%, worker 10%)
+
+JSON report written to /Users/me/dev/atelier-verify/logs-v2/vitest.json

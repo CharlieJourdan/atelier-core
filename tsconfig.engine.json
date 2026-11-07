@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "erasableSyntaxOnly": true
+  },
+  "include": ["src/engine/**/*", "src/shared/**/*", "scripts/engine-demo.ts", "scripts/engine-reddit-demo.ts", "src/renderer/env.d.ts"],
+  "exclude": []
+}

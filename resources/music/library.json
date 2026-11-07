@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "id": "atelier-reflective-1",
+      "file": "reflective-1.m4a",
+      "title": "Lueur lente",
+      "mood": "reflective",
+      "durationS": 45,
+      "loop": true,
+      "licence": "CC0-1.0",
+      "author": "Atelier (scripts/make-music.mjs)",
+      "lufs": -20
+    },
+    {
+      "id": "atelier-tension-1",
+      "file": "tension-1.m4a",
+      "title": "Pouls sourd",
+      "mood": "tension",
+      "durationS": 40,
+      "loop": true,
+      "licence": "CC0-1.0",
+      "author": "Atelier (scripts/make-music.mjs)",
+      "lufs": -20
+    },
+    {
+      "id": "atelier-hopeful-1",
+      "file": "hopeful-1.m4a",
+      "title": "Matin clair",
+      "mood": "hopeful",
+      "durationS": 42.667,
+      "loop": true,
+      "licence": "CC0-1.0",
+      "author": "Atelier (scripts/make-music.mjs)",
+      "lufs": -20
+    }
+  ]
+}

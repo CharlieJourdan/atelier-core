@@ -1,0 +1,54 @@
+{
+ "metadata": {
+  "identifier": "sts102-349-014"
+ },
+ "files": [
+  {
+   "name": "__ia_thumb.jpg",
+   "format": "Item Tile",
+   "size": "10992",
+   "source": "original"
+  },
+  {
+   "name": "sts102-349-014.jpg",
+   "format": "JPEG",
+   "size": "2995201",
+   "source": "derivative"
+  },
+  {
+   "name": "sts102-349-014.tif",
+   "format": "TIFF",
+   "size": "17716552",
+   "source": "original"
+  },
+  {
+   "name": "sts102-349-014.tif_meta.txt",
+   "format": "Metadata",
+   "size": "1610",
+   "source": "original"
+  },
+  {
+   "name": "sts102-349-014_archive.torrent",
+   "format": "Archive BitTorrent",
+   "size": "2764",
+   "source": "metadata"
+  },
+  {
+   "name": "sts102-349-014_files.xml",
+   "format": "Metadata",
+   "source": "original"
+  },
+  {
+   "name": "sts102-349-014_meta.xml",
+   "format": "Metadata",
+   "size": "1501",
+   "source": "original"
+  },
+  {
+   "name": "sts102-349-014_thumb.jpg",
+   "format": "JPEG Thumb",
+   "size": "11257",
+   "source": "derivative"
+  }
+ ]
+}

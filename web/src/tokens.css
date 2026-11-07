@@ -1,0 +1,149 @@
+/* Atelier design tokens for the site, copied from src/renderer/styles/tokens.css (same values, both themes).
+   Dark is the base; data-theme="light" on <html> switches. The site sets data-theme before first paint:
+   it follows the OS (prefers-color-scheme) unless the visitor chose a theme (see web/index.html). */
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0e0e0f;
+  --sidebar: #0a0a0b;
+  --surface-0: #0a0a0b;
+  --surface-1: #151516;
+  --surface-2: #1b1b1d;
+  --surface-3: #232326;
+  --surface-pop: #1f1f22;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-2: rgba(255, 255, 255, 0.12);
+  --line-3: rgba(255, 255, 255, 0.2);
+  --fg: #f5f5f4;
+  --fg-2: #b8b7b3;
+  --fg-3: #8e8d89;
+  /* --fg-4 is for disabled and decorative marks only (3:1 non-text), never for text to read. */
+  --fg-4: #6e6c68;
+  --ink: #f5f5f4;
+  --ink-fg: #0a0a0a;
+  /* No brand hue: the accent is ink (ElevenLabs / ChatGPT). --brand* stay as aliases for older screens. */
+  --brand: var(--ink);
+  --brand-soft: rgba(255, 255, 255, 0.08);
+  --brand-fg: var(--fg);
+  --ok: #4ade9a;
+  --warn: #f5b94b;
+  --err: #ff6b6b;
+  --info: #6aa8ff;
+  --ok-soft: color-mix(in oklab, #4ade9a 12%, transparent);
+  --warn-soft: color-mix(in oklab, #f5b94b 12%, transparent);
+  --err-soft: color-mix(in oklab, #ff6b6b 12%, transparent);
+  --info-soft: color-mix(in oklab, #6aa8ff 12%, transparent);
+  --progress: linear-gradient(90deg, var(--ink), var(--ink));
+  --shadow-1: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  --shadow-pop: 0 0 0 1px var(--line-2), 0 12px 32px rgba(0, 0, 0, 0.5), 0 2px 6px rgba(0, 0, 0, 0.3);
+  --shadow-modal: 0 0 0 1px var(--line-2), 0 32px 80px rgba(0, 0, 0, 0.6);
+  --scrim: rgba(0, 0, 0, 0.6);
+  --grain-opacity: 0;
+  --hover: rgba(255, 255, 255, 0.05);
+  --selected: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fdfcfc;
+  --sidebar: #f7f6f5;
+  --surface-0: #f7f6f5;
+  --surface-1: #ffffff;
+  --surface-2: #f5f3f1;
+  --surface-3: #ece9e6;
+  --surface-pop: #ffffff;
+  --line: rgba(10, 10, 10, 0.07);
+  --line-2: rgba(10, 10, 10, 0.11);
+  --line-3: rgba(10, 10, 10, 0.2);
+  --fg: #0a0a0a;
+  --fg-2: #55524e;
+  --fg-3: #6e6962;
+  --fg-4: #857f78;
+  --ink: #0a0a0a;
+  --ink-fg: #ffffff;
+  --brand: var(--ink);
+  --brand-soft: rgba(10, 10, 10, 0.06);
+  --brand-fg: var(--fg);
+  --ok: #16794a;
+  --warn: #935b00;
+  --err: #c2352f;
+  --info: #1f5fd1;
+  --ok-soft: color-mix(in oklab, #22a06b 11%, transparent);
+  --warn-soft: color-mix(in oklab, #d9930d 12%, transparent);
+  --err-soft: color-mix(in oklab, #e5484d 10%, transparent);
+  --info-soft: color-mix(in oklab, #3b82f6 10%, transparent);
+  --progress: linear-gradient(90deg, var(--ink), var(--ink));
+  --shadow-1: 0 1px 2px rgba(10, 10, 10, 0.05);
+  --shadow-pop: 0 0 0 1px var(--line-2), 0 8px 24px -4px rgba(10, 10, 10, 0.12), 0 2px 6px rgba(10, 10, 10, 0.05);
+  --shadow-modal: 0 0 0 1px var(--line-2), 0 24px 64px -12px rgba(10, 10, 10, 0.24);
+  --scrim: rgba(10, 10, 10, 0.4);
+  --grain-opacity: 0;
+  --hover: rgba(10, 10, 10, 0.04);
+  --selected: rgba(10, 10, 10, 0.07);
+}
+
+:root {
+  /* Spacing is Tailwind's 4 px scale. Radii are concentric: an inner radius = outer radius − padding. */
+  --r-chip: 6px;
+  --r-field: 12px;
+  --r-card: 16px;
+  --r-modal: 20px;
+  --r-row: 8px;
+  --r-composer: 28px;
+  --r-pill: 999px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.2, 0.64, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+  --dur-1: 90ms;
+  --dur-2: 160ms;
+  --dur-3: 240ms;
+  --dur-4: 380ms;
+  --rail-w: 76px;
+  --sidebar-w: 244px;
+  --sidebar-w-collapsed: 60px;
+  --context-w: 232px;
+  --titlebar-h: 48px;
+
+  /* Channel colours (calendar, chips, charts): muted, distinguishable in both themes. */
+  --ch-1: oklch(0.72 0.09 250);
+  --ch-2: oklch(0.74 0.08 160);
+  --ch-3: oklch(0.76 0.09 70);
+  --ch-4: oklch(0.74 0.09 25);
+  --ch-5: oklch(0.74 0.08 200);
+  --ch-6: oklch(0.72 0.09 295);
+
+  /* shadcn/ui and ElevenLabs UI aliases, so vendored components pick up Atelier's palette. */
+  --background: var(--bg);
+  --foreground: var(--fg);
+  --card: var(--surface-1);
+  --card-foreground: var(--fg);
+  --popover: var(--surface-pop);
+  --popover-foreground: var(--fg);
+  --primary: var(--ink);
+  --primary-foreground: var(--ink-fg);
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--fg);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--fg-3);
+  --accent: var(--hover);
+  --accent-foreground: var(--fg);
+  --destructive: var(--err);
+  --border: var(--line-2);
+  --input: var(--line-2);
+  --ring: var(--ink);
+  --radius: 10px;
+}
+
+/* Section tints fed the old "aurora" backgrounds; kept (neutral) so existing references still resolve. */
+:root {
+  --tint-accueil: 124 140 255;
+  --tint-conversations: 124 140 255;
+  --tint-production: 124 140 255;
+  --tint-validations: 124 140 255;
+  --tint-agents: 124 140 255;
+  --tint-ordinateurs: 124 140 255;
+  --tint-monetisation: 124 140 255;
+  --tint-outils: 124 140 255;
+}

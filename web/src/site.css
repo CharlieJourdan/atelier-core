@@ -1,0 +1,180 @@
+/* Atelier site stylesheet: Tailwind v4 + the app's design tokens. Inter is bundled (no CDN). */
+@import '@fontsource-variable/inter/opsz.css';
+@import 'tailwindcss';
+@import './tokens.css';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme inline {
+  --font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  --color-bg: var(--bg);
+  --color-sidebar: var(--sidebar);
+  --color-surface-0: var(--surface-0);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-surface-pop: var(--surface-pop);
+  --color-hover: var(--hover);
+  --color-selected: var(--selected);
+  --color-ch-1: var(--ch-1);
+  --color-ch-2: var(--ch-2);
+  --color-ch-3: var(--ch-3);
+  --color-ch-4: var(--ch-4);
+  --color-ch-5: var(--ch-5);
+  --color-ch-6: var(--ch-6);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-line-3: var(--line-3);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-fg-3: var(--fg-3);
+  --color-fg-4: var(--fg-4);
+  --color-ink: var(--ink);
+  --color-ink-fg: var(--ink-fg);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-err: var(--err);
+  --color-info: var(--info);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn-soft: var(--warn-soft);
+  --color-err-soft: var(--err-soft);
+  --color-info-soft: var(--info-soft);
+  --color-ring: var(--ring);
+
+  --radius-chip: var(--r-chip);
+  --radius-field: var(--r-field);
+  --radius-card: var(--r-card);
+  --radius-modal: var(--r-modal);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --frame-shadow: 0 24px 64px -28px rgba(0, 0, 0, 0.4);
+}
+[data-theme='light'] {
+  --frame-shadow: 0 24px 64px -32px rgba(10, 10, 10, 0.16);
+}
+
+@layer base {
+  * {
+    border-color: var(--line-2);
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-3) transparent;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    font-feature-settings: 'cv11', 'ss01', 'ss03';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background: var(--ink);
+    color: var(--ink-fg);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  button {
+    cursor: pointer;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 1ms !important;
+      transition-duration: 1ms !important;
+    }
+  }
+}
+
+@layer components {
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Hero title: light at display size, tight tracking (design research §1.6, §5.10). */
+  .hero-title {
+    font-size: clamp(40px, 6.4vw, 72px);
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+    font-weight: 400;
+    text-wrap: balance;
+  }
+  .h2 {
+    font-size: clamp(30px, 3.6vw, 44px);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    text-wrap: balance;
+  }
+  .lead {
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--fg-3);
+    text-wrap: pretty;
+  }
+  .card {
+    border-radius: var(--r-card);
+    border: 1px solid var(--line-2);
+    background: var(--surface-1);
+  }
+  .fill-card {
+    border-radius: var(--r-card);
+    background: var(--surface-2);
+  }
+  .hairline-list > * + * {
+    border-top: 1px solid var(--line);
+  }
+  .ring-run {
+    animation: pulse-ring 2s ease-out infinite;
+  }
+  .skeleton-pulse {
+    animation: skeleton 1.4s linear infinite;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--ok) 45%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 6px color-mix(in oklab, var(--ok) 0%, transparent);
+  }
+}
+@keyframes skeleton {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 380ms var(--ease-out) both;
+}

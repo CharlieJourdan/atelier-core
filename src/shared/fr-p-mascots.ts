@@ -1,0 +1,31 @@
+// French strings of the agent mascots (decision 0057): the editor on an agent's sheet and the gallery block. Owned by that
+// area only (one file per area, so parallel work never collides).
+export const frPMascots = {
+  'mascot.title': 'Son personnage',
+  'mascot.hint': 'Une couleur et un objet en main. Le reste suit son métier.',
+  'mascot.color': 'Couleur',
+  'mascot.color.n': 'Couleur {n}',
+  'mascot.accessory': 'Objet en main',
+  'mascot.default': 'par défaut',
+  'mascot.reset': 'Remettre le personnage du métier',
+  'mascot.acc.compass': 'Boussole',
+  'mascot.acc.flag': 'Drapeau',
+  'mascot.acc.bulb': 'Idée',
+  'mascot.acc.quill': 'Plume',
+  'mascot.acc.megaphone': 'Mégaphone',
+  'mascot.acc.palette': 'Palette',
+  'mascot.acc.stopwatch': 'Chronomètre',
+  'mascot.acc.clapper': 'Clap',
+  'mascot.acc.binoculars': 'Jumelles',
+  'mascot.acc.magnifier': 'Loupe',
+  'mascot.acc.checklist': 'Check-list',
+  'mascot.acc.mic': 'Micro',
+  'mascot.acc.plane': 'Avion en papier',
+  'mascot.acc.set-square': 'Équerre',
+  'mascot.acc.tag': 'Étiquette',
+  'mascot.acc.gear': 'Engrenage',
+  'mascot.acc.star': 'Étoile',
+  'mascot.acc.none': 'Rien',
+  'gallery.mascots': 'Personnages des agents',
+  'gallery.mascots.blurb': 'Un personnage par métier, trois tailles. La couleur et l’objet se changent sur la fiche de l’agent.'
+} as const

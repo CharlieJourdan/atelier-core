@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atelier, l'équipe IA qui fait tourner tes chaînes YouTube</title>
+    <meta
+      name="description"
+      content="Atelier est une équipe d'agents IA qui gère tes chaînes YouTube de bout en bout : sujets, scripts, réalisation, montage, miniatures, analyse. Application Mac, Windows et web."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230a0a0a'/%3E%3Cpath d='M9 23 16 8l7 15M12 18.5h8' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
+    />
+    <script>
+      // Theme before first paint: the visitor's choice, otherwise the OS preference (kept in sync while no choice is stored).
+      ;(function () {
+        var root = document.documentElement
+        var stored = null
+        try {
+          stored = localStorage.getItem('atelier.theme')
+        } catch (e) {}
+        var mq = window.matchMedia('(prefers-color-scheme: light)')
+        function apply() {
+          root.setAttribute('data-theme', stored === 'light' || stored === 'dark' ? stored : mq.matches ? 'light' : 'dark')
+        }
+        apply()
+        mq.addEventListener('change', function () {
+          try {
+            stored = localStorage.getItem('atelier.theme')
+          } catch (e) {}
+          apply()
+        })
+        try {
+          var lang = localStorage.getItem('atelier.lang')
+          if (lang === 'en') root.setAttribute('lang', 'en')
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

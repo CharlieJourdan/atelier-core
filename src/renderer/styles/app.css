@@ -1,0 +1,264 @@
+/* Atelier renderer stylesheet: Tailwind v4 + design tokens + base. Fonts are bundled locally (no CDN: the CSP forbids it). */
+@import '@fontsource-variable/inter/opsz.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+@import 'tailwindcss';
+@import './tokens.css';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme inline {
+  --font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  /* No serif in the app (proto refresh): old `font-serif` usages render as display Inter (see .font-serif below). */
+  --font-serif: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  --color-bg: var(--bg);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-pop: var(--surface-pop);
+  --color-surface-3: var(--surface-3);
+  --color-sidebar: var(--sidebar);
+  --color-hover: var(--hover);
+  --color-selected: var(--selected);
+  --color-ch-1: var(--ch-1);
+  --color-ch-2: var(--ch-2);
+  --color-ch-3: var(--ch-3);
+  --color-ch-4: var(--ch-4);
+  --color-ch-5: var(--ch-5);
+  --color-ch-6: var(--ch-6);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-line-3: var(--line-3);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-fg-3: var(--fg-3);
+  --color-fg-4: var(--fg-4);
+  --color-ink: var(--ink);
+  --color-ink-fg: var(--ink-fg);
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-line: var(--brand-line);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-err: var(--err);
+  --color-info: var(--info);
+
+  /* shadcn / ElevenLabs UI names */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-chip: var(--r-chip);
+  --radius-field: var(--r-field);
+  --radius-card: var(--r-card);
+  --radius-modal: var(--r-modal);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: var(--r-field);
+  --radius-xl: var(--r-card);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@layer base {
+  * {
+    border-color: var(--line-2);
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-3) transparent;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    line-height: 1.5;
+    font-feature-settings: 'cv11', 'ss01', 'ss03';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--brand) 32%, transparent);
+    color: var(--fg);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Page titles, empty states and big numbers use the serif; micro-labels use mono caps. */
+  /* Titles are Inter with Apple-like optical tracking (tighter as the size grows). */
+  .page-title {
+    font-family: var(--font-sans);
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.026em;
+    font-weight: 600;
+  }
+  .display-title {
+    font-family: var(--font-sans);
+    font-size: 40px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+  }
+  .title-2 {
+    font-size: 17px;
+    line-height: 1.3;
+    letter-spacing: -0.016em;
+    font-weight: 600;
+  }
+  .micro-label {
+    font-family: var(--font-sans);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--fg-3);
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  /* Cards: one hairline plus a very soft shadow (decision 0041): the surface step and the shadow give the relief. */
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--line-2);
+    border-radius: var(--r-card);
+    box-shadow: var(--shadow-card);
+  }
+  .card-hover {
+    transition:
+      border-color var(--dur-2) var(--ease-out),
+      background-color var(--dur-2) var(--ease-out),
+      box-shadow var(--dur-2) var(--ease-out);
+  }
+  .card-hover:hover {
+    border-color: var(--line-3);
+    box-shadow: var(--shadow-card-hover);
+  }
+  /* Floating layers (menus, popovers, toasts, the command palette): translucent and blurred, the Apple way. */
+  .glass {
+    background: var(--glass);
+    -webkit-backdrop-filter: saturate(160%) blur(20px);
+    backdrop-filter: saturate(160%) blur(20px);
+  }
+  .kbd {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid var(--line-2);
+    color: var(--fg-3);
+    background: var(--surface-2);
+  }
+  .font-serif {
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    font-optical-sizing: auto;
+  }
+  .progress-fill {
+    background: var(--progress);
+  }
+  /* Light film grain, SVG-generated, only on section backgrounds. */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  /* Generated "aurora" background: mesh of soft radial gradients from the section tint (--aurora = "r g b"). */
+  .aurora {
+    display: none;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background:
+      radial-gradient(60% 50% at 20% 0%, rgb(var(--aurora) / 0.16), transparent 70%),
+      radial-gradient(50% 45% at 85% 10%, rgb(var(--aurora) / 0.09), transparent 70%),
+      linear-gradient(to bottom, transparent 55%, var(--bg));
+    animation: aurora-drift 30s ease-in-out infinite alternate;
+  }
+  @keyframes aurora-drift {
+    from { background-position: 0 0, 0 0, 0 0; transform: translate3d(0, 0, 0) scale(1); }
+    to { background-position: 0 0, 0 0, 0 0; transform: translate3d(-1.5%, 1%, 0) scale(1.04); }
+  }
+  .fade-in {
+    animation: fade-in var(--dur-3) var(--ease-out) both;
+  }
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: none; }
+  }
+  /* the line into a running brick of the pipeline graph flows (production-13); still when motion is reduced */
+  .graph-flow {
+    animation: graph-flow 0.9s linear infinite;
+  }
+  @keyframes graph-flow {
+    to { stroke-dashoffset: -12; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .graph-flow { animation: none; }
+  }
+  /* the agent mascots (decision 0057): a blink and a small bob, on hover only, never when motion is reduced */
+  .mascot-bob, .mascot-eyes { transform-box: fill-box; transform-origin: center; }
+  .mascot:hover .mascot-bob, .group:hover .mascot .mascot-bob, button:hover .mascot .mascot-bob { animation: mascot-bob 0.9s ease-in-out infinite; }
+  .mascot:hover .mascot-eyes, .group:hover .mascot .mascot-eyes, button:hover .mascot .mascot-eyes { animation: mascot-blink 2.4s ease-in-out infinite; }
+  @keyframes mascot-bob {
+    50% { transform: translateY(-1.6px); }
+  }
+  @keyframes mascot-blink {
+    0%, 42%, 50%, 100% { transform: scaleY(1); }
+    46% { transform: scaleY(0.12); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .mascot .mascot-bob, .mascot .mascot-eyes { animation: none !important; }
+  }
+  .no-drag {
+    -webkit-app-region: no-drag;
+  }
+  .drag {
+    -webkit-app-region: drag;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

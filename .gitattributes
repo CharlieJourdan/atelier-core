@@ -1,0 +1,7 @@
+tests/fixtures/*.jsonl -text
+# Shell scripts run on the Mac (and Git Bash): always LF.
+*.sh text eol=lf
+# Python of the engine extension: LF everywhere (it is copied into the engine on the Mac).
+*.py text eol=lf
+*.mp4 binary
+*.mp3 binary

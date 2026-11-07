@@ -1,0 +1,9 @@
+{
+  "name": "atelier-cloud",
+  "private": true,
+  "description": "Atelier Cloud: keys, credits and jobs (local in v2, fake providers). Run from the repo root: npm run cloud:dev.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tests/unit/doc-cards.test.ts": [
+    "atelier-screens: the saved frames, kept on purpose for a look"
+  ],
+  "tests/unit/doc-cards-parchment.test.ts": [
+    "atelier-screens: the saved frames, kept on purpose for a look"
+  ],
+  "tests/unit/map-card.test.ts": [
+    "atelier-screens: the saved frames, kept on purpose for a look"
+  ]
+}

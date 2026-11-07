@@ -1,0 +1,28 @@
+# systemd unit of Atelier Cloud (install.sh fills the __PLACEHOLDERS__). Loopback only: Caddy serves HTTPS in front.
+[Unit]
+Description=Atelier Cloud
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=atelier
+Group=atelier
+WorkingDirectory=__REPO__
+Environment=ATELIER_CLOUD_DATA=__DATA__
+Environment=ATELIER_CLOUD_MASTER_KEY_FILE=__KEY__
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npm run cloud:dev
+Restart=always
+RestartSec=3
+# hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=__DATA__
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "const": "atelier.pipeline/1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "youtube_long",
+            "youtube_short"
+          ]
+        },
+        "aspect": {
+          "default": "16:9",
+          "type": "string",
+          "enum": [
+            "16:9",
+            "9:16"
+          ]
+        },
+        "minutes": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 600
+            },
+            "min": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 600
+            },
+            "max": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 600
+            }
+          },
+          "required": [
+            "default",
+            "min",
+            "max"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "kind",
+        "aspect",
+        "minutes"
+      ],
+      "additionalProperties": false
+    },
+    "style": {
+      "type": "string",
+      "pattern": "^style:[A-Za-z0-9_-]+@[1-9][0-9]*$"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "text",
+              "video",
+              "audio",
+              "image",
+              "file"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "suggested": {
+            "type": "boolean"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "help": {
+            "type": "string",
+            "maxLength": 2000
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "label"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "default": {
+          "type": "string",
+          "enum": [
+            "qualite_max",
+            "usage_max"
+          ]
+        },
+        "capCredits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "default"
+      ],
+      "additionalProperties": false
+    },
+    "nodes": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+          },
+          "type": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[._-][a-z0-9]+)*@[1-9][0-9]*$"
+          },
+          "in": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+            },
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^(?:\\$inputs|\\$style|[A-Za-z][A-Za-z0-9_-]{0,63})\\.[A-Za-z][A-Za-z0-9_]{0,63}$"
+            }
+          },
+          "params": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+            },
+            "additionalProperties": {}
+          },
+          "gate": {
+            "type": "string",
+            "enum": [
+              "none",
+              "review",
+              "owner"
+            ]
+          },
+          "where": {
+            "type": "string",
+            "enum": [
+              "local",
+              "cloud",
+              "gpu",
+              "auto"
+            ]
+          },
+          "modes": {
+            "type": "object",
+            "properties": {
+              "qualite_max": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                },
+                "additionalProperties": {}
+              },
+              "usage_max": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                },
+                "additionalProperties": {}
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "$schema",
+    "id",
+    "version",
+    "name",
+    "format",
+    "inputs",
+    "budget",
+    "nodes"
+  ],
+  "additionalProperties": false,
+  "$id": "urn:atelier:schema:atelier.pipeline-1",
+  "title": "atelier.pipeline/1",
+  "description": "An Atelier production pipeline: typed nodes wired into a graph without cycles. Shape only; references, types, cycles and node params are checked by the app (docs/ENGINE-SPEC.md §5)."
+}

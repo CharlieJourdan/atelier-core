@@ -1,0 +1,16 @@
+# Caddy in front of Atelier Cloud: automatic HTTPS (Let's Encrypt), then the loopback server.
+__API_HOST__ {
+	encode zstd gzip
+	request_body {
+		max_size 520MB
+	}
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options nosniff
+		Referrer-Policy no-referrer
+		-Server
+	}
+	reverse_proxy 127.0.0.1:8787 {
+		header_up Host {host}
+	}
+}

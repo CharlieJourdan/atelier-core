@@ -1,0 +1,82 @@
+{
+ "responseHeader": {
+  "status": 0,
+  "QTime": 379,
+  "params": {
+   "query": "(((text:Brooklyn OR text:Brooklyn OR text__reviews:Brooklyn)(text:Bridge OR text:Bridge OR text__reviews:Bridge)) OR (text:&quot;Brooklyn Bridge&quot; OR text:&quot;Brooklyn Bridge&quot; OR text__reviews:&quot;Brooklyn Bridge&quot;)) AND mediatype:image AND (licenseurl:(*publicdomain* OR *creativecommons*) OR possible-copyright-status:(NOT_IN_COPYRIGHT OR &quot;No known copyright restrictions&quot;) OR rights:&quot;public domain&quot;) AND -licenseurl:(*-nc* OR *-nd*)",
+   "qin": "(Brooklyn Bridge) AND mediatype:image AND (licenseurl:(*publicdomain* OR *creativecommons*) OR possible-copyright-status:(NOT_IN_COPYRIGHT OR &quot;No known copyright restrictions&quot;) OR rights:(&quot;public domain&quot;)) AND -licenseurl:(*-nc* OR *-nd*)",
+   "fields": "identifier,title,creator,date,licenseurl,rights,possible-copyright-status,subject",
+   "wt": "json",
+   "rows": 16,
+   "start": 0
+  }
+ },
+ "response": {
+  "numFound": 20,
+  "start": 0,
+  "docs": [
+   {
+    "creator": "Adam_T4",
+    "date": "2011-10-01T00:00:00Z",
+    "identifier": "flickr-ows-BrooklynBridgeOctober2011-6308759794",
+    "licenseurl": "http://creativecommons.org/licenses/by/2.0/",
+    "subject": [
+     "Occupy",
+     "Brooklyn Bridge",
+     "ows"
+    ],
+    "title": "Brooklyn Bridge October 2011"
+   },
+   {
+    "creator": "NASA -- Featured astronaut photograph eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS015&roll=E&frame=5483 ISS015-E-5483 was acquired April 28, 2007, with a Kodak 760C digital camera using an 800 mm lens, and is provided by the ISS Crew Earth Observations experiment and the Image Science & Analysis Laboratory, Johnson Space Center. The image in this article has been cropped and enhanced to improve contrast. The spaceflight.nasa.gov/home/index.html International Space Station Program supports the laboratory to help astronauts take pictures of Earth that will be of the greatest value to scientists and the public, and to make those images freely available on the Internet. Additional images taken by astronauts and cosmonauts can be viewed at the NASA/JSC eol.jsc.nasa.gov/ Gateway to Astronaut Photography of Earth.",
+    "date": "2007-04-28T00:00:00Z",
+    "identifier": "ISS015-E-5483",
+    "rights": "Public Domain",
+    "subject": [
+     "Where -- New Jersey",
+     "Where -- Jersey",
+     "Where -- New York",
+     "Where -- Wisconsin"
+    ],
+    "title": "Brooklyn, New York Waterfront: Image of the Day"
+   },
+   {
+    "creator": "Joe Ami-Ga",
+    "date": "2013-12-01T00:00:00Z",
+    "identifier": "the-bridge_202406",
+    "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "rights": "The content of this post is my intellectual property in that it is copywritten and does belong to the poster (me).",
+    "subject": [
+     "NYC",
+     "NY",
+     "Brooklyn",
+     "Bridge",
+     "Brooklyn Bridge",
+     "Architecture",
+     "bridges",
+     "staone",
+     "iron",
+     "cathedral",
+     "photography"
+    ],
+    "title": "THE BROOKLYN BRIDGE"
+   },
+   {
+    "creator": "NASA",
+    "date": "2001-06-15T00:00:00Z",
+    "identifier": "sts102-349-014",
+    "rights": "Public Domain",
+    "subject": [
+     "What -- Earth",
+     "What -- STS-102",
+     "Where -- New York",
+     "Where -- Jersey",
+     "Where -- Jamaica",
+     "Where -- Louisiana",
+     "Where -- Mississippi"
+    ],
+    "title": "Earth observation views taken during STS-102"
+   }
+  ]
+ }
+}

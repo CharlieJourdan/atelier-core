@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": [
+      "ES2023",
+      "DOM"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": [
+      "node"
+    ],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowImportingTsExtensions": true,
+    "exactOptionalPropertyTypes": false,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "paths": { "@/*": ["./src/renderer/*"] }
+  },
+  "include": [
+    "src/main/**/*",
+    "src/engine/**/*",
+    "src/preload/**/*",
+    "src/shared/**/*",
+    "src/renderer/env.d.ts",
+    "tests/**/*",
+    "electron.vite.config.ts",
+    "vitest.config.mts",
+    "playwright.config.ts",
+    "scripts/**/*",
+    "vitest.smoke.config.mts",
+    "vitest.soak.config.mts"
+  ],
+  "exclude": ["scripts/smoke-cloud.ts"]
+}

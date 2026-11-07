@@ -1,0 +1,72 @@
+{
+  "paidCalls": "off",
+  "host": "127.0.0.1",
+  "port": 8787,
+  "maxCreditsPerJob": 100000,
+  "maxConcurrentJobs": 8,
+  "maxJobsPerProvider": 4,
+  "requestsPerMinute": 300,
+  "mediaSearchesPerMinute": 60,
+  "retryDelayMs": 1000,
+  "providers": {
+    "synthesize": "minimax",
+    "analyseVideo": "gemini",
+    "generateImage": "gemini",
+    "generateVideo": "fal",
+    "talkingAvatar": "hedra",
+    "searchStock": "pexels",
+    "channelData": "youtube"
+  },
+  "realEngines": [],
+  "infinitetalk": {
+    "gpu": "4090",
+    "steps": 8,
+    "maxGpuSeconds": 1800,
+    "coldStartReserveS": 180
+  },
+  "minimax": {
+    "model": "speech-2.8-hd",
+    "region": "global",
+    "speed": 1,
+    "languageBoost": "auto"
+  },
+  "elevenlabs": {
+    "model": "eleven_multilingual_v2",
+    "speed": 1
+  },
+  "gemini": {
+    "model": "gemini-3.1-flash-lite",
+    "imageModel": "gemini-nano-banana-2.1"
+  },
+  "fal": {
+    "videoResolution": "720p"
+  },
+  "hedra": {
+    "resolution": "720p"
+  },
+  "youtube": {
+    "dailyQuota": 8000
+  },
+  "heygen": {
+    "plan": "pro"
+  },
+  "wikimedia": {},
+  "fakeRunpod": "on",
+  "machines": {
+    "sshKeys": []
+  },
+  "relay": {},
+  "publicHosts": [],
+  "payments": "fake",
+  "storage": {
+    "kind": "local",
+    "region": "auto"
+  },
+  "kits": {
+    "retentionDays": 90,
+    "byPlan": {}
+  },
+  "mail": {
+    "kind": "fake"
+  }
+}

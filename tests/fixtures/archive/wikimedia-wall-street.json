@@ -1,0 +1,336 @@
+{
+ "batchcomplete": true,
+ "query": {
+  "pages": [
+   {
+    "pageid": 374410,
+    "ns": 6,
+    "title": "File:Crowd outside nyse.jpg",
+    "index": 2,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 258450,
+      "width": 718,
+      "height": 1024,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crowd_outside_nyse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 2852,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crowd_outside_nyse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 2852
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crowd_outside_nyse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crowd_outside_nyse.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=374410",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Crowd outside nyse",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "PD US Government|New York Stock Exchange Building|Broad Street (Manhattan)|Wall Street Crash of 1929|Curbstone brokers|CC-PD-Mark|Black and white photographs of Manhattan, New York City in the 1920s|United States photographs taken on 1929-10-29",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "Taken on 29 October 1929",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<ul><li>From an SSA poster: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.ssa.gov/history/wallst.html\">http://www.ssa.gov/history/wallst.html</a> (dead link)</li>\n<li>Archive: <a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20001214081300/http://www.ssa.gov/history/wallst.html\">https://web.archive.org/web/20001214081300/http://www.ssa.gov/history/wallst.html</a></li></ul>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "US-gov",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   },
+   {
+    "pageid": 81243312,
+    "ns": 6,
+    "title": "File:Harga Saham Wall Street 1929 - 1932 menjunam.png",
+    "index": 1,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 130753,
+      "width": 1273,
+      "height": 798,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Harga_Saham_Wall_Street_1929_-_1932_menjunam.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 1254,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Harga_Saham_Wall_Street_1929_-_1932_menjunam.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 1254
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Harga_Saham_Wall_Street_1929_-_1932_menjunam.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harga_Saham_Wall_Street_1929_-_1932_menjunam.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81243312",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Harga Saham Wall Street 1929 - 1932 menjunam",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "Wall Street Crash of 1929|Wall Street in History|Self-published work",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "2019-08-11",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Encik_Tekateki\" title=\"User:Encik Tekateki\">Encik Tekateki</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mime": "image/png"
+     }
+    ]
+   },
+   {
+    "pageid": 107020204,
+    "ns": 6,
+    "title": "File:Crowds gathering outside New York Stock Exchange.jpg",
+    "index": 6,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 1524297,
+      "width": 3000,
+      "height": 2362,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Crowds_gathering_outside_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 1575,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Crowds_gathering_outside_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 1575
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Crowds_gathering_outside_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107020204",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Crowds gathering outside New York Stock Exchange",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "New York Stock Exchange Building|Wall Street Crash of 1929|PD US expired|Photographs distributed by Associated Press|Black and white photographs of Manhattan, New York City in the 1920s|1929 black and white photographs of people|United States photographs taken on 1929-10-24|PD-US missing SDC copyright status",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "Taken on 24 October 1929",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html\">https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html</a>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "Associated Press",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   },
+   {
+    "pageid": 107020991,
+    "ns": 6,
+    "title": "File:Crowds gathering outside New York Stock Exchange (2).jpg",
+    "index": 9,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 1446601,
+      "width": 3000,
+      "height": 2323,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 1549,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 1549
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107020991",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Crowds gathering outside New York Stock Exchange (2)",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "New York Stock Exchange Building|Wall Street Crash of 1929|Exterior of Federal Hall|PD US expired|Taken on missing SDC inception|Photographs distributed by Associated Press|Black and white photographs of Manhattan, New York City in the 1920s|United States photographs taken on 1929-10-24",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "Taken on 24 October 1929",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html\">https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html</a>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "Associated Press",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   },
+   {
+    "pageid": 107020992,
+    "ns": 6,
+    "title": "File:Crowds gathering outside New York Stock Exchange (3).jpg",
+    "index": 8,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 1586291,
+      "width": 3000,
+      "height": 2223,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2000,
+      "thumbheight": 1482,
+      "thumbattribs": {
+       "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "decoding": "async",
+       "loading": "lazy",
+       "width": 2000,
+       "height": 1482
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Crowds_gathering_outside_New_York_Stock_Exchange_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(3).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107020992",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Crowds gathering outside New York Stock Exchange (3)",
+        "source": "mediawiki-metadata"
+       },
+       "Categories": {
+        "value": "New York Stock Exchange Building|Wall Street Crash of 1929|Statue of George Washington (Wall Street)|PD US expired|Taken on missing SDC inception|Photographs distributed by Associated Press|Black and white photographs of Manhattan, New York City in the 1920s|United States photographs taken on 1929-10-24",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "DateTimeOriginal": {
+        "value": "Taken on 24 October 1929",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html\">https://www.pennlive.com/business/2019/10/stock-market-crash-of-1929-left-people-hysterical-with-fear.html</a>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "Associated Press",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mime": "image/jpeg"
+     }
+    ]
+   }
+  ]
+ }
+}

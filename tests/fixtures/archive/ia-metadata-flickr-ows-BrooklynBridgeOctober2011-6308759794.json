@@ -1,0 +1,43 @@
+{
+ "metadata": {
+  "identifier": "flickr-ows-BrooklynBridgeOctober2011-6308759794",
+  "licenseurl": "http://creativecommons.org/licenses/by/2.0/"
+ },
+ "files": [
+  {
+   "name": "6308759794_22ce9bffbb_o.jpg",
+   "format": "JPEG",
+   "size": "1336301",
+   "source": "original"
+  },
+  {
+   "name": "6308759794_22ce9bffbb_o_thumb.jpg",
+   "format": "JPEG Thumb",
+   "size": "5859",
+   "source": "derivative"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "format": "JPEG Thumb",
+   "size": "11240",
+   "source": "original"
+  },
+  {
+   "name": "flickr-ows-BrooklynBridgeOctober2011-6308759794_archive.torrent",
+   "format": "Archive BitTorrent",
+   "size": "2128",
+   "source": "metadata"
+  },
+  {
+   "name": "flickr-ows-BrooklynBridgeOctober2011-6308759794_files.xml",
+   "format": "Metadata",
+   "source": "original"
+  },
+  {
+   "name": "flickr-ows-BrooklynBridgeOctober2011-6308759794_meta.xml",
+   "format": "Metadata",
+   "size": "837",
+   "source": "original"
+  }
+ ]
+}
