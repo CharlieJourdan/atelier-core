@@ -26,6 +26,7 @@ import {
 } from './crm'
 import { Chip2, Dialog, Drawer, FieldLabel, PageHeader, Panel, Status, Table, TextInput, td, th, useToast } from './kit'
 import { dateLabel } from './releases'
+import { DEMO } from '../demo/mode'
 
 const FILTERS: { id: CrmStatusFilter; label: string }[] = [
   { id: 'all', label: 'Tous' },
@@ -345,7 +346,7 @@ export function LiveUsers() {
   const ask = asking && detail ? confirmText(asking, detail.account) : null
   return (
     <>
-      <PageHeader title="Utilisateurs et CRM" sub="Les comptes réels d’Atelier Cloud. Clique sur une ligne pour ouvrir la fiche : équipes, crédits, appareils, journal et actions." />
+      <PageHeader title="Utilisateurs et CRM" sub={`${DEMO ? 'Des comptes fictifs (démo).' : 'Les comptes réels d’Atelier Cloud.'} Clique sur une ligne pour ouvrir la fiche : équipes, crédits, appareils, journal et actions.`} />
       {error && <p className="m-0 mb-4 text-[13px] text-fg-2">Atelier Cloud ne répond pas : {error}</p>}
       {page ? (
         <UsersView

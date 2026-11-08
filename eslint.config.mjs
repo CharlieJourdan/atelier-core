@@ -107,7 +107,7 @@ const engineBoundary = {
 }
 
 export default tseslint.config(
-  { ignores: ['out/**', 'dist/**', 'dist-web/**', 'release/**', 'node_modules/**', 'test-results/**', 'playwright-report/**', '.claude/**'] },
+  { ignores: ['out/**', 'dist/**', 'dist-web/**', 'dist-demo/**', 'release/**', 'node_modules/**', 'test-results/**', 'playwright-report/**', '.claude/**'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {

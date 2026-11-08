@@ -10,6 +10,7 @@ import { enCloud } from './en-cloud'
 import { enComputers } from './en-computers'
 import { enCore } from './en-core'
 import { enExample } from './en-example'
+import { enDemo } from './en-demo'
 import { enHome } from './en-home'
 import { enIdeas } from './en-ideas'
 import { enMoney } from './en-money'
@@ -52,6 +53,7 @@ export const en: Partial<Record<MessageKey, string>> = {
   ...enCore,
   ...enChat,
   ...enExample,
+  ...enDemo,
   ...enHome,
   ...enProduction,
   ...enRuns,

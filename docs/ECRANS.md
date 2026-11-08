@@ -7,6 +7,8 @@ périmées) ; elles restent dans l'ancien dépôt privé, que Charlie garde en a
 **Refaire les captures** : `npm run build` puis `npm run test:e2e` (Playwright, session de bureau nécessaire) écrit
 les captures de chaque section et page dans `docs/screens/` (ignoré par git). Sans Electron : `npm run web:app:dev`
 ouvre le même renderer dans un navigateur, en mode démo.
+**Démo cliquable complète, sans aucun serveur** (onboarding, toutes les sections, le site) : `npm run demo:web`, ou
+`npm run demo:web:build` → `dist-demo/` ; voir [DEMO-WEB.md](DEMO-WEB.md).
 
 ## Comment c'est organisé
 

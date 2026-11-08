@@ -57,7 +57,9 @@
     "orchestra:demo": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --disable-warning=ExperimentalWarning --import ./scripts/ts-transpile.mjs scripts/orchestra-demo.ts",
     "orchestra:week": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --disable-warning=ExperimentalWarning --import ./scripts/ts-transpile.mjs scripts/orchestra-week.ts",
     "site:dev": "vite -c vite.site.config.ts",
-    "site:build": "npm run web:app && vite build -c vite.site.config.ts && node web/scripts/copy-app.mjs"
+    "site:build": "npm run web:app && vite build -c vite.site.config.ts && node web/scripts/copy-app.mjs",
+    "demo:web": "vite -c vite.demo.config.ts",
+    "demo:web:build": "vite build -c vite.demo.config.ts && node scripts/demo-web-index.mjs && vite build -c vite.site-demo.config.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.135.0",

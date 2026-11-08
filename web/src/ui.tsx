@@ -161,7 +161,7 @@ export function ShotFrame({
 }) {
   const { theme } = useTheme()
   const [missing, setMissing] = useState<string | null>(null)
-  const src = `/shots/${name}-${theme}.png`
+  const src = `${import.meta.env.BASE_URL}shots/${name}-${theme}.png`
   const failed = missing === src
   // The image is scaled so that the crop's width fills the frame, then shifted; top is a % of the frame's height.
   const imgStyle = {

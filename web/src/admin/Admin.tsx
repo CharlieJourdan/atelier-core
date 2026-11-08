@@ -3,6 +3,7 @@ import { Activity, KeyRound, Layers, LayoutDashboard, Rocket, Server, Users as U
 import { setAdmin, useAdmin } from '../auth'
 import { CloudCallError, cloudAdminLogin, cloudEnabled, cloudSignOut } from '../cloud'
 import { Field } from '../components/AuthShell'
+import { DEMO, DEMO_ACCOUNT } from '../demo/mode'
 import { ThemeToggle } from '../components/SiteLayout'
 import { Link, useRouter } from '../router'
 import { Button, Mark, cx } from '../ui'
@@ -32,10 +33,20 @@ export const ADMIN_PAGES = [
 
 function AdminLogin() {
   const real = cloudEnabled()
-  const [email, setEmail] = useState(real ? '' : 'fondateur@atelier.test')
+  const [email, setEmail] = useState(DEMO ? DEMO_ACCOUNT.email : real ? '' : 'fondateur@atelier.test')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
+  const enter = (address: string, secret: string): void => {
+    setBusy(true)
+    cloudAdminLogin(address, secret)
+      .then((ok) => {
+        if (ok) setAdmin(true)
+        else setError('Ce compte n’est pas administrateur de la plateforme.')
+      })
+      .catch((err: unknown) => setError(err instanceof CloudCallError && err.status === 401 ? 'E-mail ou mot de passe incorrect.' : err instanceof CloudCallError && err.status === 429 ? 'Trop d’essais : réessaie dans 15 minutes.' : 'Atelier Cloud ne répond pas.'))
+      .finally(() => setBusy(false))
+  }
   const submit = (e: FormEvent): void => {
     e.preventDefault()
     if (password.length === 0) {
@@ -43,14 +54,7 @@ function AdminLogin() {
       return
     }
     if (!real) return setAdmin(true)
-    setBusy(true)
-    cloudAdminLogin(email.trim(), password)
-      .then((ok) => {
-        if (ok) setAdmin(true)
-        else setError('Ce compte n’est pas administrateur de la plateforme.')
-      })
-      .catch((err: unknown) => setError(err instanceof CloudCallError && err.status === 401 ? 'E-mail ou mot de passe incorrect.' : err instanceof CloudCallError && err.status === 429 ? 'Trop d’essais : réessaie dans 15 minutes.' : 'Atelier Cloud ne répond pas.'))
-      .finally(() => setBusy(false))
+    enter(email.trim(), password)
   }
   return (
     <div className="flex min-h-screen items-start justify-center px-5 pt-[14vh]">
@@ -67,9 +71,16 @@ function AdminLogin() {
           <Button type="submit" size="lg" className="mt-1 w-full" disabled={busy}>
             Entrer
           </Button>
+          {DEMO && (
+            <Button variant="secondary" size="lg" className="w-full" disabled={busy} onClick={() => enter(DEMO_ACCOUNT.email, 'demo')} data-testid="admin-demo-skip">
+              Passer
+            </Button>
+          )}
         </form>
         <p className="m-0 mt-6 rounded-[12px] bg-surface-2 px-4 py-3 text-[12px] leading-[1.5] text-fg-3">
-          {real
+          {DEMO
+            ? `Démo : aucun serveur, données fictives. « Passer » entre comme ${DEMO_ACCOUNT.name} (${DEMO_ACCOUNT.email}).`
+            : real
             ? 'Connexion réelle sur Atelier Cloud : seuls les comptes administrateurs de la plateforme entrent, et le serveur vérifie chaque requête.'
             : 'Démonstration : cette connexion est fictive et n’importe quel mot de passe est accepté. La vraie protection se fait côté serveur, jamais dans le navigateur.'}
         </p>
@@ -153,7 +164,7 @@ export function AdminPage({ path }: { path: string }) {
     if (path === '/admin/versions') return <Versions />
     return (
       <>
-        <MockBanner />
+        {!DEMO && <MockBanner />}
         <MockPage path={path} />
       </>
     )

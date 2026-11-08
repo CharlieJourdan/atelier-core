@@ -1,15 +1,16 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { CloudCallError, cloudEnabled, cloudForgotPassword, cloudResetPassword, cloudVerifyEmail } from '../cloud'
 import { AuthShell, Field } from '../components/AuthShell'
+import { DEMO, DEMO_TOKEN } from '../demo/mode'
 import { useLang } from '../i18n'
-import { Link } from '../router'
+import { Link, queryParam } from '../router'
 import { Button, LinkButton } from '../ui'
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const MIN_PASSWORD = 10
 
 /** The `?token=` of the address bar (the e-mails link to /verifier and /nouveau-mot-de-passe with it). */
-const tokenFromUrl = (): string => (typeof window === 'undefined' ? '' : (new URLSearchParams(window.location.search).get('token') ?? ''))
+const tokenFromUrl = (): string => queryParam('token') ?? (DEMO ? DEMO_TOKEN : '')
 
 const title = 'm-0 text-[28px] font-medium leading-[1.15] tracking-[-0.03em]'
 const sub = 'm-0 mt-2 text-[14px] leading-[1.6] text-fg-3'

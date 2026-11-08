@@ -432,5 +432,9 @@ export const fr = {
   'mv.files': 'Fichiers',
   'mv.alternatives': 'Autres titres',
   'mv.tags': 'Mots-clés',
-  'mv.neverPublish': 'Atelier ne publie jamais rien sur YouTube : la mise en ligne se fait à la main.'
+  'mv.neverPublish': 'Atelier ne publie jamais rien sur YouTube : la mise en ligne se fait à la main.',
+  // Demo build (VITE_ATELIER_DEMO=1)
+  'demo.banner': 'Démo — données fictives',
+  'demo.skip': 'Continuer sans remplir',
+  'demo.note': 'Démo : aucun serveur derrière cette page, toutes les données sont fictives et restent dans ce navigateur.'
 } as const

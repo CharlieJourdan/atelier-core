@@ -6,7 +6,7 @@ import { AuthShell } from '../components/AuthShell'
 import { VerifyBanner, useEmailStatus } from '../components/VerifyBanner'
 import { fmtEuro, fmtNum, useLang, type Lang, type TFn } from '../i18n'
 import { PLANS, computerSpec, monthlyPrice, planById, type Plan } from '../plans'
-import { useRouter } from '../router'
+import { queryParam, useRouter } from '../router'
 import { Button, LinkButton, Segmented, cx } from '../ui'
 
 type Billing = 'monthly' | 'yearly'
@@ -259,7 +259,7 @@ export function Welcome() {
   // back from Stripe's page: the payment is done, the computers are being created
   useEffect(() => {
     if (!cloudEnabled() || !user || user.subscribedAt) return
-    if (new URLSearchParams(window.location.search).get('paid') === '1') {
+    if (queryParam('paid') === '1') {
       updateUser({ plan: plan.id, billing, subscribedAt: Date.now() })
       setStep('prov')
     }

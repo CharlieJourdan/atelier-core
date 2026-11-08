@@ -7,6 +7,7 @@ import { t, type MessageKey } from '../../../../shared/fr'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input, Select, Switch } from '@/components/ui/input'
+import { isDemoWeb } from '@/lib/demo'
 import { toast } from '@/lib/toast'
 import { call, errText, useApi } from '@/state/client'
 import type { ScreenProps } from '../../registry'
@@ -71,6 +72,11 @@ function TokenStep({ status, onChanged }: { status: DiscordStatus; onChanged: ()
         <Button size="sm" disabled={busy || !draft.trim()} data-testid="discord-token-save" onClick={() => void save()}>
           {busy ? t('prefs.discord.token.saving') : t('prefs.discord.token.save')}
         </Button>
+        {!status.tokenSet && isDemoWeb() && (
+          <Button size="sm" variant="ghost" disabled={busy} data-testid="discord-token-skip" onClick={() => void save()}>
+            {t('demo.skipForm')}
+          </Button>
+        )}
         {status.tokenSet && (
           <Button size="sm" variant="ghost" data-testid="discord-token-clear" onClick={() => void clear()}>
             {t('prefs.discord.token.clear')}

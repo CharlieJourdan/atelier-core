@@ -1,13 +1,16 @@
 // The website talking to Atelier Cloud for real: sign-up, sign-in, the checkout (simulated payment unless the Cloud is
 // set up for Stripe) and the team computers it creates. On only when the site is built with VITE_ATELIER_CLOUD (the
-// Cloud's address, e.g. http://127.0.0.1:8787); otherwise the site keeps its fictive accounts (auth.ts).
-const BASE = (import.meta.env.VITE_ATELIER_CLOUD as string | undefined)?.replace(/\/+$/, '') || null
+// Cloud's address, e.g. http://127.0.0.1:8787); otherwise the site keeps its fictive accounts (auth.ts). The demo build
+// (VITE_ATELIER_DEMO=1) runs the same pages against the in-browser fake of demo/server.ts: no request ever leaves.
+import { DEMO } from './demo/mode'
+
+const BASE = DEMO ? null : (import.meta.env.VITE_ATELIER_CLOUD as string | undefined)?.replace(/\/+$/, '') || null
 const TOKEN_KEY = 'atelier.site.cloud'
 /** The founder console's session lives in this tab only: a stolen site page cannot reuse it later. */
 let adminSession = false
 
-export const cloudEnabled = (): boolean => BASE !== null
-/** The Cloud's address the site is built for (the console shows the update feed links with it), or null. */
+export const cloudEnabled = (): boolean => DEMO || BASE !== null
+/** The Cloud's address the site is built for (the console shows the update feed links with it), or null (also in the demo). */
 export const cloudBase = (): string | null => BASE
 
 export class CloudCallError extends Error {
@@ -53,7 +56,17 @@ function writeTokens(t: Tokens | null): void {
   }
 }
 
+/** The demo build: the fake answers, nothing goes on the network (the module is only loaded in that build). */
+async function demoCall<T>(path: string, init: { method?: 'GET' | 'POST'; body?: unknown }): Promise<T> {
+  const { demoRespond } = await import('./demo/server')
+  const res = await demoRespond(path, init.method ?? 'GET', init.body)
+  const json = res.body as { error?: { code?: string; message?: string } } & T
+  if (res.status >= 400) throw new CloudCallError(json.error?.message ?? `HTTP ${res.status}`, res.status, json.error?.code ?? 'error')
+  return json
+}
+
 async function call<T>(path: string, init: { method?: 'GET' | 'POST'; body?: unknown; auth?: boolean } = {}, retried = false): Promise<T> {
+  if (DEMO) return demoCall<T>(path, init)
   if (!BASE) throw new CloudCallError('Atelier Cloud is not configured', 0, 'not_configured')
   const tokens = init.auth ? readTokens() : null
   let res: Response

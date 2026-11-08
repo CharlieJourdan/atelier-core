@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { cloudCall } from '../cloud'
 import { PageHeader, Panel, Stat, StatRow, Status, Table, td, th, useToast, type StatusTone } from './kit'
+import { DEMO } from '../demo/mode'
 
 interface Overview {
   accounts: number
@@ -66,7 +67,7 @@ export function LiveOverview() {
   const { data: o, error } = useLoad<Overview>('/v1/admin/overview')
   return (
     <>
-      <PageHeader title="Vue d’ensemble" sub="Chiffres réels d’Atelier Cloud, ce mois-ci." />
+      <PageHeader title="Vue d’ensemble" sub={DEMO ? 'Chiffres fictifs de la démo, ce mois-ci.' : 'Chiffres réels d’Atelier Cloud, ce mois-ci.'} />
       {error && <p className="m-0 text-[13px] text-fg-2">Atelier Cloud ne répond pas : {error}</p>}
       {o && (
         <div className="grid gap-4" data-testid="admin-live-overview">

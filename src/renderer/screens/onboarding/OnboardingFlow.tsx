@@ -6,6 +6,7 @@ import { createElement, useState, type ComponentType, type KeyboardEvent } from 
 import { t } from '../../../shared/fr'
 import { Logo } from '@/components/atelier/logo'
 import { Button } from '@/components/ui/button'
+import { isDemoWeb } from '@/lib/demo'
 import { IS_MAC } from '@/lib/platform'
 import { toast } from '@/lib/toast'
 import { cn } from '@/lib/utils'
@@ -49,6 +50,9 @@ const STEPS: Record<number, StepDef> = {
   7: { Component: TestVideoStep, width: 820, needsReady: true },
   8: { Component: TeamStep, width: 760 }
 }
+
+/** The fictional channel the web demo uses when its channel question is skipped. */
+const DEMO_CHANNEL_LINK = 'https://www.youtube.com/@chaine-fictive-demo'
 
 /** In real mode these steps are replaced by their real versions (the others get small real-mode additions inside). */
 const LIVE_STEPS: Record<number, ComponentType<StepProps>> = { 2: LiveEngineStep, 4: LiveAnalysisStep, 5: LiveReportStep, 6: LiveQuestionsStep, 7: LiveTestStep, 8: LiveTeamStep }
@@ -103,6 +107,11 @@ export function OnboardingFlow({ onDone, mode = 'first-run', onClose }: { onDone
     leaveStep(live, step, answers, state.channels)
       .then(advance, (err: unknown) => setFailure(err instanceof Error ? err.message : String(err)))
       .finally(() => setBusy(false))
+  }
+  // Web demo, « Passer cette étape »: an unanswered channel question takes a fictional channel so the next steps have one
+  const demoSkip = (): void => {
+    if (step === 3 && answers.hasChannel === null) set({ hasChannel: 'yes', link: DEMO_CHANNEL_LINK })
+    advance()
   }
   const back = (): void => setIndex((i) => Math.max(0, i - 1))
   const skip = (): void => {
@@ -173,7 +182,13 @@ export function OnboardingFlow({ onDone, mode = 'first-run', onClose }: { onDone
         ) : (
           <p className="num hidden text-[12.5px] text-fg-3 sm:block">{busy ? t('onb.live.busy') : t('onb.step', { n: index + 1, total: steps.length })}</p>
         )}
-        <div className="flex min-w-[120px] justify-end">
+        <div className="flex min-w-[120px] items-center justify-end gap-2">
+          {isDemoWeb() && (
+            // web demo: every step can be passed as is, filled or not, so nothing blocks the tour
+            <Button variant="ghost" data-testid="onboarding-demo-skip" disabled={busy} onClick={demoSkip}>
+              {t('demo.skipStep')}
+            </Button>
+          )}
           <Button size="lg" data-testid={last ? 'onboarding-finish' : 'onboarding-next'} disabled={!canContinue} onClick={next}>
             {last ? (mode === 'add-channel' ? t('onb.finish.add') : t('onb.finish')) : t('onb.next')}
             {!last && <ArrowRight aria-hidden />}

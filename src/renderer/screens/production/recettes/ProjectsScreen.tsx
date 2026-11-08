@@ -12,6 +12,7 @@ import { ProtoPage, SectionHead } from '@/components/proto/kit'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input, Label, Select, Textarea } from '@/components/ui/input'
+import { isDemoWeb } from '@/lib/demo'
 import { toast } from '@/lib/toast'
 import { useProto } from '@/proto/store'
 import { call, errText, useApi, useLoader } from '@/state/client'
@@ -197,7 +198,9 @@ export function ProjectsScreen({ onRoute }: ScreenProps) {
   // the Lab asked for a new video (on a pipeline): the form opens on it
   const [asked] = useState(() => takeNewVideo())
   const [adding, setAdding] = useState(asked !== null)
-  const channelName = (id: number): string | null => state.channels.find((c) => c.id === `db-${id}`)?.name ?? null
+  // the web demo's store keeps its `ch-*` channels, numbered 1..n by the demo bridge (web/demo/world.ts)
+  const channelName = (id: number): string | null =>
+    state.channels.find((c) => c.id === `db-${id}`)?.name ?? (isDemoWeb() ? (state.channels[id - 1]?.name ?? null) : null)
   const run = async (id: number): Promise<void> => {
     try {
       await call('projects.run', id)

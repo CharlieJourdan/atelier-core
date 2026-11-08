@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react'
 import { saveUser } from '../auth'
 import { CloudCallError, cloudEnabled, cloudLogin, cloudSignup } from '../cloud'
 import { AuthShell, Field } from '../components/AuthShell'
+import { DEMO, DEMO_ACCOUNT } from '../demo/mode'
 import { getLang, useLang } from '../i18n'
 import { Link, useRouter } from '../router'
 import { Button } from '../ui'
@@ -27,6 +28,14 @@ export function Auth({ mode }: { mode: 'login' | 'signup' }) {
     setBusy(true)
     saveUser({ ...user })
     navigate('/bienvenue')
+  }
+
+  // the demo build: straight in as the fictional founder account, nothing to type
+  const skip = (): void => {
+    setBusy(true)
+    cloudLogin(DEMO_ACCOUNT.email, 'demo')
+      .then((who) => finish({ name: who.name, email: DEMO_ACCOUNT.email }))
+      .catch(() => setBusy(false))
   }
 
   const submit = (e: FormEvent): void => {
@@ -72,7 +81,19 @@ export function Auth({ mode }: { mode: 'login' | 'signup' }) {
           </div>
         </>
       )}
-      {real && <div className="mt-8" />}
+      {DEMO && (
+        <>
+          <Button variant="secondary" size="lg" className="mt-8 w-full" disabled={busy} onClick={skip} data-testid="auth-demo-skip">
+            {t('demo.skip')}
+          </Button>
+          <div className="my-6 flex items-center gap-3 text-[12px] text-fg-3" role="separator">
+            <span className="h-px flex-1 bg-line-2" />
+            {t('auth.or')}
+            <span className="h-px flex-1 bg-line-2" />
+          </div>
+        </>
+      )}
+      {real && !DEMO && <div className="mt-8" />}
 
       <form onSubmit={submit} noValidate className="flex flex-col gap-4">
         {signup && <Field id="name" label={t('auth.name')} autoComplete="given-name" value={name} onChange={(e) => setName(e.target.value)} error={errors.name} />}
@@ -119,7 +140,7 @@ export function Auth({ mode }: { mode: 'login' | 'signup' }) {
           {t(signup ? 'auth.toLogin' : 'auth.toSignup')}
         </Link>
       </p>
-      <p className="m-0 mt-8 rounded-[12px] bg-surface-2 px-4 py-3 text-[12px] leading-[1.5] text-fg-3">{t(real ? 'auth.cloudNote' : 'auth.demoNote')}</p>
+      <p className="m-0 mt-8 rounded-[12px] bg-surface-2 px-4 py-3 text-[12px] leading-[1.5] text-fg-3">{t(DEMO ? 'demo.note' : real ? 'auth.cloudNote' : 'auth.demoNote')}</p>
     </AuthShell>
   )
 }

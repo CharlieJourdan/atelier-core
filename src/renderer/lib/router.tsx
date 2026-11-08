@@ -1,7 +1,9 @@
 // Router of the shell: the current route lives in React state (no URL: this is a desktop window). `navigate` takes
-// a section (opening its first page when it has some) or a full route.
-import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
-import { defaultPage, HOME_ROUTE, pagesOf, type Route, type SectionId } from '../../shared/sections'
+// a section (opening its first page when it has some) or a full route. The web demo (dist-demo/) mirrors it in the URL
+// hash (#/section/page) so a screen can be linked to, reloaded, and reached with the browser's back button.
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { defaultPage, HOME_ROUTE, isSectionId, pagesOf, type Route, type SectionId } from '../../shared/sections'
+import { isDemoWeb } from './demo'
 
 interface RouterValue {
   route: Route
@@ -22,9 +24,38 @@ export function resolveRoute(to: SectionId | Route): Route {
   }
 }
 
+/** Pure: `#/production/creer` → its route; anything else → null. */
+export function routeFromHash(hash: string): Route | null {
+  const [section, page] = hash.replace(/^#\/?/, '').split('/')
+  if (!isSectionId(section)) return null
+  return resolveRoute(page ? { section, page } : { section })
+}
+
+export function hashOf(route: Route): string {
+  return `#/${route.section}${route.page ? `/${route.page}` : ''}`
+}
+
+/** Web demo only: the route follows the hash (back button, links) and writes it back on each navigation. */
+function useHashSync(route: Route, setRoute: (r: Route) => void): void {
+  const on = isDemoWeb()
+  useEffect(() => {
+    if (!on) return
+    const onHash = (): void => {
+      const r = routeFromHash(window.location.hash)
+      if (r) setRoute(r)
+    }
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [on, setRoute])
+  useEffect(() => {
+    if (on && window.location.hash !== hashOf(route)) window.location.hash = hashOf(route)
+  }, [on, route])
+}
+
 export function RouterProvider({ children, initial = HOME_ROUTE }: { children: ReactNode; initial?: Route }) {
-  const [route, setRoute] = useState<Route>(resolveRoute(initial))
+  const [route, setRoute] = useState<Route>(() => (isDemoWeb() && routeFromHash(window.location.hash)) || resolveRoute(initial))
   const navigate = useCallback((to: SectionId | Route) => setRoute(resolveRoute(to)), [])
+  useHashSync(route, setRoute)
   const value = useMemo(() => ({ route, navigate }), [route, navigate])
   return <RouterContext.Provider value={value}>{children}</RouterContext.Provider>
 }

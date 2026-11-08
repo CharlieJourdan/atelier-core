@@ -3,6 +3,7 @@
 
 import { frChat } from './fr-chat'
 import { frExample } from './fr-example'
+import { frDemo } from './fr-demo'
 import { frHome } from './fr-home'
 import { frProduction } from './fr-production'
 import { frRuns } from './fr-runs'
@@ -32,6 +33,7 @@ import { en } from './en'
 export const fr = {
   ...frChat,
   ...frExample,
+  ...frDemo,
   ...frHome,
   ...frProduction,
   ...frRuns,

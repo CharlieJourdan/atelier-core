@@ -433,5 +433,9 @@ export const en: Record<keyof typeof fr, string> = {
   'mv.files': 'Files',
   'mv.alternatives': 'Other titles',
   'mv.tags': 'Keywords',
-  'mv.neverPublish': 'Atelier never publishes anything on YouTube: you upload by hand.'
+  'mv.neverPublish': 'Atelier never publishes anything on YouTube: you upload by hand.',
+  // Demo build (VITE_ATELIER_DEMO=1)
+  'demo.banner': 'Demo — fictional data',
+  'demo.skip': 'Continue without filling in',
+  'demo.note': 'Demo: no server behind this page, all the data is fictional and stays in this browser.'
 }

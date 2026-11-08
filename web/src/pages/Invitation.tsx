@@ -2,13 +2,15 @@ import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { saveUser } from '../auth'
 import { CloudCallError, cloudEnabled, cloudInviteAccept, cloudInvitePreview, cloudInviteSignup, cloudLogin, type InvitePreview } from '../cloud'
 import { AuthShell, Field } from '../components/AuthShell'
+import { DEMO, DEMO_TOKEN } from '../demo/mode'
 import { useLang } from '../i18n'
+import { queryParam } from '../router'
 import { Button } from '../ui'
 
 const MIN_PASSWORD = 10
 
 /** The `?token=` of the address bar (the invitation e-mail links to /invitation with it). */
-const tokenFromUrl = (): string => (typeof window === 'undefined' ? '' : (new URLSearchParams(window.location.search).get('token') ?? ''))
+const tokenFromUrl = (): string => queryParam('token') ?? (DEMO ? DEMO_TOKEN : '')
 
 const title = 'm-0 text-[28px] font-medium leading-[1.15] tracking-[-0.03em]'
 const sub = 'm-0 mt-2 text-[14px] leading-[1.6] text-fg-3'

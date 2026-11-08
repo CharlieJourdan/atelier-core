@@ -22,6 +22,7 @@ import {
   type TeamSortKey
 } from './finance'
 import { Chip2, PageHeader, Panel, Stat, StatRow, Status, Table, td, th } from './kit'
+import { DEMO } from '../demo/mode'
 
 const TEAM_COLUMNS: { key: TeamSortKey; label: string; title: string }[] = [
   { key: 'creditsOffered', label: 'Offerts', title: 'Crédits donnés par un admin (cadeaux et corrections)' },
@@ -335,7 +336,7 @@ export function LiveCosts() {
   const reload = useCallback(() => setN((x) => x + 1), [])
   return (
     <>
-      <PageHeader title="Coûts et rentabilité" sub="Chiffres réels d’Atelier Cloud : ce que chaque équipe dépense, ce que les fournisseurs nous facturent, et ce qu’il reste." />
+      <PageHeader title="Coûts et rentabilité" sub={`${DEMO ? 'Chiffres fictifs de la démo' : 'Chiffres réels d’Atelier Cloud'} : ce que chaque équipe dépense, ce que les fournisseurs nous facturent, et ce qu’il reste.`} />
       {error && (
         <p className="m-0 mb-4 text-[13px] text-fg-2">
           <Status tone="err">Atelier Cloud ne répond pas : {error}</Status>

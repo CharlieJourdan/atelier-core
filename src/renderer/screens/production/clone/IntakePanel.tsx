@@ -5,7 +5,9 @@ import { ArrowUp, Check, Copy, Film, Languages, Lightbulb, Shuffle, Sparkles, Us
 import { useEffect, useRef, useState } from 'react'
 import { INSPIRATION_AXES, type CloneIntent, type IntakeField, type IntakeState, type IntakeTurn } from '../../../../shared/clone'
 import { tc } from '../../../../shared/fr-clone'
+import { t } from '../../../../shared/fr'
 import { Button } from '@/components/ui/button'
+import { isDemoWeb } from '@/lib/demo'
 import { cn } from '@/lib/utils'
 import { changeText, fieldLabel, usd, valueText } from './format'
 import './clone.css'
@@ -157,6 +159,12 @@ export function IntakePanel({ lines, state, latest, onSend, onStart, busy }: Int
         {chips.length > 0 && (
           <div className="flex flex-wrap gap-1.5 px-4 pb-2" data-testid="quick-replies">
             {chips.map((c) => <button key={c.label} type="button" onClick={() => send(c.say)} className="rounded-full bg-surface-2 px-3 py-1 text-[12px] font-medium text-fg-2 ring-1 ring-line-2 transition hover:bg-surface-3 hover:text-fg">{c.label}</button>)}
+          </div>
+        )}
+        {/* the web demo only: the visitor may skip the questions (the demo agent fills the brief with its defaults) */}
+        {isDemoWeb() && !latest?.ready && (
+          <div className="flex justify-end px-4 pb-2">
+            <button type="button" disabled={busy} onClick={() => onSend(t('demo.skipForm'))} className="text-[12px] font-medium text-fg-3 underline-offset-2 hover:text-fg hover:underline disabled:opacity-50" data-testid="intake-skip">{t('demo.skipForm')}</button>
           </div>
         )}
         <form className="flex items-end gap-2 border-t border-line p-3" onSubmit={(e) => { e.preventDefault(); send(text) }}>

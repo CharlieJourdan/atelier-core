@@ -3,7 +3,7 @@ import { Menu, Moon, Sun, X } from 'lucide-react'
 import { useUser } from '../auth'
 import { cloudEnabled } from '../cloud'
 import { useLang } from '../i18n'
-import { Link, useRouter } from '../router'
+import { Link, hrefFor, useRouter } from '../router'
 import { useTheme } from '../theme'
 import { Container, LinkButton, Mark, buttonClass, cx } from '../ui'
 
@@ -72,7 +72,7 @@ export function Nav() {
       <Link to="/tarifs" className={linkClass(path === '/tarifs')} onClick={() => setOpen(false)}>
         {t('nav.pricing')}
       </Link>
-      <a href="/app/" className={linkClass(false)}>
+      <a href={hrefFor('/app/')} className={linkClass(false)}>
         {t('nav.demo')}
       </a>
       {user && cloudEnabled() && (
@@ -181,7 +181,7 @@ export function Footer() {
             </Link>
           </li>
           <li>
-            <a href="/app/" className={fLink}>
+            <a href={hrefFor('/app/')} className={fLink}>
               {t('footer.r2')}
             </a>
           </li>

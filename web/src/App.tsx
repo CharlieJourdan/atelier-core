@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { SiteLayout } from './components/SiteLayout'
+import { DEMO } from './demo/mode'
 import { translate, useLang } from './i18n'
 import { Auth } from './pages/Auth'
 import { ForgotPassword, ResetPassword, VerifyEmail } from './pages/AccountMail'
@@ -68,9 +69,20 @@ export function Routes() {
   return <NotFound />
 }
 
+/** The demo build's thin top strip: every number and account on the pages is invented. */
+export function DemoBanner() {
+  const { t } = useLang()
+  return (
+    <p role="note" data-testid="demo-banner" className="m-0 bg-surface-2 px-4 py-1 text-center text-[12px] leading-[1.5] text-fg-2">
+      {t('demo.banner')}
+    </p>
+  )
+}
+
 export function App({ initialPath }: { initialPath?: string }) {
   return (
     <Router initialPath={initialPath}>
+      {DEMO && <DemoBanner />}
       <Routes />
     </Router>
   )

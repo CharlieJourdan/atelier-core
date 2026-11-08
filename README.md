@@ -90,6 +90,7 @@ npm run orchestra:demo   # invariants du runtime des agents
 
 npm run dev              # l'app Electron (référence d'écrans) ; mettre ATELIER_USER_DATA sur un dossier de dev
 npm run web:app:dev      # le même renderer dans un navigateur, en mode démo
+npm run demo:web         # démo cliquable complète, sans serveur (docs/DEMO-WEB.md) ; demo:web:build → dist-demo/
 ```
 
 Les tests n'appellent **jamais** un fournisseur payant ni le réseau réel : tout passe par des fakes.
